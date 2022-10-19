@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CUWFalcons.Views.CheckInPage"
+             xmlns:vm="clr-namespace:CUWFalcons.ViewModels"
+             Title="Check-In">
+    
+
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#245699</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="white" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView Padding="0,10,0,40" VerticalOptions="FillAndExpand">
+                    <Image Source="falcon_head.png" VerticalOptions="Center" HeightRequest="120" />
+                </ContentView>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Label Text="Today's Events" FontSize="Title"/>
+                <Label Text="Men's Soccer vs Rockford 1:00pm" TextDecorations="Underline" FontSize="20" Padding="0,0,0,0"  FontAttributes="Bold"/>
+                <Button Margin="0,5,0,0" Text="Check-In"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+                <Label Text="Women's Soccer vs Rockford 3:30pm" TextDecorations="Underline" FontSize="20" Padding="0,20,0,0"  FontAttributes="Bold"/>
+                <Button Margin="0,5,0,0" Text="Check-In"
+                        Command="{Binding OpenWebCommand}"
+                        BackgroundColor="{StaticResource Primary}"
+                        TextColor="White" />
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+
+</ContentPage>
+
