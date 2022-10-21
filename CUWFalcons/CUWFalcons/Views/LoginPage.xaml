@@ -5,14 +5,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="CUWFalcons.Views.LoginPage"
+             BackgroundColor="White"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
         <StackLayout Padding="10,0,0,0" VerticalOptions="Center">
             <Image Source="falcon_head.png" HeightRequest="120"></Image>
             <Label Text="Username" FontSize="20" TextColor="#245699"/>
-            <Entry x:Name="username"/>
+            <Entry x:Name="username" BackgroundColor="#B1B3B3"/>
             <Label Text="Password" FontSize="20" TextColor="#245699"/>
-            <Entry x:Name="password"/>
+            <Entry x:Name="password" BackgroundColor="#B1B3B3"/>
             <Button VerticalOptions="Center" Text="Login" BackgroundColor="#245699" Command="{Binding LoginCommand}"/>
         </StackLayout>
     </ContentPage.Content>

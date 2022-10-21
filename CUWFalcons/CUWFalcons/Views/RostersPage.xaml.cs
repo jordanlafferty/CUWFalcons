@@ -12,7 +12,7 @@ namespace CUWFalcons.Views
 {
     public partial class RostersPage : ContentPage
     {
-        ObservableCollection<RosterModel> players;
+        
 
         public RostersPage()
         {

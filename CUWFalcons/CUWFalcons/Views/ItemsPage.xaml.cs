@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using CUWFalcons.Models;
 using CUWFalcons.Views;
 using CUWFalcons.ViewModels;
+using Xamarin.Essentials;
 
 namespace CUWFalcons.Views
 {
@@ -24,10 +25,6 @@ namespace CUWFalcons.Views
             BindingContext = _viewModel = new ItemsViewModel();
         }
 
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            _viewModel.OnAppearing();
-        }
     }
+
 }

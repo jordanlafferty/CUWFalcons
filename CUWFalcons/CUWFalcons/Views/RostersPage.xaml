@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CUWFalcons.Views.RostersPage"
-             Title="Rosters">
+             Title="Rosters"
+             BackgroundColor="White">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add an Athlete"
                      Clicked="addAthleteToolbar_Clicked">
@@ -10,9 +11,13 @@
 
     </ContentPage.ToolbarItems>
     <StackLayout Spacing="20" Padding="15">
-        <Label Text="Select A Sport to View a Roster" FontSize="Medium" />
+        <Label Text="Select A Sport to View a Roster" FontSize="Large" TextColor="Black"/>
         <Picker Title="Select A Sport"
-                x:Name="sportSelection">
+                TitleColor="#B1B3B3"
+                x:Name="sportSelection"
+                BackgroundColor="GhostWhite"
+                TextColor="#B1B3B3"
+                FontSize="20">
         </Picker>
         <CollectionView x:Name="rosterView">
            <CollectionView.ItemTemplate>
@@ -33,10 +38,14 @@
                                TextColor="Black"/>
                         <Label Grid.Column="2"
                                Text="{Binding fName}"
-                               FontSize="Large"/>
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               TextColor="#B1B3B3"/>
                         <Label Grid.Column="3"
                                Text="{Binding lName}"
-                               FontSize="Large"/>
+                               TextColor="#B1B3B3"
+                               FontSize="Large"
+                               FontAttributes="Bold"/>
                         <Label Grid.Column="1"
                                Grid.Row="2"
                                Text="{Binding year}"/>

@@ -12,7 +12,6 @@ namespace CUWFalcons
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(RostersPage), typeof(RostersPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
             Routing.RegisterRoute(nameof(SettingsPage), typeof(SettingsPage));
 
         }
