@@ -3,7 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CUWFalcons.Views.RostersPage"
              Title="Rosters">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add an Athlete"
+                     Clicked="addAthleteToolbar_Clicked">
+        </ToolbarItem>
 
+    </ContentPage.ToolbarItems>
     <StackLayout Spacing="20" Padding="15">
         <Label Text="Select A Sport to View a Roster" FontSize="Medium" />
         <Picker Title="Select A Sport"

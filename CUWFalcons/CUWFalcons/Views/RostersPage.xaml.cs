@@ -30,12 +30,12 @@ namespace CUWFalcons.Views
 
 
 
-            players = new ObservableCollection<RosterModel>
+            /*players = new ObservableCollection<RosterModel>
             {
                 new RosterModel { fName= "Jordan", lName = "Lafferty", number = 9, year = "Senior", hometown= "Surprise, Arizona", position= "M"},
                 new RosterModel { fName = "Isabel", lName = "Downs", number = 21, year = "Senior", hometown = "Menomonee Falls, Wisconsin", position = "F"}
             };
-            rosterView.ItemsSource = players;
+            rosterView.ItemsSource = players;*/
 
             
         }
@@ -51,6 +51,11 @@ namespace CUWFalcons.Views
             {
 
             }
+        }
+
+        private async void addAthleteToolbar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NewAthletePage());
         }
     }
 }
