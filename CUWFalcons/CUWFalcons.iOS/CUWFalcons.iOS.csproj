@@ -129,6 +129,18 @@
       <SubType></SubType>
       <Generator></Generator>
     </BundleResource>
+    <BundleResource Include="Resources\Falcon_Head.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </BundleResource>
+    <BundleResource Include="Resources\roster_icon.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </BundleResource>
+    <BundleResource Include="Resources\settings_icon.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </BundleResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -154,19 +166,5 @@
       <Project>{29AF5EBF-33F1-49F5-8997-039A56FCA9CA}</Project>
       <Name>CUWFalcons</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\Falcon_Head.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\roster_icon.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
-    <AndroidResource Include="Resources\settings_icon.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
   </ItemGroup>
 </Project>

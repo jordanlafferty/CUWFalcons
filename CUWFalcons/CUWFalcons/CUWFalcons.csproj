@@ -5,15 +5,26 @@
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2515" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
     <PackageReference Include="SQLite" Version="3.13.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Npgsql" Version="6.0.7" />
+    <PackageReference Include="Postgres.psql" Version="13.4.0.2" />
+    <PackageReference Include="netcore-psql-util" Version="1.2.1" />
+    <PackageReference Include="Azure.Core" Version="1.25.0" />
+    <PackageReference Include="WindowsAzure.MobileServices.Backend" Version="1.0.478" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\Settings.xaml" />
@@ -23,6 +34,11 @@
     <None Remove="SQLite" />
     <None Remove="sqlite-net-pcl" />
     <None Remove="Microsoft.SourceLink.GitHub" />
+    <None Remove="Npgsql" />
+    <None Remove="Postgres.psql" />
+    <None Remove="netcore-psql-util" />
+    <None Remove="Azure.Core" />
+    <None Remove="WindowsAzure.MobileServices.Backend" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\NewAthlete.xaml">

@@ -37,13 +37,16 @@ namespace CUWFalcons.Views
 
         async void addNewAthlete()
         {
-            await App.cuwAthletesDB.createAthlete(new Models.AthleteModel
+            // creates a new athlete with what data was given
+            AthleteModel newAthlete = new Models.AthleteModel
             {
                 fName = fNameEntry.Text,
                 lName = lNameEntry.Text,
                 sport = sportEntry.Text,
                 number = numberEntry.Text
-            });
+            };
+            await App.rosterDB.addNewAthleteDB(newAthlete);
+
             await Navigation.PopAsync();
         }
     }

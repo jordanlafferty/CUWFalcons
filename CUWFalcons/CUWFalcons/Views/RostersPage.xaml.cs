@@ -45,7 +45,7 @@ namespace CUWFalcons.Views
             try
             {
                 base.OnAppearing();
-                rosterView.ItemsSource = await App.cuwAthletesDB.readAthlete();
+                rosterView.ItemsSource = (System.Collections.IEnumerable)await App.rosterDB.read();
             }
             catch
             {

@@ -12,6 +12,8 @@ namespace CUWFalcons.ViewModels
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
     public class RostersViewModel : BaseViewModel
     {
+
+
         private string itemId;
         private string text;
         private string description;

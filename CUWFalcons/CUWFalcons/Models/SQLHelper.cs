@@ -3,6 +3,7 @@ using SQLite;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using CUWFalcons.Models;
+using Npgsql;
 
 namespace CUWFalcons
 {
@@ -10,6 +11,8 @@ namespace CUWFalcons
     {
         // establishes an SQLite connection
         private readonly SQLiteAsyncConnection db;
+       // public string ConnectionString = "Server=localhost; Port=5432; User Id=admin; Password=123456; Database = cuwfalcons";
+
 
         public SQLHelper(string dbPath)
         {
@@ -44,6 +47,9 @@ namespace CUWFalcons
         {
             return db.DeleteAsync(athlete);
         }
+
+
+
     }
 }
 

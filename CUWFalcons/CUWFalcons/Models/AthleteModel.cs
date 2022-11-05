@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data;
 using SQLite;
 
 namespace CUWFalcons.Models
@@ -6,7 +8,7 @@ namespace CUWFalcons.Models
     public class AthleteModel
     {
         [PrimaryKey, AutoIncrement]
-        public int num { get; set; }
+        public int id { get; set; }
         [MaxLength(50)]
 
         public string sport { get; set; }
@@ -16,13 +18,13 @@ namespace CUWFalcons.Models
         public string position { get; set; }
         public string hometown { get; set; }
         public string hschool { get; set; }
-        public string major { get; set; }
+        //public string major { get; set; }
         public string year { get; set; }
 
 
         public AthleteModel()
         {
-
+           
         }
     }
 }
