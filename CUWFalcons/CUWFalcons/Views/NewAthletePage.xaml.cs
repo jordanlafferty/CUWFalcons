@@ -21,6 +21,7 @@ namespace CUWFalcons.Views
 
         async void saveAthlete_Clicked(object sender, EventArgs e)
         {
+            // checks to make sure a new athlete has at least a name and a sport
             if(string.IsNullOrWhiteSpace(fNameEntry.Text))
             {
                 await DisplayAlert("Invalid", "The athlete's first name is required", "OK");
@@ -45,7 +46,8 @@ namespace CUWFalcons.Views
                 sport = sportEntry.Text,
                 number = numberEntry.Text
             };
-            await App.rosterDB.addNewAthleteDB(newAthlete);
+            // adds athlete to the database
+            await App.db.addNewAthleteDB(newAthlete);
 
             await Navigation.PopAsync();
         }

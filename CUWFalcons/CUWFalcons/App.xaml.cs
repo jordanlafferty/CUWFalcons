@@ -7,34 +7,17 @@ using System.IO;
 using Npgsql;
 using System.Data;
 using System.Diagnostics;
+using System.Data.SqlClient;
+using Microsoft.AspNet.Identity;
+using static System.Net.WebRequestMethods;
 
 namespace CUWFalcons
 {
     public partial class App : Application
     {
-        private static SQLHelper x;
-        private static string Host = "localhost";
-        private static string User = "newuser";
-        private static string DBname = "cuwfalcons";
-        private static string Password = "admin";
-        private static string Port = "5432";
 
 
-        public static SQLHelper cuwAthletesDB
-        {
-            get
-            {
-                if(x == null)
-                {
-                    x = new SQLHelper(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "cuwAthletes.db3"));
-                }
-                return x;
-            }
-
-        }
-
-
-        private static RosterDatabase db;
+        public static RosterDatabase db;
 
         public static RosterDatabase rosterDB
         {
@@ -43,7 +26,7 @@ namespace CUWFalcons
             {
                 if (db == null)
                 {
-                    db = new RosterDatabase("@Server=localhost;Port=5432;User Id=postgres;Password=admin; Database=cuwfalcons");
+                    db = new RosterDatabase("Server=tcp:cuwfalcons.database.windows.net,1433;Initial Catalog=cuwfalcons;Persist Security Info=False;User ID=cuwfalcons;Password=Falcons9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
                 }
                 return db;
             }
@@ -54,12 +37,12 @@ namespace CUWFalcons
         {
             try
             {
-                var test = "Server=localhost;Port=5432;Database=cuwfalcons;User Id=newuser;Password=password;";
-                using (NpgsqlConnection con = new NpgsqlConnection(test))
+                var connectionstring = "Server=tcp:cuwfalcons.database.windows.net,1433;Initial Catalog=cuwfalcons;Persist Security Info=False;User ID=cuwfalcons;Password=Falcons9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                using (SqlConnection connection = new SqlConnection(connectionstring))
                 {
-                    try 
+                    try
                     {
-                        con.OpenAsync();
+                        connection.Open();
                         Debug.WriteLine("no error");
                     }
                     catch(Exception ex)
@@ -72,19 +55,12 @@ namespace CUWFalcons
             {
                 Debug.WriteLine("error");
             }
-            
         }
-
-
-      
-
         public App ()
         {
             InitializeComponent();
-
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
-
         }
 
         protected override void OnStart ()
@@ -95,7 +71,6 @@ namespace CUWFalcons
                 // switches to a different navigation stack instead of pushing to the active one
                 await Shell.Current.GoToAsync($"//{nameof(LoginPage)}");
 
-                TestConnection();
             }
 
             

@@ -46,12 +46,6 @@
                                TextColor="#B1B3B3"
                                FontSize="Large"
                                FontAttributes="Bold"/>
-                        <Label Grid.Column="1"
-                               Grid.Row="2"
-                               Text="{Binding year}"/>
-                        <Label Grid.Column="2"
-                               Grid.Row="2"
-                               Text="{Binding position}"/>
                     </Grid>
 
                 </DataTemplate>

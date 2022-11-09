@@ -40,12 +40,12 @@ namespace CUWFalcons.Views
             
         }
 
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
             try
             {
                 base.OnAppearing();
-                rosterView.ItemsSource = (System.Collections.IEnumerable)await App.rosterDB.read();
+                rosterView.ItemsSource = App.db.read();
             }
             catch
             {

@@ -9,6 +9,8 @@ using Microsoft.Extensions.Logging;
 using System.Data;
 using System.Diagnostics;
 using System.Xml.Linq;
+using System.Data.SqlClient;
+using System.Collections;
 
 namespace CUWFalcons
 {
@@ -16,43 +18,23 @@ namespace CUWFalcons
     {
         // establishes an SQLite connection
        // private readonly SQLiteAsyncConnection db;
-        private NpgsqlConnection connection;
+        public SqlConnection connection;
 
         private const string TABLE_NAME = "rosters";
 
         public RosterDatabase(string dbPath)
         {
 
-
-            connection = new NpgsqlConnection(dbPath);
-            //using var con = new NpgsqlConnection(dbPath);
-
-            try
-            {
-
-                connection.Open();
-                ConnectionState conState = connection.State;
-
-                if (conState == ConnectionState.Closed || conState == ConnectionState.Broken)
-                {
-                    Debug.WriteLine("error");
-                }
-                else
-                {
-                    Debug.WriteLine("no error");
-                }
-            }
-            catch(Exception ex)
-            {
-                Debug.WriteLine("<<< catch : " + ex.ToString());
-            }
+            SqlConnection connection = new SqlConnection(dbPath);
+            connection.Open();
                 
         }
 
         public async Task addNewAthleteDB(AthleteModel athlete)
         {
+            connection.Open();
             string commandText = $"INSERT INTO {TABLE_NAME} (id, fname, lname, number, sport) VALUES (@id, @fname, @lname, @number, @sport)";
-            using (var cmd = new NpgsqlCommand(commandText, connection))
+            using (var cmd = new SqlCommand(commandText, connection))
             {
                 cmd.Parameters.AddWithValue("id", athlete.id);
                 cmd.Parameters.AddWithValue("fname", athlete.fName);
@@ -66,28 +48,38 @@ namespace CUWFalcons
 
 
 
-        public async Task<AthleteModel> read()
+        public ArrayList read()
         {
-            string commandText = $"SELECT * FROM {TABLE_NAME}";
-            using (NpgsqlCommand cmd = new NpgsqlCommand(commandText, connection))
+            try
+            {
+                connection.Open();
+            }
+            catch
             {
 
-                await using (NpgsqlDataReader reader = await cmd.ExecuteReaderAsync())
-                    while (await reader.ReadAsync())
+            }
+            
+            string commandText = $"SELECT * FROM {TABLE_NAME}";
+            using (SqlCommand cmd = new SqlCommand(commandText, connection))
+            {
+                ArrayList cuwathletes = new ArrayList();
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                    while (reader.Read())
                     {
                         AthleteModel athlete = readAthletes(reader);
-                        return athlete;
+                        cuwathletes.Add(athlete);
                     }
+                return cuwathletes;
             }
-            return null;
+
         }
 
 
-        public static AthleteModel readAthletes(NpgsqlDataReader reader)
+        public static AthleteModel readAthletes(SqlDataReader reader)
         {
             int? id = reader["id"] as int?;
-            string fname = reader["name"] as string;
-            string lname = reader["minplayers"] as string;
+            string fname = reader["fname"] as string;
+            string lname = reader["lname"] as string;
             string sport = reader["sport"] as string;
             string number = reader["number"] as string;
 

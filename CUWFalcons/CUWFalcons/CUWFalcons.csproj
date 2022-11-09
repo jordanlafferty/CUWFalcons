@@ -25,6 +25,9 @@
     <PackageReference Include="netcore-psql-util" Version="1.2.1" />
     <PackageReference Include="Azure.Core" Version="1.25.0" />
     <PackageReference Include="WindowsAzure.MobileServices.Backend" Version="1.0.478" />
+    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.2" />
+    <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.4" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\Settings.xaml" />
@@ -39,6 +42,13 @@
     <None Remove="netcore-psql-util" />
     <None Remove="Azure.Core" />
     <None Remove="WindowsAzure.MobileServices.Backend" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="SQLitePCLRaw.bundle_green" />
+    <None Remove="System.Numerics.Vectors" />
+    <None Remove="PCLCrypto" />
+    <None Remove="Microsoft.Azure.Mobile.Client" />
+    <None Remove="Microsoft.Azure.Mobile.Client.SQLiteStore" />
+    <None Remove="System.Data.SqlClient" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\NewAthlete.xaml">
