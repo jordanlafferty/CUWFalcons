@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XamForms.Controls;assembly=XamForms.Controls.Calendar"  
+             x:Class="CUWFalcons.Views.CalendarPage"
+             Title="Calendar"
+             BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add an Athlete">
+        </ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+    <StackLayout Spacing="20" Padding="15">
+        <Label Text="Select A Sport to View a Roster" FontSize="Medium" TextColor="#B1B3B3" />
+        <controls:Calendar Padding="10,0,10,0"   
+                   SelectedBorderWidth="4"   
+                   DisabledBorderColor="Black"  
+                   ShowNumberOfWeek="false"  
+                   StartDay="Sunday"  
+                   TitleLabelTextColor="Purple"  
+                   TitleLeftArrowTextColor="Blue"  
+                   SelectedDate="{Binding Date}"  
+                   SpecialDates="{Binding Attendances}"  
+                   DateCommand="{Binding DateChosen}"/> 
+
+    </StackLayout>   
+</ContentPage>

@@ -7,6 +7,7 @@ namespace CUWFalcons.Models
 {
     public class AthleteModel
     {
+
         [PrimaryKey, AutoIncrement]
         public int id { get; set; }
         [MaxLength(50)]
@@ -21,10 +22,13 @@ namespace CUWFalcons.Models
         //public string major { get; set; }
         public string year { get; set; }
 
-
-        public AthleteModel()
+        public AthleteModel(int idnum, string sportcode, string fname, string lname, string num)
         {
-           
+            id = idnum;
+            sport = sportcode;
+            fName = fname;
+            lName = lname;
+            number = num;
         }
     }
 }

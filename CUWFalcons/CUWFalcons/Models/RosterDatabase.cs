@@ -32,6 +32,7 @@ namespace CUWFalcons
 
         public async Task addNewAthleteDB(AthleteModel athlete)
         {
+            SqlConnection connection = new SqlConnection("Server=tcp:cuwfalcons.database.windows.net,1433;Initial Catalog=cuwfalcons;Persist Security Info=False;User ID=cuwfalcons;Password=Falcons9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             connection.Open();
             string commandText = $"INSERT INTO {TABLE_NAME} (id, fname, lname, number, sport) VALUES (@id, @fname, @lname, @number, @sport)";
             using (var cmd = new SqlCommand(commandText, connection))
@@ -52,6 +53,7 @@ namespace CUWFalcons
         {
             try
             {
+                SqlConnection connection = new SqlConnection("Server=tcp:cuwfalcons.database.windows.net,1433;Initial Catalog=cuwfalcons;Persist Security Info=False;User ID=cuwfalcons;Password=Falcons9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
                 connection.Open();
             }
             catch
@@ -83,7 +85,7 @@ namespace CUWFalcons
             string sport = reader["sport"] as string;
             string number = reader["number"] as string;
 
-            AthleteModel athlete = new AthleteModel
+            AthleteModel athlete = new AthleteModel(id.Value, sport, fname, lname, number)
             {
                 id = id.Value,
                 fName = fname,

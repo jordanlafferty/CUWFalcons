@@ -28,6 +28,7 @@
     <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.2" />
     <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.4" />
+    <PackageReference Include="XamForms.Controls.Calendar" Version="1.1.1" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="Views\Settings.xaml" />
@@ -49,6 +50,7 @@
     <None Remove="Microsoft.Azure.Mobile.Client" />
     <None Remove="Microsoft.Azure.Mobile.Client.SQLiteStore" />
     <None Remove="System.Data.SqlClient" />
+    <None Remove="XamForms.Controls.Calendar" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Update="Views\NewAthlete.xaml">

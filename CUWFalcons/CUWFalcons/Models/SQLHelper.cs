@@ -18,7 +18,7 @@ namespace CUWFalcons
         {
             db = new SQLiteAsyncConnection(dbPath);
             // creates a table based of the data model, Athlete Model
-            db.CreateTableAsync<AthleteModel>();
+            //db.CreateTableAsync<AthleteModel>();
         }
 
 
@@ -29,10 +29,10 @@ namespace CUWFalcons
         }
 
         // reads data on the athletes and returns a queryable interface
-        public Task<List<AthleteModel>>readAthlete()
-        {
-            return db.Table<AthleteModel>().ToListAsync();
-        }
+        //public Task<List<AthleteModel>>readAthlete()
+        //{
+            //return db.Table<AthleteModel>().ToListAsync();
+       // }
 
 
         // makes changes to any athlete and returns the number of rows changed

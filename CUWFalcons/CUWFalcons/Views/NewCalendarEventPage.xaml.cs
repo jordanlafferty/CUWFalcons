@@ -29,10 +29,7 @@ namespace CUWFalcons.Views
             {
                 await DisplayAlert("Invalid", "A sport is required", "OK");
             }
-            else if (string.IsNullOrWhiteSpace(dateEntry.Text))
-            {
-                await DisplayAlert("Invalid", "A date is required", "OK");
-            }
+         
             else
             {
                 addNewEvent();
@@ -42,7 +39,7 @@ namespace CUWFalcons.Views
         async void addNewEvent()
         {
             // creates a new athlete with what data was given
-            CalendarEventModel newEvent = new Models.CalendarEventModel
+            CalendarEventModel newEvent = new CalendarEventModel
             {
                 sport = sportEntry.Text,
                 hometeam = hometeamEntry.Text,

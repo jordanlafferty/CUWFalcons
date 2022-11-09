@@ -11,9 +11,10 @@ namespace CUWFalcons.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
 
+
     public partial class NewAthletePage : ContentPage
     {
-       
+        public int athleteNum;
         public NewAthletePage()
         {
             InitializeComponent();
@@ -38,14 +39,9 @@ namespace CUWFalcons.Views
 
         async void addNewAthlete()
         {
+            athleteNum += 1;
             // creates a new athlete with what data was given
-            AthleteModel newAthlete = new Models.AthleteModel
-            {
-                fName = fNameEntry.Text,
-                lName = lNameEntry.Text,
-                sport = sportEntry.Text,
-                number = numberEntry.Text
-            };
+            AthleteModel newAthlete = new AthleteModel(athleteNum, sportEntry.Text, fNameEntry.Text, lNameEntry.Text, numberEntry.Text);
             // adds athlete to the database
             await App.db.addNewAthleteDB(newAthlete);
 
