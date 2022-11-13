@@ -12,6 +12,7 @@
                    x:Name="hometeamEntry"/>
             <Entry Placeholder="Away Team"
                    x:Name="awayteamEntry"/>
+            <TimePicker x:Name="timeEntry" BackgroundColor="Gray"></TimePicker>
             <DatePicker x:Name="dateEntry"></DatePicker>
             <Button Text="Add Event to Calendar"
                     Clicked="saveEvent_Clicked"/>

@@ -26,6 +26,11 @@ namespace CUWFalcons.Views
             BindingContext = _viewModel = new ItemsViewModel();
         }
 
+        private async void addEventToolbar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NewCalendarEventPage());
+        }
+
 
         private DateTime? _date;
         public DateTime? Date

@@ -6,22 +6,24 @@
              Title="Calendar"
              BackgroundColor="White">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Add an Athlete">
+        <ToolbarItem Text="Add an Event"
+                     Clicked="addEventToolbar_Clicked">
         </ToolbarItem>
 
     </ContentPage.ToolbarItems>
     <StackLayout Spacing="20" Padding="15">
-        <Label Text="Select A Sport to View a Roster" FontSize="Medium" TextColor="#B1B3B3" />
         <controls:Calendar Padding="10,0,10,0"   
                    SelectedBorderWidth="4"   
                    DisabledBorderColor="Black"  
                    ShowNumberOfWeek="false"  
                    StartDay="Sunday"  
-                   TitleLabelTextColor="Purple"  
-                   TitleLeftArrowTextColor="Blue"  
+                   TitleLabelTextColor="Gray"  
+                   TitleLeftArrowTextColor="#245699"
+                   TitleRightArrowTextColor="#245699"
                    SelectedDate="{Binding Date}"  
                    SpecialDates="{Binding Attendances}"  
-                   DateCommand="{Binding DateChosen}"/> 
+                   DateCommand="{Binding DateChosen}"/>
+        <Label Text="Click on a Date to See a List of Events" FontSize="Medium" HorizontalTextAlignment="Center" TextColor="#B1B3B3" />
 
     </StackLayout>   
 </ContentPage>
