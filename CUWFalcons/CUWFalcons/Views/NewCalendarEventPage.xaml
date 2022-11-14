@@ -6,14 +6,70 @@
     BackgroundColor="White">
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Sport"
-                   x:Name="sportEntry"/>
-            <Entry Placeholder="Home Team"
-                   x:Name="hometeamEntry"/>
-            <Entry Placeholder="Away Team"
-                   x:Name="awayteamEntry"/>
-            <TimePicker x:Name="timeEntry" BackgroundColor="Gray"></TimePicker>
-            <DatePicker x:Name="dateEntry"></DatePicker>
+            <Label Text="Sport Code *"
+                 TextColor="Black"
+                  FontSize="Medium"/>
+            <Picker
+                  TitleColor="#B1B3B3"
+                  x:Name="sportCodeSelection"
+                  BackgroundColor="LightGray"
+                  TextColor="DarkBlue"
+                  FontSize="20">
+            </Picker>
+
+            <Label Text="Date *"
+                 TextColor="Black"
+                  FontSize="Medium"/>
+            <DatePicker x:Name="dateEntry"
+                   BackgroundColor="LightGray"
+                   TextColor="DarkBlue"></DatePicker>
+
+            <Label Text="Time (If unknown put 12:00 AM)"
+                 TextColor="Black"
+                  FontSize="Medium"/>
+            <TimePicker x:Name="timeEntry"
+                        BackgroundColor="LightGray"
+                        TextColor="DarkBlue"></TimePicker>
+
+            <Label Text="Home Team/Name of Event *"
+                 TextColor="Black"
+                  FontSize="Medium"/>
+            <Entry x:Name="homeEntry"
+                   BackgroundColor="LightGray"
+                   TextColor="DarkBlue"/>
+
+            <Label Text="Away Team"
+                 TextColor="Black"
+                  FontSize="Medium"/>
+            <Entry x:Name="awayEntry"
+                   BackgroundColor="LightGray"
+                   TextColor="DarkBlue"/>
+
+            <Label Text="Location (If Nuetral Site)"
+                 TextColor="Black"
+                  FontSize="Medium"/>
+            <Entry x:Name="siteEntry"
+                   BackgroundColor="LightGray"
+                   TextColor="DarkBlue"/>
+
+            <Label Text="Game Type *"
+                 TextColor="Black"
+                  FontSize="Medium"/>
+            <Picker
+                  TitleColor="#B1B3B3"
+                  x:Name="typeSelection"
+                  BackgroundColor="LightGray"
+                  TextColor="DarkBlue"
+                  FontSize="20">
+            </Picker>
+
+            <Label Text="Game Notes"
+                 TextColor="Black"
+                  FontSize="Medium"/>
+            <Entry x:Name="noteEntry"
+                   BackgroundColor="LightGray"
+                  TextColor="DarkBlue"/>
+            
             <Button Text="Add Event to Calendar"
                     Clicked="saveEvent_Clicked"/>
         </StackLayout>

@@ -1,40 +1,29 @@
 ﻿using System;
-using SQLite;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using CUWFalcons.Models;
-using Npgsql;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using Microsoft.Extensions.Logging;
-using System.Data;
-using System.Diagnostics;
-using System.Xml.Linq;
 using System.Data.SqlClient;
-using System.Collections;
 
 namespace CUWFalcons
 {
     public class RosterDatabase
     {
-        // establishes an SQLite connection
-       // private readonly SQLiteAsyncConnection db;
+
         public SqlConnection connection;
+        private const string TABLE_NAME = "rosters_cuw";
 
-        private const string TABLE_NAME = "rosters";
-
-        public RosterDatabase(string dbPath)
+        public RosterDatabase()
         {
 
-            SqlConnection connection = new SqlConnection(dbPath);
-            connection.Open();
-                
+
         }
 
+        // adds a new athlete to the database
         public async Task addNewAthleteDB(AthleteModel athlete)
         {
             SqlConnection connection = new SqlConnection("Server=tcp:cuwfalcons.database.windows.net,1433;Initial Catalog=cuwfalcons;Persist Security Info=False;User ID=cuwfalcons;Password=Falcons9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             connection.Open();
-            string commandText = $"INSERT INTO {TABLE_NAME} (id, fname, lname, number, sport) VALUES (@id, @fname, @lname, @number, @sport)";
+
+            string commandText = $"INSERT INTO {TABLE_NAME} (id, fname, lname, number, sport, position, year, hometown, state, major) VALUES (@id, @fname, @lname, @number, @sport, @position, @year, @hometown, @state, @major";
             using (var cmd = new SqlCommand(commandText, connection))
             {
                 cmd.Parameters.AddWithValue("id", athlete.id);
@@ -42,62 +31,55 @@ namespace CUWFalcons
                 cmd.Parameters.AddWithValue("lname", athlete.lName);
                 cmd.Parameters.AddWithValue("number", athlete.number);
                 cmd.Parameters.AddWithValue("sport", athlete.sport);
-
+                cmd.Parameters.AddWithValue("position", athlete.lName);
+                cmd.Parameters.AddWithValue("year", athlete.number);
+                cmd.Parameters.AddWithValue("hometown", athlete.sport);
+                cmd.Parameters.AddWithValue("state", athlete.lName);
+                cmd.Parameters.AddWithValue("major", athlete.number);
                 await cmd.ExecuteNonQueryAsync();
+                connection.Close();
             }
         }
 
 
 
-        public ArrayList read()
-        {
-            try
-            {
-                SqlConnection connection = new SqlConnection("Server=tcp:cuwfalcons.database.windows.net,1433;Initial Catalog=cuwfalcons;Persist Security Info=False;User ID=cuwfalcons;Password=Falcons9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-                connection.Open();
-            }
-            catch
-            {
-
-            }
-            
-            string commandText = $"SELECT * FROM {TABLE_NAME}";
-            using (SqlCommand cmd = new SqlCommand(commandText, connection))
-            {
-                ArrayList cuwathletes = new ArrayList();
-                using (SqlDataReader reader = cmd.ExecuteReader())
-                    while (reader.Read())
-                    {
-                        AthleteModel athlete = readAthletes(reader);
-                        cuwathletes.Add(athlete);
-                    }
-                return cuwathletes;
-            }
-
-        }
-
-
+        // reads the information from the database to get athletes
         public static AthleteModel readAthletes(SqlDataReader reader)
         {
             int? id = reader["id"] as int?;
             string fname = reader["fname"] as string;
             string lname = reader["lname"] as string;
-            string sport = reader["sport"] as string;
-            string number = reader["number"] as string;
+            string sport = reader["sport_code"] as string;
+            Nullable<int> number = reader["number"] as int?;
+            string position = reader["position"] as string;
+            string year = reader["year"] as string;
+            string city = reader["hometown"] as string;
+            string state = reader["state"] as string;
+            string major = reader["major"] as string;
 
-            AthleteModel athlete = new AthleteModel(id.Value, sport, fname, lname, number)
+            AthleteModel athlete = new AthleteModel(id.Value, sport, fname, lname, number, position, year, city, state, major)
             {
                 id = id.Value,
                 fName = fname,
                 lName = lname,
                 sport = sport,
-                number = number
+                number = number,
+                position = position,
+                year = year,
+                hometown = city,
+                state = state,
+                major = major
             };
+
             return athlete;
+           
         }
 
-
+        public static int getNextId(SqlDataReader reader)
+        {
+            int? id = reader["id"] as int?;
+            return id.Value;
+        }
 
     }
 }
-

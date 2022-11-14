@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CUWFalcons.Views.GenerateQRPage"
+             Title="QR Code Manager"
+             BackgroundColor="White">
+    <StackLayout Padding="10,10,10,10">
+         <Label Text="Upcoming Events" FontSize="Large" TextColor="Blue" FontAttributes="Bold"/>
+        <Label Text="Slide left to view a QR Code or view the list of people who attended the event" FontSize="Medium" TextColor="Gray"/>
+        <CollectionView x:Name="homeGameView" VerticalScrollBarVisibility="Always">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                       <SwipeView>
+                       <SwipeView.RightItems>
+                           <SwipeItems>
+                               <SwipeItem Text="QR Code"
+                                          BackgroundColor="SkyBlue"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="viewQR_Invoked"
+                                          />
+                                <SwipeItem Text="Attendance"
+                                          BackgroundColor="LightSeaGreen"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="viewAttendance_Invoked"/>
+                           </SwipeItems>
+                       </SwipeView.RightItems>
+                        <Grid Padding="10" BackgroundColor="#B1B3B3" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height= "auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   Text="{Binding displaySport}"
+                                   FontAttributes="Bold"
+                                   FontSize="Medium"
+                                   TextColor="Black"/>
+                            <Label Grid.Column="1"
+                                   Grid.Row="2"
+                                   Text="{Binding displayDate}"
+                                   TextColor="White"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"/>
+                            <Label Grid.Column="2"
+                                   Grid.Row="2"
+                                   Text="{Binding displayTime}"
+                                   TextColor="White"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"/>
+                            <Label Grid.Row="3"
+                                   Grid.Column="1"
+                                   Text="{Binding hometeam}"
+                                   TextColor="White"
+                                   FontSize="Medium"
+                                   />
+                            <Label Grid.Row="3"
+                                   Grid.Column="2"
+                                   Text="{Binding awayteam}"
+                                   TextColor="#White"
+                                   FontSize="Medium"
+                                   />
+                            
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Label Text="  " FontSize="Medium"/>
+        <Label Text="Past Events" FontSize="Large" TextColor="Blue" FontAttributes="Bold"/>
+        <CollectionView x:Name="pastHomeGameView" VerticalScrollBarVisibility="Always">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                       <SwipeView>
+                       <SwipeView.RightItems>
+                           <SwipeItems>
+                               <SwipeItem Text="QR Code"
+                                          BackgroundColor="SkyBlue"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="viewQR_Invoked"/>
+                                <SwipeItem Text="Attendance"
+                                          BackgroundColor="LightSeaGreen"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="viewAttendance_Invoked"/>
+                           </SwipeItems>
+                       </SwipeView.RightItems>
+                        <Grid Padding="10" BackgroundColor="#B1B3B3" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height= "auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   Text="{Binding displaySport}"
+                                   FontAttributes="Bold"
+                                   FontSize="Medium"
+                                   TextColor="Black"/>
+                            <Label Grid.Column="1"
+                                   Grid.Row="2"
+                                   Text="{Binding displayDate}"
+                                   TextColor="White"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"/>
+                            <Label Grid.Column="2"
+                                   Grid.Row="2"
+                                   Text="{Binding displayTime}"
+                                   TextColor="White"
+                                   FontSize="Medium"
+                                   FontAttributes="Bold"/>
+                            <Label Grid.Row="3"
+                                   Grid.Column="1"
+                                   Text="{Binding hometeam}"
+                                   TextColor="White"
+                                   FontSize="Medium"
+                                   />
+                            <Label Grid.Row="3"
+                                   Grid.Column="2"
+                                   Text="{Binding awayteam}"
+                                   TextColor="White"
+                                   FontSize="Medium"
+                                   />
+                            
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    
+       
+    </StackLayout>   
+</ContentPage>

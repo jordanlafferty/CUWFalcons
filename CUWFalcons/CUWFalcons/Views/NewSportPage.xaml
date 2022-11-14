@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CUWFalcons.Views.NewSportPage"
+    BackgroundColor="White"
+    Title="Add New Sport">
+    <ContentPage.Content>
+        <StackLayout>
+             <Label Text="Sport Code"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Entry Placeholder=""
+                           BackgroundColor="Gray"
+                           x:Name="sportCodeEntry"/>
+
+                    <Label Text="Sport Display Name"
+                           TextColor="Black"
+                           
+                           FontSize="Medium"/>
+                    <Entry Placeholder=""
+                           BackgroundColor="Gray"
+                           x:Name="displayNameEntry"/>
+            <StackLayout>
+                 <Button Text="Save Sport" x:Name="saveBtn" Clicked="saveSport_Clicked"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

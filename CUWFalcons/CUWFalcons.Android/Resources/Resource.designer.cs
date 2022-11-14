@@ -26,6 +26,2863 @@ namespace CUWFalcons.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_fade_in = global::CUWFalcons.Droid.Resource.Animation.abc_fade_in;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_fade_out = global::CUWFalcons.Droid.Resource.Animation.abc_fade_out;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_grow_fade_in_from_bottom = global::CUWFalcons.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_popup_enter = global::CUWFalcons.Droid.Resource.Animation.abc_popup_enter;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_popup_exit = global::CUWFalcons.Droid.Resource.Animation.abc_popup_exit;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_shrink_fade_out_from_bottom = global::CUWFalcons.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_slide_in_bottom = global::CUWFalcons.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_slide_in_top = global::CUWFalcons.Droid.Resource.Animation.abc_slide_in_top;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_slide_out_bottom = global::CUWFalcons.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_slide_out_top = global::CUWFalcons.Droid.Resource.Animation.abc_slide_out_top;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_tooltip_enter = global::CUWFalcons.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.abc_tooltip_exit = global::CUWFalcons.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.design_bottom_sheet_slide_in = global::CUWFalcons.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.design_bottom_sheet_slide_out = global::CUWFalcons.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.design_snackbar_in = global::CUWFalcons.Droid.Resource.Animation.design_snackbar_in;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.design_snackbar_out = global::CUWFalcons.Droid.Resource.Animation.design_snackbar_out;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.EnterFromLeft = global::CUWFalcons.Droid.Resource.Animation.EnterFromLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.EnterFromRight = global::CUWFalcons.Droid.Resource.Animation.EnterFromRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.ExitToLeft = global::CUWFalcons.Droid.Resource.Animation.ExitToLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animation.ExitToRight = global::CUWFalcons.Droid.Resource.Animation.ExitToRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.design_appbar_state_list_animator = global::CUWFalcons.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.design_fab_hide_motion_spec = global::CUWFalcons.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.design_fab_show_motion_spec = global::CUWFalcons.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.mtrl_btn_state_list_anim = global::CUWFalcons.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::CUWFalcons.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.mtrl_chip_state_list_anim = global::CUWFalcons.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.mtrl_fab_hide_motion_spec = global::CUWFalcons.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.mtrl_fab_show_motion_spec = global::CUWFalcons.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::CUWFalcons.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::CUWFalcons.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarDivider = global::CUWFalcons.Droid.Resource.Attribute.actionBarDivider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarItemBackground = global::CUWFalcons.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarPopupTheme = global::CUWFalcons.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarSize = global::CUWFalcons.Droid.Resource.Attribute.actionBarSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarSplitStyle = global::CUWFalcons.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarStyle = global::CUWFalcons.Droid.Resource.Attribute.actionBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarTabBarStyle = global::CUWFalcons.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarTabStyle = global::CUWFalcons.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarTabTextStyle = global::CUWFalcons.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarTheme = global::CUWFalcons.Droid.Resource.Attribute.actionBarTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionBarWidgetTheme = global::CUWFalcons.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.actionButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionDropDownStyle = global::CUWFalcons.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionLayout = global::CUWFalcons.Droid.Resource.Attribute.actionLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionMenuTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionMenuTextColor = global::CUWFalcons.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeBackground = global::CUWFalcons.Droid.Resource.Attribute.actionModeBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeCloseButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeCloseDrawable = global::CUWFalcons.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeCopyDrawable = global::CUWFalcons.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeCutDrawable = global::CUWFalcons.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeFindDrawable = global::CUWFalcons.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModePasteDrawable = global::CUWFalcons.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModePopupWindowStyle = global::CUWFalcons.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeSelectAllDrawable = global::CUWFalcons.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeShareDrawable = global::CUWFalcons.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeSplitBackground = global::CUWFalcons.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeStyle = global::CUWFalcons.Droid.Resource.Attribute.actionModeStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionModeWebSearchDrawable = global::CUWFalcons.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionOverflowButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionOverflowMenuStyle = global::CUWFalcons.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionProviderClass = global::CUWFalcons.Droid.Resource.Attribute.actionProviderClass;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.actionViewClass = global::CUWFalcons.Droid.Resource.Attribute.actionViewClass;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.activityChooserViewStyle = global::CUWFalcons.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.alertDialogButtonGroupStyle = global::CUWFalcons.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.alertDialogCenterButtons = global::CUWFalcons.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.alertDialogStyle = global::CUWFalcons.Droid.Resource.Attribute.alertDialogStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.alertDialogTheme = global::CUWFalcons.Droid.Resource.Attribute.alertDialogTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.allowStacking = global::CUWFalcons.Droid.Resource.Attribute.allowStacking;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.alpha = global::CUWFalcons.Droid.Resource.Attribute.alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.alphabeticModifiers = global::CUWFalcons.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.arrowHeadLength = global::CUWFalcons.Droid.Resource.Attribute.arrowHeadLength;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.arrowShaftLength = global::CUWFalcons.Droid.Resource.Attribute.arrowShaftLength;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.autoCompleteTextViewStyle = global::CUWFalcons.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.autoSizeMaxTextSize = global::CUWFalcons.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.autoSizeMinTextSize = global::CUWFalcons.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.autoSizePresetSizes = global::CUWFalcons.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.autoSizeStepGranularity = global::CUWFalcons.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.autoSizeTextType = global::CUWFalcons.Droid.Resource.Attribute.autoSizeTextType;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.background = global::CUWFalcons.Droid.Resource.Attribute.background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.backgroundSplit = global::CUWFalcons.Droid.Resource.Attribute.backgroundSplit;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.backgroundStacked = global::CUWFalcons.Droid.Resource.Attribute.backgroundStacked;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.backgroundTint = global::CUWFalcons.Droid.Resource.Attribute.backgroundTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.backgroundTintMode = global::CUWFalcons.Droid.Resource.Attribute.backgroundTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.barLength = global::CUWFalcons.Droid.Resource.Attribute.barLength;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.behavior_autoHide = global::CUWFalcons.Droid.Resource.Attribute.behavior_autoHide;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.behavior_fitToContents = global::CUWFalcons.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.behavior_hideable = global::CUWFalcons.Droid.Resource.Attribute.behavior_hideable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.behavior_overlapTop = global::CUWFalcons.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.behavior_peekHeight = global::CUWFalcons.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.behavior_skipCollapsed = global::CUWFalcons.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.borderlessButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.borderWidth = global::CUWFalcons.Droid.Resource.Attribute.borderWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.bottomAppBarStyle = global::CUWFalcons.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.bottomNavigationStyle = global::CUWFalcons.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.bottomSheetDialogTheme = global::CUWFalcons.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.bottomSheetStyle = global::CUWFalcons.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxBackgroundColor = global::CUWFalcons.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxBackgroundMode = global::CUWFalcons.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxCollapsedPaddingTop = global::CUWFalcons.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxCornerRadiusBottomEnd = global::CUWFalcons.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxCornerRadiusBottomStart = global::CUWFalcons.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxCornerRadiusTopEnd = global::CUWFalcons.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxCornerRadiusTopStart = global::CUWFalcons.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxStrokeColor = global::CUWFalcons.Droid.Resource.Attribute.boxStrokeColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.boxStrokeWidth = global::CUWFalcons.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonBarButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonBarNegativeButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonBarNeutralButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonBarPositiveButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonBarStyle = global::CUWFalcons.Droid.Resource.Attribute.buttonBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonGravity = global::CUWFalcons.Droid.Resource.Attribute.buttonGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonIconDimen = global::CUWFalcons.Droid.Resource.Attribute.buttonIconDimen;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonPanelSideLayout = global::CUWFalcons.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonStyle = global::CUWFalcons.Droid.Resource.Attribute.buttonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonStyleSmall = global::CUWFalcons.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonTint = global::CUWFalcons.Droid.Resource.Attribute.buttonTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.buttonTintMode = global::CUWFalcons.Droid.Resource.Attribute.buttonTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.cardBackgroundColor = global::CUWFalcons.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.cardCornerRadius = global::CUWFalcons.Droid.Resource.Attribute.cardCornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.cardElevation = global::CUWFalcons.Droid.Resource.Attribute.cardElevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.cardMaxElevation = global::CUWFalcons.Droid.Resource.Attribute.cardMaxElevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.cardPreventCornerOverlap = global::CUWFalcons.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.cardUseCompatPadding = global::CUWFalcons.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.cardViewStyle = global::CUWFalcons.Droid.Resource.Attribute.cardViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.checkboxStyle = global::CUWFalcons.Droid.Resource.Attribute.checkboxStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.checkedChip = global::CUWFalcons.Droid.Resource.Attribute.checkedChip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.checkedIcon = global::CUWFalcons.Droid.Resource.Attribute.checkedIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.checkedIconEnabled = global::CUWFalcons.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.checkedIconVisible = global::CUWFalcons.Droid.Resource.Attribute.checkedIconVisible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.checkedTextViewStyle = global::CUWFalcons.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipBackgroundColor = global::CUWFalcons.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipCornerRadius = global::CUWFalcons.Droid.Resource.Attribute.chipCornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipEndPadding = global::CUWFalcons.Droid.Resource.Attribute.chipEndPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipGroupStyle = global::CUWFalcons.Droid.Resource.Attribute.chipGroupStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipIcon = global::CUWFalcons.Droid.Resource.Attribute.chipIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipIconEnabled = global::CUWFalcons.Droid.Resource.Attribute.chipIconEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipIconSize = global::CUWFalcons.Droid.Resource.Attribute.chipIconSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipIconTint = global::CUWFalcons.Droid.Resource.Attribute.chipIconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipIconVisible = global::CUWFalcons.Droid.Resource.Attribute.chipIconVisible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipMinHeight = global::CUWFalcons.Droid.Resource.Attribute.chipMinHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipSpacing = global::CUWFalcons.Droid.Resource.Attribute.chipSpacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipSpacingHorizontal = global::CUWFalcons.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipSpacingVertical = global::CUWFalcons.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipStandaloneStyle = global::CUWFalcons.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipStartPadding = global::CUWFalcons.Droid.Resource.Attribute.chipStartPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipStrokeColor = global::CUWFalcons.Droid.Resource.Attribute.chipStrokeColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipStrokeWidth = global::CUWFalcons.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.chipStyle = global::CUWFalcons.Droid.Resource.Attribute.chipStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.closeIcon = global::CUWFalcons.Droid.Resource.Attribute.closeIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.closeIconEnabled = global::CUWFalcons.Droid.Resource.Attribute.closeIconEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.closeIconEndPadding = global::CUWFalcons.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.closeIconSize = global::CUWFalcons.Droid.Resource.Attribute.closeIconSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.closeIconStartPadding = global::CUWFalcons.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.closeIconTint = global::CUWFalcons.Droid.Resource.Attribute.closeIconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.closeIconVisible = global::CUWFalcons.Droid.Resource.Attribute.closeIconVisible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.closeItemLayout = global::CUWFalcons.Droid.Resource.Attribute.closeItemLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.collapseContentDescription = global::CUWFalcons.Droid.Resource.Attribute.collapseContentDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.collapsedTitleGravity = global::CUWFalcons.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.collapsedTitleTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.collapseIcon = global::CUWFalcons.Droid.Resource.Attribute.collapseIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.color = global::CUWFalcons.Droid.Resource.Attribute.color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorAccent = global::CUWFalcons.Droid.Resource.Attribute.colorAccent;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorBackgroundFloating = global::CUWFalcons.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorButtonNormal = global::CUWFalcons.Droid.Resource.Attribute.colorButtonNormal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorControlActivated = global::CUWFalcons.Droid.Resource.Attribute.colorControlActivated;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorControlHighlight = global::CUWFalcons.Droid.Resource.Attribute.colorControlHighlight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorControlNormal = global::CUWFalcons.Droid.Resource.Attribute.colorControlNormal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorError = global::CUWFalcons.Droid.Resource.Attribute.colorError;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorPrimary = global::CUWFalcons.Droid.Resource.Attribute.colorPrimary;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorPrimaryDark = global::CUWFalcons.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorSecondary = global::CUWFalcons.Droid.Resource.Attribute.colorSecondary;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.colorSwitchThumbNormal = global::CUWFalcons.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.commitIcon = global::CUWFalcons.Droid.Resource.Attribute.commitIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentDescription = global::CUWFalcons.Droid.Resource.Attribute.contentDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentInsetEnd = global::CUWFalcons.Droid.Resource.Attribute.contentInsetEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentInsetEndWithActions = global::CUWFalcons.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentInsetLeft = global::CUWFalcons.Droid.Resource.Attribute.contentInsetLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentInsetRight = global::CUWFalcons.Droid.Resource.Attribute.contentInsetRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentInsetStart = global::CUWFalcons.Droid.Resource.Attribute.contentInsetStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentInsetStartWithNavigation = global::CUWFalcons.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentPadding = global::CUWFalcons.Droid.Resource.Attribute.contentPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentPaddingBottom = global::CUWFalcons.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentPaddingLeft = global::CUWFalcons.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentPaddingRight = global::CUWFalcons.Droid.Resource.Attribute.contentPaddingRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentPaddingTop = global::CUWFalcons.Droid.Resource.Attribute.contentPaddingTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.contentScrim = global::CUWFalcons.Droid.Resource.Attribute.contentScrim;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.controlBackground = global::CUWFalcons.Droid.Resource.Attribute.controlBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.coordinatorLayoutStyle = global::CUWFalcons.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.cornerRadius = global::CUWFalcons.Droid.Resource.Attribute.cornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.counterEnabled = global::CUWFalcons.Droid.Resource.Attribute.counterEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.counterMaxLength = global::CUWFalcons.Droid.Resource.Attribute.counterMaxLength;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.counterOverflowTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.counterTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.counterTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.customNavigationLayout = global::CUWFalcons.Droid.Resource.Attribute.customNavigationLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.defaultQueryHint = global::CUWFalcons.Droid.Resource.Attribute.defaultQueryHint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.dialogCornerRadius = global::CUWFalcons.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.dialogPreferredPadding = global::CUWFalcons.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.dialogTheme = global::CUWFalcons.Droid.Resource.Attribute.dialogTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.displayOptions = global::CUWFalcons.Droid.Resource.Attribute.displayOptions;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.divider = global::CUWFalcons.Droid.Resource.Attribute.divider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.dividerHorizontal = global::CUWFalcons.Droid.Resource.Attribute.dividerHorizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.dividerPadding = global::CUWFalcons.Droid.Resource.Attribute.dividerPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.dividerVertical = global::CUWFalcons.Droid.Resource.Attribute.dividerVertical;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.drawableSize = global::CUWFalcons.Droid.Resource.Attribute.drawableSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.drawerArrowStyle = global::CUWFalcons.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.dropdownListPreferredItemHeight = global::CUWFalcons.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.dropDownListViewStyle = global::CUWFalcons.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.editTextBackground = global::CUWFalcons.Droid.Resource.Attribute.editTextBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.editTextColor = global::CUWFalcons.Droid.Resource.Attribute.editTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.editTextStyle = global::CUWFalcons.Droid.Resource.Attribute.editTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.elevation = global::CUWFalcons.Droid.Resource.Attribute.elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.enforceMaterialTheme = global::CUWFalcons.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.enforceTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.errorEnabled = global::CUWFalcons.Droid.Resource.Attribute.errorEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.errorTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.errorTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expandActivityOverflowButtonDrawable = global::CUWFalcons.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expanded = global::CUWFalcons.Droid.Resource.Attribute.expanded;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expandedTitleGravity = global::CUWFalcons.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expandedTitleMargin = global::CUWFalcons.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expandedTitleMarginBottom = global::CUWFalcons.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expandedTitleMarginEnd = global::CUWFalcons.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expandedTitleMarginStart = global::CUWFalcons.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expandedTitleMarginTop = global::CUWFalcons.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.expandedTitleTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fabAlignmentMode = global::CUWFalcons.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fabCradleMargin = global::CUWFalcons.Droid.Resource.Attribute.fabCradleMargin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fabCradleRoundedCornerRadius = global::CUWFalcons.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fabCradleVerticalOffset = global::CUWFalcons.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fabCustomSize = global::CUWFalcons.Droid.Resource.Attribute.fabCustomSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fabSize = global::CUWFalcons.Droid.Resource.Attribute.fabSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fastScrollEnabled = global::CUWFalcons.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CUWFalcons.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CUWFalcons.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fastScrollVerticalThumbDrawable = global::CUWFalcons.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fastScrollVerticalTrackDrawable = global::CUWFalcons.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.firstBaselineToTopHeight = global::CUWFalcons.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.floatingActionButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.font = global::CUWFalcons.Droid.Resource.Attribute.font;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontFamily = global::CUWFalcons.Droid.Resource.Attribute.fontFamily;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontProviderAuthority = global::CUWFalcons.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontProviderCerts = global::CUWFalcons.Droid.Resource.Attribute.fontProviderCerts;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontProviderFetchStrategy = global::CUWFalcons.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontProviderFetchTimeout = global::CUWFalcons.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontProviderPackage = global::CUWFalcons.Droid.Resource.Attribute.fontProviderPackage;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontProviderQuery = global::CUWFalcons.Droid.Resource.Attribute.fontProviderQuery;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontStyle = global::CUWFalcons.Droid.Resource.Attribute.fontStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontVariationSettings = global::CUWFalcons.Droid.Resource.Attribute.fontVariationSettings;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.fontWeight = global::CUWFalcons.Droid.Resource.Attribute.fontWeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.foregroundInsidePadding = global::CUWFalcons.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.gapBetweenBars = global::CUWFalcons.Droid.Resource.Attribute.gapBetweenBars;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.goIcon = global::CUWFalcons.Droid.Resource.Attribute.goIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.headerLayout = global::CUWFalcons.Droid.Resource.Attribute.headerLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.height = global::CUWFalcons.Droid.Resource.Attribute.height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.helperText = global::CUWFalcons.Droid.Resource.Attribute.helperText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.helperTextEnabled = global::CUWFalcons.Droid.Resource.Attribute.helperTextEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.helperTextTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.hideMotionSpec = global::CUWFalcons.Droid.Resource.Attribute.hideMotionSpec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.hideOnContentScroll = global::CUWFalcons.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.hideOnScroll = global::CUWFalcons.Droid.Resource.Attribute.hideOnScroll;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.hintAnimationEnabled = global::CUWFalcons.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.hintEnabled = global::CUWFalcons.Droid.Resource.Attribute.hintEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.hintTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.hintTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.homeAsUpIndicator = global::CUWFalcons.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.homeLayout = global::CUWFalcons.Droid.Resource.Attribute.homeLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.hoveredFocusedTranslationZ = global::CUWFalcons.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.icon = global::CUWFalcons.Droid.Resource.Attribute.icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.iconEndPadding = global::CUWFalcons.Droid.Resource.Attribute.iconEndPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.iconGravity = global::CUWFalcons.Droid.Resource.Attribute.iconGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.iconifiedByDefault = global::CUWFalcons.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.iconPadding = global::CUWFalcons.Droid.Resource.Attribute.iconPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.iconSize = global::CUWFalcons.Droid.Resource.Attribute.iconSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.iconStartPadding = global::CUWFalcons.Droid.Resource.Attribute.iconStartPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.iconTint = global::CUWFalcons.Droid.Resource.Attribute.iconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.iconTintMode = global::CUWFalcons.Droid.Resource.Attribute.iconTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.imageButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.imageButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.indeterminateProgressStyle = global::CUWFalcons.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.initialActivityCount = global::CUWFalcons.Droid.Resource.Attribute.initialActivityCount;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.insetForeground = global::CUWFalcons.Droid.Resource.Attribute.insetForeground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.isLightTheme = global::CUWFalcons.Droid.Resource.Attribute.isLightTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemBackground = global::CUWFalcons.Droid.Resource.Attribute.itemBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemHorizontalPadding = global::CUWFalcons.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemHorizontalTranslationEnabled = global::CUWFalcons.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemIconPadding = global::CUWFalcons.Droid.Resource.Attribute.itemIconPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemIconSize = global::CUWFalcons.Droid.Resource.Attribute.itemIconSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemIconTint = global::CUWFalcons.Droid.Resource.Attribute.itemIconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemPadding = global::CUWFalcons.Droid.Resource.Attribute.itemPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemSpacing = global::CUWFalcons.Droid.Resource.Attribute.itemSpacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.itemTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemTextAppearanceActive = global::CUWFalcons.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemTextAppearanceInactive = global::CUWFalcons.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.itemTextColor = global::CUWFalcons.Droid.Resource.Attribute.itemTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.keylines = global::CUWFalcons.Droid.Resource.Attribute.keylines;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.labelVisibilityMode = global::CUWFalcons.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.lastBaselineToBottomHeight = global::CUWFalcons.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout = global::CUWFalcons.Droid.Resource.Attribute.layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layoutManager = global::CUWFalcons.Droid.Resource.Attribute.layoutManager;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_anchor = global::CUWFalcons.Droid.Resource.Attribute.layout_anchor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_anchorGravity = global::CUWFalcons.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_behavior = global::CUWFalcons.Droid.Resource.Attribute.layout_behavior;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_collapseMode = global::CUWFalcons.Droid.Resource.Attribute.layout_collapseMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_collapseParallaxMultiplier = global::CUWFalcons.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_dodgeInsetEdges = global::CUWFalcons.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_insetEdge = global::CUWFalcons.Droid.Resource.Attribute.layout_insetEdge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_keyline = global::CUWFalcons.Droid.Resource.Attribute.layout_keyline;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_scrollFlags = global::CUWFalcons.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.layout_scrollInterpolator = global::CUWFalcons.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.liftOnScroll = global::CUWFalcons.Droid.Resource.Attribute.liftOnScroll;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.lineHeight = global::CUWFalcons.Droid.Resource.Attribute.lineHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.lineSpacing = global::CUWFalcons.Droid.Resource.Attribute.lineSpacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listChoiceBackgroundIndicator = global::CUWFalcons.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listDividerAlertDialog = global::CUWFalcons.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listItemLayout = global::CUWFalcons.Droid.Resource.Attribute.listItemLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listLayout = global::CUWFalcons.Droid.Resource.Attribute.listLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listMenuViewStyle = global::CUWFalcons.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listPopupWindowStyle = global::CUWFalcons.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listPreferredItemHeight = global::CUWFalcons.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listPreferredItemHeightLarge = global::CUWFalcons.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listPreferredItemHeightSmall = global::CUWFalcons.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listPreferredItemPaddingLeft = global::CUWFalcons.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.listPreferredItemPaddingRight = global::CUWFalcons.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.logo = global::CUWFalcons.Droid.Resource.Attribute.logo;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.logoDescription = global::CUWFalcons.Droid.Resource.Attribute.logoDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.materialButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.materialButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.materialCardViewStyle = global::CUWFalcons.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.maxActionInlineWidth = global::CUWFalcons.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.maxButtonHeight = global::CUWFalcons.Droid.Resource.Attribute.maxButtonHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.maxImageSize = global::CUWFalcons.Droid.Resource.Attribute.maxImageSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.measureWithLargestChild = global::CUWFalcons.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.menu = global::CUWFalcons.Droid.Resource.Attribute.menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.multiChoiceItemLayout = global::CUWFalcons.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.navigationContentDescription = global::CUWFalcons.Droid.Resource.Attribute.navigationContentDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.navigationIcon = global::CUWFalcons.Droid.Resource.Attribute.navigationIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.navigationMode = global::CUWFalcons.Droid.Resource.Attribute.navigationMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.navigationViewStyle = global::CUWFalcons.Droid.Resource.Attribute.navigationViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.numericModifiers = global::CUWFalcons.Droid.Resource.Attribute.numericModifiers;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.overlapAnchor = global::CUWFalcons.Droid.Resource.Attribute.overlapAnchor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.paddingBottomNoButtons = global::CUWFalcons.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.paddingEnd = global::CUWFalcons.Droid.Resource.Attribute.paddingEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.paddingStart = global::CUWFalcons.Droid.Resource.Attribute.paddingStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.paddingTopNoTitle = global::CUWFalcons.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.panelBackground = global::CUWFalcons.Droid.Resource.Attribute.panelBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.panelMenuListTheme = global::CUWFalcons.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.panelMenuListWidth = global::CUWFalcons.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.passwordToggleContentDescription = global::CUWFalcons.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.passwordToggleDrawable = global::CUWFalcons.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.passwordToggleEnabled = global::CUWFalcons.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.passwordToggleTint = global::CUWFalcons.Droid.Resource.Attribute.passwordToggleTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.passwordToggleTintMode = global::CUWFalcons.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.popupMenuStyle = global::CUWFalcons.Droid.Resource.Attribute.popupMenuStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.popupTheme = global::CUWFalcons.Droid.Resource.Attribute.popupTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.popupWindowStyle = global::CUWFalcons.Droid.Resource.Attribute.popupWindowStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.preserveIconSpacing = global::CUWFalcons.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.pressedTranslationZ = global::CUWFalcons.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.progressBarPadding = global::CUWFalcons.Droid.Resource.Attribute.progressBarPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.progressBarStyle = global::CUWFalcons.Droid.Resource.Attribute.progressBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.queryBackground = global::CUWFalcons.Droid.Resource.Attribute.queryBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.queryHint = global::CUWFalcons.Droid.Resource.Attribute.queryHint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.radioButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.radioButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.ratingBarStyle = global::CUWFalcons.Droid.Resource.Attribute.ratingBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.ratingBarStyleIndicator = global::CUWFalcons.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.ratingBarStyleSmall = global::CUWFalcons.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.reverseLayout = global::CUWFalcons.Droid.Resource.Attribute.reverseLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.rippleColor = global::CUWFalcons.Droid.Resource.Attribute.rippleColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.scrimAnimationDuration = global::CUWFalcons.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.scrimBackground = global::CUWFalcons.Droid.Resource.Attribute.scrimBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.scrimVisibleHeightTrigger = global::CUWFalcons.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.searchHintIcon = global::CUWFalcons.Droid.Resource.Attribute.searchHintIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.searchIcon = global::CUWFalcons.Droid.Resource.Attribute.searchIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.searchViewStyle = global::CUWFalcons.Droid.Resource.Attribute.searchViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.seekBarStyle = global::CUWFalcons.Droid.Resource.Attribute.seekBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.selectableItemBackground = global::CUWFalcons.Droid.Resource.Attribute.selectableItemBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.selectableItemBackgroundBorderless = global::CUWFalcons.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.showAsAction = global::CUWFalcons.Droid.Resource.Attribute.showAsAction;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.showDividers = global::CUWFalcons.Droid.Resource.Attribute.showDividers;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.showMotionSpec = global::CUWFalcons.Droid.Resource.Attribute.showMotionSpec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.showText = global::CUWFalcons.Droid.Resource.Attribute.showText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.showTitle = global::CUWFalcons.Droid.Resource.Attribute.showTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.singleChoiceItemLayout = global::CUWFalcons.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.singleLine = global::CUWFalcons.Droid.Resource.Attribute.singleLine;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.singleSelection = global::CUWFalcons.Droid.Resource.Attribute.singleSelection;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.snackbarButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.snackbarStyle = global::CUWFalcons.Droid.Resource.Attribute.snackbarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.spanCount = global::CUWFalcons.Droid.Resource.Attribute.spanCount;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.spinBars = global::CUWFalcons.Droid.Resource.Attribute.spinBars;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.spinnerDropDownItemStyle = global::CUWFalcons.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.spinnerStyle = global::CUWFalcons.Droid.Resource.Attribute.spinnerStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.splitTrack = global::CUWFalcons.Droid.Resource.Attribute.splitTrack;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.srcCompat = global::CUWFalcons.Droid.Resource.Attribute.srcCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.stackFromEnd = global::CUWFalcons.Droid.Resource.Attribute.stackFromEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.state_above_anchor = global::CUWFalcons.Droid.Resource.Attribute.state_above_anchor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.state_collapsed = global::CUWFalcons.Droid.Resource.Attribute.state_collapsed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.state_collapsible = global::CUWFalcons.Droid.Resource.Attribute.state_collapsible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.state_liftable = global::CUWFalcons.Droid.Resource.Attribute.state_liftable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.state_lifted = global::CUWFalcons.Droid.Resource.Attribute.state_lifted;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.statusBarBackground = global::CUWFalcons.Droid.Resource.Attribute.statusBarBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.statusBarScrim = global::CUWFalcons.Droid.Resource.Attribute.statusBarScrim;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.strokeColor = global::CUWFalcons.Droid.Resource.Attribute.strokeColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.strokeWidth = global::CUWFalcons.Droid.Resource.Attribute.strokeWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.subMenuArrow = global::CUWFalcons.Droid.Resource.Attribute.subMenuArrow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.submitBackground = global::CUWFalcons.Droid.Resource.Attribute.submitBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.subtitle = global::CUWFalcons.Droid.Resource.Attribute.subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.subtitleTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.subtitleTextColor = global::CUWFalcons.Droid.Resource.Attribute.subtitleTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.subtitleTextStyle = global::CUWFalcons.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.suggestionRowLayout = global::CUWFalcons.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.switchMinWidth = global::CUWFalcons.Droid.Resource.Attribute.switchMinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.switchPadding = global::CUWFalcons.Droid.Resource.Attribute.switchPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.switchStyle = global::CUWFalcons.Droid.Resource.Attribute.switchStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.switchTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.switchTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabBackground = global::CUWFalcons.Droid.Resource.Attribute.tabBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabContentStart = global::CUWFalcons.Droid.Resource.Attribute.tabContentStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabGravity = global::CUWFalcons.Droid.Resource.Attribute.tabGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabIconTint = global::CUWFalcons.Droid.Resource.Attribute.tabIconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabIconTintMode = global::CUWFalcons.Droid.Resource.Attribute.tabIconTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabIndicator = global::CUWFalcons.Droid.Resource.Attribute.tabIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabIndicatorAnimationDuration = global::CUWFalcons.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabIndicatorColor = global::CUWFalcons.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabIndicatorFullWidth = global::CUWFalcons.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabIndicatorGravity = global::CUWFalcons.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabIndicatorHeight = global::CUWFalcons.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabInlineLabel = global::CUWFalcons.Droid.Resource.Attribute.tabInlineLabel;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabMaxWidth = global::CUWFalcons.Droid.Resource.Attribute.tabMaxWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabMinWidth = global::CUWFalcons.Droid.Resource.Attribute.tabMinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabMode = global::CUWFalcons.Droid.Resource.Attribute.tabMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabPadding = global::CUWFalcons.Droid.Resource.Attribute.tabPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabPaddingBottom = global::CUWFalcons.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabPaddingEnd = global::CUWFalcons.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabPaddingStart = global::CUWFalcons.Droid.Resource.Attribute.tabPaddingStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabPaddingTop = global::CUWFalcons.Droid.Resource.Attribute.tabPaddingTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabRippleColor = global::CUWFalcons.Droid.Resource.Attribute.tabRippleColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabSelectedTextColor = global::CUWFalcons.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabStyle = global::CUWFalcons.Droid.Resource.Attribute.tabStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.tabTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabTextColor = global::CUWFalcons.Droid.Resource.Attribute.tabTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tabUnboundedRipple = global::CUWFalcons.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAllCaps = global::CUWFalcons.Droid.Resource.Attribute.textAllCaps;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceBody1 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceBody2 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceButton = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceCaption = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceHeadline1 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceHeadline2 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceHeadline3 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceHeadline4 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceHeadline5 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceHeadline6 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceLargePopupMenu = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceListItem = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceListItemSecondary = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceListItemSmall = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceOverline = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearancePopupMenuHeader = global::CUWFalcons.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceSearchResultSubtitle = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceSearchResultTitle = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceSmallPopupMenu = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceSubtitle1 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textAppearanceSubtitle2 = global::CUWFalcons.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textColorAlertDialogListItem = global::CUWFalcons.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textColorSearchUrl = global::CUWFalcons.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textEndPadding = global::CUWFalcons.Droid.Resource.Attribute.textEndPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textInputStyle = global::CUWFalcons.Droid.Resource.Attribute.textInputStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.textStartPadding = global::CUWFalcons.Droid.Resource.Attribute.textStartPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.theme = global::CUWFalcons.Droid.Resource.Attribute.theme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.thickness = global::CUWFalcons.Droid.Resource.Attribute.thickness;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.thumbTextPadding = global::CUWFalcons.Droid.Resource.Attribute.thumbTextPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.thumbTint = global::CUWFalcons.Droid.Resource.Attribute.thumbTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.thumbTintMode = global::CUWFalcons.Droid.Resource.Attribute.thumbTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tickMark = global::CUWFalcons.Droid.Resource.Attribute.tickMark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tickMarkTint = global::CUWFalcons.Droid.Resource.Attribute.tickMarkTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tickMarkTintMode = global::CUWFalcons.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tint = global::CUWFalcons.Droid.Resource.Attribute.tint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tintMode = global::CUWFalcons.Droid.Resource.Attribute.tintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.title = global::CUWFalcons.Droid.Resource.Attribute.title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleEnabled = global::CUWFalcons.Droid.Resource.Attribute.titleEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleMargin = global::CUWFalcons.Droid.Resource.Attribute.titleMargin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleMarginBottom = global::CUWFalcons.Droid.Resource.Attribute.titleMarginBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleMarginEnd = global::CUWFalcons.Droid.Resource.Attribute.titleMarginEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleMargins = global::CUWFalcons.Droid.Resource.Attribute.titleMargins;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleMarginStart = global::CUWFalcons.Droid.Resource.Attribute.titleMarginStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleMarginTop = global::CUWFalcons.Droid.Resource.Attribute.titleMarginTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleTextAppearance = global::CUWFalcons.Droid.Resource.Attribute.titleTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleTextColor = global::CUWFalcons.Droid.Resource.Attribute.titleTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.titleTextStyle = global::CUWFalcons.Droid.Resource.Attribute.titleTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.toolbarId = global::CUWFalcons.Droid.Resource.Attribute.toolbarId;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.toolbarNavigationButtonStyle = global::CUWFalcons.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.toolbarStyle = global::CUWFalcons.Droid.Resource.Attribute.toolbarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tooltipForegroundColor = global::CUWFalcons.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tooltipFrameBackground = global::CUWFalcons.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.tooltipText = global::CUWFalcons.Droid.Resource.Attribute.tooltipText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.track = global::CUWFalcons.Droid.Resource.Attribute.track;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.trackTint = global::CUWFalcons.Droid.Resource.Attribute.trackTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.trackTintMode = global::CUWFalcons.Droid.Resource.Attribute.trackTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.ttcIndex = global::CUWFalcons.Droid.Resource.Attribute.ttcIndex;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.useCompatPadding = global::CUWFalcons.Droid.Resource.Attribute.useCompatPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.viewInflaterClass = global::CUWFalcons.Droid.Resource.Attribute.viewInflaterClass;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.voiceIcon = global::CUWFalcons.Droid.Resource.Attribute.voiceIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowActionBar = global::CUWFalcons.Droid.Resource.Attribute.windowActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowActionBarOverlay = global::CUWFalcons.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowActionModeOverlay = global::CUWFalcons.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowFixedHeightMajor = global::CUWFalcons.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowFixedHeightMinor = global::CUWFalcons.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowFixedWidthMajor = global::CUWFalcons.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowFixedWidthMinor = global::CUWFalcons.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowMinWidthMajor = global::CUWFalcons.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowMinWidthMinor = global::CUWFalcons.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Attribute.windowNoTitle = global::CUWFalcons.Droid.Resource.Attribute.windowNoTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Boolean.abc_action_bar_embed_tabs = global::CUWFalcons.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::CUWFalcons.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::CUWFalcons.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_background_cache_hint_selector_material_dark = global::CUWFalcons.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_background_cache_hint_selector_material_light = global::CUWFalcons.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_btn_colored_borderless_text_material = global::CUWFalcons.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_btn_colored_text_material = global::CUWFalcons.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_color_highlight_material = global::CUWFalcons.Droid.Resource.Color.abc_color_highlight_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_hint_foreground_material_dark = global::CUWFalcons.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_hint_foreground_material_light = global::CUWFalcons.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_primary_text_disable_only_material_dark = global::CUWFalcons.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_primary_text_disable_only_material_light = global::CUWFalcons.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_primary_text_material_dark = global::CUWFalcons.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_primary_text_material_light = global::CUWFalcons.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_search_url_text = global::CUWFalcons.Droid.Resource.Color.abc_search_url_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_search_url_text_normal = global::CUWFalcons.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_search_url_text_pressed = global::CUWFalcons.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_search_url_text_selected = global::CUWFalcons.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_secondary_text_material_dark = global::CUWFalcons.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_secondary_text_material_light = global::CUWFalcons.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_tint_btn_checkable = global::CUWFalcons.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_tint_default = global::CUWFalcons.Droid.Resource.Color.abc_tint_default;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_tint_edittext = global::CUWFalcons.Droid.Resource.Color.abc_tint_edittext;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_tint_seek_thumb = global::CUWFalcons.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_tint_spinner = global::CUWFalcons.Droid.Resource.Color.abc_tint_spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.abc_tint_switch_track = global::CUWFalcons.Droid.Resource.Color.abc_tint_switch_track;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.accent_material_dark = global::CUWFalcons.Droid.Resource.Color.accent_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.accent_material_light = global::CUWFalcons.Droid.Resource.Color.accent_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.background_floating_material_dark = global::CUWFalcons.Droid.Resource.Color.background_floating_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.background_floating_material_light = global::CUWFalcons.Droid.Resource.Color.background_floating_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.background_material_dark = global::CUWFalcons.Droid.Resource.Color.background_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.background_material_light = global::CUWFalcons.Droid.Resource.Color.background_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.bright_foreground_disabled_material_dark = global::CUWFalcons.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.bright_foreground_disabled_material_light = global::CUWFalcons.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.bright_foreground_inverse_material_dark = global::CUWFalcons.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.bright_foreground_inverse_material_light = global::CUWFalcons.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.bright_foreground_material_dark = global::CUWFalcons.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.bright_foreground_material_light = global::CUWFalcons.Droid.Resource.Color.bright_foreground_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.browser_actions_bg_grey = global::CUWFalcons.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.browser_actions_divider_color = global::CUWFalcons.Droid.Resource.Color.browser_actions_divider_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.browser_actions_text_color = global::CUWFalcons.Droid.Resource.Color.browser_actions_text_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.browser_actions_title_color = global::CUWFalcons.Droid.Resource.Color.browser_actions_title_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.button_material_dark = global::CUWFalcons.Droid.Resource.Color.button_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.button_material_light = global::CUWFalcons.Droid.Resource.Color.button_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.cardview_dark_background = global::CUWFalcons.Droid.Resource.Color.cardview_dark_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.cardview_light_background = global::CUWFalcons.Droid.Resource.Color.cardview_light_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.cardview_shadow_end_color = global::CUWFalcons.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.cardview_shadow_start_color = global::CUWFalcons.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_bottom_navigation_shadow_color = global::CUWFalcons.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_default_color_primary = global::CUWFalcons.Droid.Resource.Color.design_default_color_primary;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_default_color_primary_dark = global::CUWFalcons.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_error = global::CUWFalcons.Droid.Resource.Color.design_error;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_fab_shadow_end_color = global::CUWFalcons.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_fab_shadow_mid_color = global::CUWFalcons.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_fab_shadow_start_color = global::CUWFalcons.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_fab_stroke_end_inner_color = global::CUWFalcons.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_fab_stroke_end_outer_color = global::CUWFalcons.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_fab_stroke_top_inner_color = global::CUWFalcons.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_fab_stroke_top_outer_color = global::CUWFalcons.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.design_snackbar_background_color = global::CUWFalcons.Droid.Resource.Color.design_snackbar_background_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.dim_foreground_disabled_material_dark = global::CUWFalcons.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.dim_foreground_disabled_material_light = global::CUWFalcons.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.dim_foreground_material_dark = global::CUWFalcons.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.dim_foreground_material_light = global::CUWFalcons.Droid.Resource.Color.dim_foreground_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.error_color_material_dark = global::CUWFalcons.Droid.Resource.Color.error_color_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.error_color_material_light = global::CUWFalcons.Droid.Resource.Color.error_color_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.foreground_material_dark = global::CUWFalcons.Droid.Resource.Color.foreground_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.foreground_material_light = global::CUWFalcons.Droid.Resource.Color.foreground_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.highlighted_text_material_dark = global::CUWFalcons.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.highlighted_text_material_light = global::CUWFalcons.Droid.Resource.Color.highlighted_text_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_blue_grey_800 = global::CUWFalcons.Droid.Resource.Color.material_blue_grey_800;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_blue_grey_900 = global::CUWFalcons.Droid.Resource.Color.material_blue_grey_900;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_blue_grey_950 = global::CUWFalcons.Droid.Resource.Color.material_blue_grey_950;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_deep_teal_200 = global::CUWFalcons.Droid.Resource.Color.material_deep_teal_200;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_deep_teal_500 = global::CUWFalcons.Droid.Resource.Color.material_deep_teal_500;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_grey_100 = global::CUWFalcons.Droid.Resource.Color.material_grey_100;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_grey_300 = global::CUWFalcons.Droid.Resource.Color.material_grey_300;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_grey_50 = global::CUWFalcons.Droid.Resource.Color.material_grey_50;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_grey_600 = global::CUWFalcons.Droid.Resource.Color.material_grey_600;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_grey_800 = global::CUWFalcons.Droid.Resource.Color.material_grey_800;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_grey_850 = global::CUWFalcons.Droid.Resource.Color.material_grey_850;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.material_grey_900 = global::CUWFalcons.Droid.Resource.Color.material_grey_900;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_btn_bg_color_selector = global::CUWFalcons.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_btn_ripple_color = global::CUWFalcons.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_btn_stroke_color_selector = global::CUWFalcons.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_btn_text_btn_ripple_color = global::CUWFalcons.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_btn_text_color_disabled = global::CUWFalcons.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_btn_text_color_selector = global::CUWFalcons.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_btn_transparent_bg_color = global::CUWFalcons.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_chip_background_color = global::CUWFalcons.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_chip_close_icon_tint = global::CUWFalcons.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_chip_text_color = global::CUWFalcons.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_fab_ripple_color = global::CUWFalcons.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_scrim_color = global::CUWFalcons.Droid.Resource.Color.mtrl_scrim_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_tabs_colored_ripple_color = global::CUWFalcons.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_tabs_icon_color_selector = global::CUWFalcons.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::CUWFalcons.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::CUWFalcons.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_tabs_ripple_color = global::CUWFalcons.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_textinput_default_box_stroke_color = global::CUWFalcons.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_textinput_disabled_color = global::CUWFalcons.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::CUWFalcons.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::CUWFalcons.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.mtrl_text_btn_text_color_selector = global::CUWFalcons.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.notification_action_color_filter = global::CUWFalcons.Droid.Resource.Color.notification_action_color_filter;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.notification_icon_bg_color = global::CUWFalcons.Droid.Resource.Color.notification_icon_bg_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.notification_material_background_media_default_color = global::CUWFalcons.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.primary_dark_material_dark = global::CUWFalcons.Droid.Resource.Color.primary_dark_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.primary_dark_material_light = global::CUWFalcons.Droid.Resource.Color.primary_dark_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.primary_material_dark = global::CUWFalcons.Droid.Resource.Color.primary_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.primary_material_light = global::CUWFalcons.Droid.Resource.Color.primary_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.primary_text_default_material_dark = global::CUWFalcons.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.primary_text_default_material_light = global::CUWFalcons.Droid.Resource.Color.primary_text_default_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.primary_text_disabled_material_dark = global::CUWFalcons.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.primary_text_disabled_material_light = global::CUWFalcons.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.ripple_material_dark = global::CUWFalcons.Droid.Resource.Color.ripple_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.ripple_material_light = global::CUWFalcons.Droid.Resource.Color.ripple_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.secondary_text_default_material_dark = global::CUWFalcons.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.secondary_text_default_material_light = global::CUWFalcons.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.secondary_text_disabled_material_dark = global::CUWFalcons.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.secondary_text_disabled_material_light = global::CUWFalcons.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.switch_thumb_disabled_material_dark = global::CUWFalcons.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.switch_thumb_disabled_material_light = global::CUWFalcons.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.switch_thumb_material_dark = global::CUWFalcons.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.switch_thumb_material_light = global::CUWFalcons.Droid.Resource.Color.switch_thumb_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.switch_thumb_normal_material_dark = global::CUWFalcons.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.switch_thumb_normal_material_light = global::CUWFalcons.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.tooltip_background_dark = global::CUWFalcons.Droid.Resource.Color.tooltip_background_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Color.tooltip_background_light = global::CUWFalcons.Droid.Resource.Color.tooltip_background_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_content_inset_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_default_height_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_default_padding_end_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_default_padding_start_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_elevation_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_stacked_max_height = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_button_min_height_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_button_min_width_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_action_button_min_width_overflow_material = global::CUWFalcons.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_alert_dialog_button_bar_height = global::CUWFalcons.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_alert_dialog_button_dimen = global::CUWFalcons.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_button_inset_horizontal_material = global::CUWFalcons.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_button_inset_vertical_material = global::CUWFalcons.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_button_padding_horizontal_material = global::CUWFalcons.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_button_padding_vertical_material = global::CUWFalcons.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::CUWFalcons.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_config_prefDialogWidth = global::CUWFalcons.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_control_corner_material = global::CUWFalcons.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_control_inset_material = global::CUWFalcons.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_control_padding_material = global::CUWFalcons.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_corner_radius_material = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_fixed_height_major = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_fixed_height_minor = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_fixed_width_major = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_fixed_width_minor = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_min_width_major = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_min_width_minor = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_padding_material = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_padding_top_material = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dialog_title_divider_material = global::CUWFalcons.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_disabled_alpha_material_dark = global::CUWFalcons.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_disabled_alpha_material_light = global::CUWFalcons.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dropdownitem_icon_width = global::CUWFalcons.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dropdownitem_text_padding_left = global::CUWFalcons.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_dropdownitem_text_padding_right = global::CUWFalcons.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_edit_text_inset_bottom_material = global::CUWFalcons.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::CUWFalcons.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_edit_text_inset_top_material = global::CUWFalcons.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_floating_window_z = global::CUWFalcons.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_list_item_padding_horizontal_material = global::CUWFalcons.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_panel_menu_list_width = global::CUWFalcons.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_progress_bar_height_material = global::CUWFalcons.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_search_view_preferred_height = global::CUWFalcons.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_search_view_preferred_width = global::CUWFalcons.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_seekbar_track_background_height_material = global::CUWFalcons.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_seekbar_track_progress_height_material = global::CUWFalcons.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_select_dialog_padding_start_material = global::CUWFalcons.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_switch_padding = global::CUWFalcons.Droid.Resource.Dimension.abc_switch_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_body_1_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_body_2_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_button_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_caption_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_display_1_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_display_2_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_display_3_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_display_4_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_headline_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_large_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_medium_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_menu_header_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_menu_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_small_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_subhead_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_title_material = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.abc_text_size_title_material_toolbar = global::CUWFalcons.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.browser_actions_context_menu_max_width = global::CUWFalcons.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.browser_actions_context_menu_min_padding = global::CUWFalcons.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.cardview_compat_inset_shadow = global::CUWFalcons.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.cardview_default_elevation = global::CUWFalcons.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.cardview_default_radius = global::CUWFalcons.Droid.Resource.Dimension.cardview_default_radius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.compat_button_inset_horizontal_material = global::CUWFalcons.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.compat_button_inset_vertical_material = global::CUWFalcons.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.compat_button_padding_horizontal_material = global::CUWFalcons.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.compat_button_padding_vertical_material = global::CUWFalcons.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.compat_control_corner_material = global::CUWFalcons.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.compat_notification_large_icon_max_height = global::CUWFalcons.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.compat_notification_large_icon_max_width = global::CUWFalcons.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_appbar_elevation = global::CUWFalcons.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_active_text_size = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_elevation = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_height = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_icon_size = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_item_max_width = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_item_min_width = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_margin = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_shadow_height = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_navigation_text_size = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_sheet_modal_elevation = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_bottom_sheet_peek_height_min = global::CUWFalcons.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_fab_border_width = global::CUWFalcons.Droid.Resource.Dimension.design_fab_border_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_fab_elevation = global::CUWFalcons.Droid.Resource.Dimension.design_fab_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_fab_image_size = global::CUWFalcons.Droid.Resource.Dimension.design_fab_image_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_fab_size_mini = global::CUWFalcons.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_fab_size_normal = global::CUWFalcons.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_fab_translation_z_hovered_focused = global::CUWFalcons.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_fab_translation_z_pressed = global::CUWFalcons.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_navigation_elevation = global::CUWFalcons.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_navigation_icon_padding = global::CUWFalcons.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_navigation_icon_size = global::CUWFalcons.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_navigation_item_horizontal_padding = global::CUWFalcons.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_navigation_item_icon_padding = global::CUWFalcons.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_navigation_max_width = global::CUWFalcons.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_navigation_padding_bottom = global::CUWFalcons.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_navigation_separator_vertical_padding = global::CUWFalcons.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_action_inline_max_width = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_background_corner_radius = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_elevation = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_max_width = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_min_width = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_padding_horizontal = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_padding_vertical = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_snackbar_text_size = global::CUWFalcons.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_tab_max_width = global::CUWFalcons.Droid.Resource.Dimension.design_tab_max_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_tab_scrollable_min_width = global::CUWFalcons.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_tab_text_size = global::CUWFalcons.Droid.Resource.Dimension.design_tab_text_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_tab_text_size_2line = global::CUWFalcons.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.design_textinput_caption_translate_y = global::CUWFalcons.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.disabled_alpha_material_dark = global::CUWFalcons.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.disabled_alpha_material_light = global::CUWFalcons.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.fastscroll_default_thickness = global::CUWFalcons.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.fastscroll_margin = global::CUWFalcons.Droid.Resource.Dimension.fastscroll_margin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.fastscroll_minimum_range = global::CUWFalcons.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.highlight_alpha_material_colored = global::CUWFalcons.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.highlight_alpha_material_dark = global::CUWFalcons.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.highlight_alpha_material_light = global::CUWFalcons.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.hint_alpha_material_dark = global::CUWFalcons.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.hint_alpha_material_light = global::CUWFalcons.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.hint_pressed_alpha_material_dark = global::CUWFalcons.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.hint_pressed_alpha_material_light = global::CUWFalcons.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CUWFalcons.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CUWFalcons.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CUWFalcons.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::CUWFalcons.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::CUWFalcons.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::CUWFalcons.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::CUWFalcons.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_bottomappbar_height = global::CUWFalcons.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_corner_radius = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_disabled_elevation = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_disabled_z = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_elevation = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_focused_z = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_hovered_z = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_icon_padding = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_inset = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_letter_spacing = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_padding_bottom = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_padding_left = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_padding_right = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_padding_top = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_pressed_z = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_stroke_size = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_text_size = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_btn_z = global::CUWFalcons.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_card_elevation = global::CUWFalcons.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_card_spacing = global::CUWFalcons.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_chip_pressed_translation_z = global::CUWFalcons.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_chip_text_size = global::CUWFalcons.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_fab_elevation = global::CUWFalcons.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::CUWFalcons.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_fab_translation_z_pressed = global::CUWFalcons.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_navigation_elevation = global::CUWFalcons.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::CUWFalcons.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_navigation_item_icon_padding = global::CUWFalcons.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::CUWFalcons.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_snackbar_margin = global::CUWFalcons.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::CUWFalcons.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::CUWFalcons.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::CUWFalcons.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::CUWFalcons.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::CUWFalcons.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::CUWFalcons.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.mtrl_toolbar_default_height = global::CUWFalcons.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_action_icon_size = global::CUWFalcons.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_action_text_size = global::CUWFalcons.Droid.Resource.Dimension.notification_action_text_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_big_circle_margin = global::CUWFalcons.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_content_margin_start = global::CUWFalcons.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_large_icon_height = global::CUWFalcons.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_large_icon_width = global::CUWFalcons.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_main_column_padding_top = global::CUWFalcons.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_media_narrow_margin = global::CUWFalcons.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_right_icon_size = global::CUWFalcons.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_right_side_padding_top = global::CUWFalcons.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_small_icon_background_padding = global::CUWFalcons.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_small_icon_size_as_large = global::CUWFalcons.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_subtext_size = global::CUWFalcons.Droid.Resource.Dimension.notification_subtext_size;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_top_pad = global::CUWFalcons.Droid.Resource.Dimension.notification_top_pad;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.notification_top_pad_large_text = global::CUWFalcons.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.tooltip_corner_radius = global::CUWFalcons.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.tooltip_horizontal_padding = global::CUWFalcons.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.tooltip_margin = global::CUWFalcons.Droid.Resource.Dimension.tooltip_margin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::CUWFalcons.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.tooltip_precise_anchor_threshold = global::CUWFalcons.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.tooltip_vertical_padding = global::CUWFalcons.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.tooltip_y_offset_non_touch = global::CUWFalcons.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Dimension.tooltip_y_offset_touch = global::CUWFalcons.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_action_bar_item_background_material = global::CUWFalcons.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_borderless_material = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_check_material = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_colored_material = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_default_mtrl_shape = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_radio_material = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::CUWFalcons.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_cab_background_internal_bg = global::CUWFalcons.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_cab_background_top_material = global::CUWFalcons.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_control_background_material = global::CUWFalcons.Droid.Resource.Drawable.abc_control_background_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_dialog_material_background = global::CUWFalcons.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_edit_text_material = global::CUWFalcons.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_ab_back_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_clear_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_go_search_api_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_menu_overflow_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_search_api_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ic_voice_search_api_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_item_background_holo_dark = global::CUWFalcons.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_item_background_holo_light = global::CUWFalcons.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_divider_material = global::CUWFalcons.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_divider_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_focused_holo = global::CUWFalcons.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_longpressed_holo = global::CUWFalcons.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_pressed_holo_dark = global::CUWFalcons.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_pressed_holo_light = global::CUWFalcons.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::CUWFalcons.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::CUWFalcons.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::CUWFalcons.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_selector_disabled_holo_light = global::CUWFalcons.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_selector_holo_dark = global::CUWFalcons.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_list_selector_holo_light = global::CUWFalcons.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::CUWFalcons.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_popup_background_mtrl_mult = global::CUWFalcons.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ratingbar_indicator_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ratingbar_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_ratingbar_small_material = global::CUWFalcons.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::CUWFalcons.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::CUWFalcons.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_seekbar_thumb_material = global::CUWFalcons.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_seekbar_tick_mark_material = global::CUWFalcons.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_seekbar_track_material = global::CUWFalcons.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_spinner_textfield_background_material = global::CUWFalcons.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_switch_thumb_material = global::CUWFalcons.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_switch_track_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_tab_indicator_material = global::CUWFalcons.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::CUWFalcons.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_textfield_search_material = global::CUWFalcons.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_text_cursor_material = global::CUWFalcons.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.abc_vector_test = global::CUWFalcons.Droid.Resource.Drawable.abc_vector_test;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.avd_hide_password = global::CUWFalcons.Droid.Resource.Drawable.avd_hide_password;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.avd_show_password = global::CUWFalcons.Droid.Resource.Drawable.avd_show_password;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.design_fab_background = global::CUWFalcons.Droid.Resource.Drawable.design_fab_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.design_ic_visibility = global::CUWFalcons.Droid.Resource.Drawable.design_ic_visibility;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.design_ic_visibility_off = global::CUWFalcons.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.design_password_eye = global::CUWFalcons.Droid.Resource.Drawable.design_password_eye;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.design_snackbar_background = global::CUWFalcons.Droid.Resource.Drawable.design_snackbar_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.ic_mtrl_chip_checked_black = global::CUWFalcons.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.ic_mtrl_chip_checked_circle = global::CUWFalcons.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.ic_mtrl_chip_close_circle = global::CUWFalcons.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.mtrl_tabs_default_indicator = global::CUWFalcons.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.navigation_empty_icon = global::CUWFalcons.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_action_background = global::CUWFalcons.Droid.Resource.Drawable.notification_action_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_bg = global::CUWFalcons.Droid.Resource.Drawable.notification_bg;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_bg_low = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_low;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_bg_low_normal = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_bg_low_pressed = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_bg_normal = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_normal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_bg_normal_pressed = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_icon_background = global::CUWFalcons.Droid.Resource.Drawable.notification_icon_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_template_icon_bg = global::CUWFalcons.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_template_icon_low_bg = global::CUWFalcons.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notification_tile_bg = global::CUWFalcons.Droid.Resource.Drawable.notification_tile_bg;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.notify_panel_notification_icon_bg = global::CUWFalcons.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.tooltip_frame_dark = global::CUWFalcons.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Drawable.tooltip_frame_light = global::CUWFalcons.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action0 = global::CUWFalcons.Droid.Resource.Id.action0;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.actions = global::CUWFalcons.Droid.Resource.Id.actions;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_bar = global::CUWFalcons.Droid.Resource.Id.action_bar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_bar_activity_content = global::CUWFalcons.Droid.Resource.Id.action_bar_activity_content;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_bar_container = global::CUWFalcons.Droid.Resource.Id.action_bar_container;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_bar_root = global::CUWFalcons.Droid.Resource.Id.action_bar_root;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_bar_spinner = global::CUWFalcons.Droid.Resource.Id.action_bar_spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_bar_subtitle = global::CUWFalcons.Droid.Resource.Id.action_bar_subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_bar_title = global::CUWFalcons.Droid.Resource.Id.action_bar_title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_container = global::CUWFalcons.Droid.Resource.Id.action_container;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_context_bar = global::CUWFalcons.Droid.Resource.Id.action_context_bar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_divider = global::CUWFalcons.Droid.Resource.Id.action_divider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_image = global::CUWFalcons.Droid.Resource.Id.action_image;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_menu_divider = global::CUWFalcons.Droid.Resource.Id.action_menu_divider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_menu_presenter = global::CUWFalcons.Droid.Resource.Id.action_menu_presenter;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_mode_bar = global::CUWFalcons.Droid.Resource.Id.action_mode_bar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_mode_bar_stub = global::CUWFalcons.Droid.Resource.Id.action_mode_bar_stub;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_mode_close_button = global::CUWFalcons.Droid.Resource.Id.action_mode_close_button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.action_text = global::CUWFalcons.Droid.Resource.Id.action_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.activity_chooser_view_content = global::CUWFalcons.Droid.Resource.Id.activity_chooser_view_content;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.add = global::CUWFalcons.Droid.Resource.Id.add;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.alertTitle = global::CUWFalcons.Droid.Resource.Id.alertTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.all = global::CUWFalcons.Droid.Resource.Id.all;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.ALT = global::CUWFalcons.Droid.Resource.Id.ALT;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.always = global::CUWFalcons.Droid.Resource.Id.always;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.async = global::CUWFalcons.Droid.Resource.Id.async;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.auto = global::CUWFalcons.Droid.Resource.Id.auto;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.beginning = global::CUWFalcons.Droid.Resource.Id.beginning;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.blocking = global::CUWFalcons.Droid.Resource.Id.blocking;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.bottom = global::CUWFalcons.Droid.Resource.Id.bottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.bottomtab_navarea = global::CUWFalcons.Droid.Resource.Id.bottomtab_navarea;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.bottomtab_tabbar = global::CUWFalcons.Droid.Resource.Id.bottomtab_tabbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.browser_actions_header_text = global::CUWFalcons.Droid.Resource.Id.browser_actions_header_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.browser_actions_menu_items = global::CUWFalcons.Droid.Resource.Id.browser_actions_menu_items;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.browser_actions_menu_item_icon = global::CUWFalcons.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.browser_actions_menu_item_text = global::CUWFalcons.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.browser_actions_menu_view = global::CUWFalcons.Droid.Resource.Id.browser_actions_menu_view;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.buttonPanel = global::CUWFalcons.Droid.Resource.Id.buttonPanel;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.cancel_action = global::CUWFalcons.Droid.Resource.Id.cancel_action;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.center = global::CUWFalcons.Droid.Resource.Id.center;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.center_horizontal = global::CUWFalcons.Droid.Resource.Id.center_horizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.center_vertical = global::CUWFalcons.Droid.Resource.Id.center_vertical;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.checkbox = global::CUWFalcons.Droid.Resource.Id.checkbox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.chronometer = global::CUWFalcons.Droid.Resource.Id.chronometer;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.clip_horizontal = global::CUWFalcons.Droid.Resource.Id.clip_horizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.clip_vertical = global::CUWFalcons.Droid.Resource.Id.clip_vertical;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.collapseActionView = global::CUWFalcons.Droid.Resource.Id.collapseActionView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.container = global::CUWFalcons.Droid.Resource.Id.container;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.content = global::CUWFalcons.Droid.Resource.Id.content;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.contentPanel = global::CUWFalcons.Droid.Resource.Id.contentPanel;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.coordinator = global::CUWFalcons.Droid.Resource.Id.coordinator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.CTRL = global::CUWFalcons.Droid.Resource.Id.CTRL;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.custom = global::CUWFalcons.Droid.Resource.Id.custom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.customPanel = global::CUWFalcons.Droid.Resource.Id.customPanel;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.decor_content_parent = global::CUWFalcons.Droid.Resource.Id.decor_content_parent;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.default_activity_button = global::CUWFalcons.Droid.Resource.Id.default_activity_button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.design_bottom_sheet = global::CUWFalcons.Droid.Resource.Id.design_bottom_sheet;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.design_menu_item_action_area = global::CUWFalcons.Droid.Resource.Id.design_menu_item_action_area;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.design_menu_item_action_area_stub = global::CUWFalcons.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.design_menu_item_text = global::CUWFalcons.Droid.Resource.Id.design_menu_item_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.design_navigation_view = global::CUWFalcons.Droid.Resource.Id.design_navigation_view;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.disableHome = global::CUWFalcons.Droid.Resource.Id.disableHome;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.edit_query = global::CUWFalcons.Droid.Resource.Id.edit_query;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.end = global::CUWFalcons.Droid.Resource.Id.end;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.end_padder = global::CUWFalcons.Droid.Resource.Id.end_padder;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.enterAlways = global::CUWFalcons.Droid.Resource.Id.enterAlways;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.enterAlwaysCollapsed = global::CUWFalcons.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.exitUntilCollapsed = global::CUWFalcons.Droid.Resource.Id.exitUntilCollapsed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.expanded_menu = global::CUWFalcons.Droid.Resource.Id.expanded_menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.expand_activities_button = global::CUWFalcons.Droid.Resource.Id.expand_activities_button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.fill = global::CUWFalcons.Droid.Resource.Id.fill;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.filled = global::CUWFalcons.Droid.Resource.Id.filled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.fill_horizontal = global::CUWFalcons.Droid.Resource.Id.fill_horizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.fill_vertical = global::CUWFalcons.Droid.Resource.Id.fill_vertical;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.@fixed = global::CUWFalcons.Droid.Resource.Id.@fixed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.flyoutcontent_appbar = global::CUWFalcons.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.forever = global::CUWFalcons.Droid.Resource.Id.forever;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.FUNCTION = global::CUWFalcons.Droid.Resource.Id.FUNCTION;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.ghost_view = global::CUWFalcons.Droid.Resource.Id.ghost_view;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.group_divider = global::CUWFalcons.Droid.Resource.Id.group_divider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.home = global::CUWFalcons.Droid.Resource.Id.home;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.homeAsUp = global::CUWFalcons.Droid.Resource.Id.homeAsUp;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.icon = global::CUWFalcons.Droid.Resource.Id.icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.icon_group = global::CUWFalcons.Droid.Resource.Id.icon_group;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.ifRoom = global::CUWFalcons.Droid.Resource.Id.ifRoom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.image = global::CUWFalcons.Droid.Resource.Id.image;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.info = global::CUWFalcons.Droid.Resource.Id.info;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.italic = global::CUWFalcons.Droid.Resource.Id.italic;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.item_touch_helper_previous_elevation = global::CUWFalcons.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.labeled = global::CUWFalcons.Droid.Resource.Id.labeled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.left = global::CUWFalcons.Droid.Resource.Id.left;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.line1 = global::CUWFalcons.Droid.Resource.Id.line1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.line3 = global::CUWFalcons.Droid.Resource.Id.line3;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.listMode = global::CUWFalcons.Droid.Resource.Id.listMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.list_item = global::CUWFalcons.Droid.Resource.Id.list_item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.main_appbar = global::CUWFalcons.Droid.Resource.Id.main_appbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.main_tablayout = global::CUWFalcons.Droid.Resource.Id.main_tablayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.main_toolbar = global::CUWFalcons.Droid.Resource.Id.main_toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.main_viewpager = global::CUWFalcons.Droid.Resource.Id.main_viewpager;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.masked = global::CUWFalcons.Droid.Resource.Id.masked;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.media_actions = global::CUWFalcons.Droid.Resource.Id.media_actions;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.message = global::CUWFalcons.Droid.Resource.Id.message;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.META = global::CUWFalcons.Droid.Resource.Id.META;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.middle = global::CUWFalcons.Droid.Resource.Id.middle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.mini = global::CUWFalcons.Droid.Resource.Id.mini;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.mtrl_child_content_container = global::CUWFalcons.Droid.Resource.Id.mtrl_child_content_container;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.mtrl_internal_children_alpha_tag = global::CUWFalcons.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.multiply = global::CUWFalcons.Droid.Resource.Id.multiply;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.navigation_header_container = global::CUWFalcons.Droid.Resource.Id.navigation_header_container;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.never = global::CUWFalcons.Droid.Resource.Id.never;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.none = global::CUWFalcons.Droid.Resource.Id.none;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.normal = global::CUWFalcons.Droid.Resource.Id.normal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.notification_background = global::CUWFalcons.Droid.Resource.Id.notification_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.notification_main_column = global::CUWFalcons.Droid.Resource.Id.notification_main_column;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.notification_main_column_container = global::CUWFalcons.Droid.Resource.Id.notification_main_column_container;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.outline = global::CUWFalcons.Droid.Resource.Id.outline;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.parallax = global::CUWFalcons.Droid.Resource.Id.parallax;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.parentPanel = global::CUWFalcons.Droid.Resource.Id.parentPanel;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.parent_matrix = global::CUWFalcons.Droid.Resource.Id.parent_matrix;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.pin = global::CUWFalcons.Droid.Resource.Id.pin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.progress_circular = global::CUWFalcons.Droid.Resource.Id.progress_circular;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.progress_horizontal = global::CUWFalcons.Droid.Resource.Id.progress_horizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.radio = global::CUWFalcons.Droid.Resource.Id.radio;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.right = global::CUWFalcons.Droid.Resource.Id.right;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.right_icon = global::CUWFalcons.Droid.Resource.Id.right_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.right_side = global::CUWFalcons.Droid.Resource.Id.right_side;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.save_non_transition_alpha = global::CUWFalcons.Droid.Resource.Id.save_non_transition_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.screen = global::CUWFalcons.Droid.Resource.Id.screen;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.scroll = global::CUWFalcons.Droid.Resource.Id.scroll;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.scrollable = global::CUWFalcons.Droid.Resource.Id.scrollable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.scrollIndicatorDown = global::CUWFalcons.Droid.Resource.Id.scrollIndicatorDown;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.scrollIndicatorUp = global::CUWFalcons.Droid.Resource.Id.scrollIndicatorUp;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.scrollView = global::CUWFalcons.Droid.Resource.Id.scrollView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_badge = global::CUWFalcons.Droid.Resource.Id.search_badge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_bar = global::CUWFalcons.Droid.Resource.Id.search_bar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_button = global::CUWFalcons.Droid.Resource.Id.search_button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_close_btn = global::CUWFalcons.Droid.Resource.Id.search_close_btn;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_edit_frame = global::CUWFalcons.Droid.Resource.Id.search_edit_frame;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_go_btn = global::CUWFalcons.Droid.Resource.Id.search_go_btn;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_mag_icon = global::CUWFalcons.Droid.Resource.Id.search_mag_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_plate = global::CUWFalcons.Droid.Resource.Id.search_plate;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_src_text = global::CUWFalcons.Droid.Resource.Id.search_src_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.search_voice_btn = global::CUWFalcons.Droid.Resource.Id.search_voice_btn;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.selected = global::CUWFalcons.Droid.Resource.Id.selected;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.select_dialog_listview = global::CUWFalcons.Droid.Resource.Id.select_dialog_listview;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.shellcontent_appbar = global::CUWFalcons.Droid.Resource.Id.shellcontent_appbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.shellcontent_toolbar = global::CUWFalcons.Droid.Resource.Id.shellcontent_toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.SHIFT = global::CUWFalcons.Droid.Resource.Id.SHIFT;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.shortcut = global::CUWFalcons.Droid.Resource.Id.shortcut;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.showCustom = global::CUWFalcons.Droid.Resource.Id.showCustom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.showHome = global::CUWFalcons.Droid.Resource.Id.showHome;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.showTitle = global::CUWFalcons.Droid.Resource.Id.showTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.snackbar_action = global::CUWFalcons.Droid.Resource.Id.snackbar_action;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.snackbar_text = global::CUWFalcons.Droid.Resource.Id.snackbar_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.snap = global::CUWFalcons.Droid.Resource.Id.snap;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.snapMargins = global::CUWFalcons.Droid.Resource.Id.snapMargins;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.spacer = global::CUWFalcons.Droid.Resource.Id.spacer;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.split_action_bar = global::CUWFalcons.Droid.Resource.Id.split_action_bar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.src_atop = global::CUWFalcons.Droid.Resource.Id.src_atop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.src_in = global::CUWFalcons.Droid.Resource.Id.src_in;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.src_over = global::CUWFalcons.Droid.Resource.Id.src_over;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.start = global::CUWFalcons.Droid.Resource.Id.start;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.status_bar_latest_event_content = global::CUWFalcons.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.stretch = global::CUWFalcons.Droid.Resource.Id.stretch;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.submenuarrow = global::CUWFalcons.Droid.Resource.Id.submenuarrow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.submit_area = global::CUWFalcons.Droid.Resource.Id.submit_area;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.SYM = global::CUWFalcons.Droid.Resource.Id.SYM;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.tabMode = global::CUWFalcons.Droid.Resource.Id.tabMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.tag_transition_group = global::CUWFalcons.Droid.Resource.Id.tag_transition_group;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.tag_unhandled_key_event_manager = global::CUWFalcons.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.tag_unhandled_key_listeners = global::CUWFalcons.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.text = global::CUWFalcons.Droid.Resource.Id.text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.text2 = global::CUWFalcons.Droid.Resource.Id.text2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.textinput_counter = global::CUWFalcons.Droid.Resource.Id.textinput_counter;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.textinput_error = global::CUWFalcons.Droid.Resource.Id.textinput_error;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.textinput_helper_text = global::CUWFalcons.Droid.Resource.Id.textinput_helper_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.textSpacerNoButtons = global::CUWFalcons.Droid.Resource.Id.textSpacerNoButtons;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.textSpacerNoTitle = global::CUWFalcons.Droid.Resource.Id.textSpacerNoTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.textStart = global::CUWFalcons.Droid.Resource.Id.textStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.time = global::CUWFalcons.Droid.Resource.Id.time;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.title = global::CUWFalcons.Droid.Resource.Id.title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.titleDividerNoCustom = global::CUWFalcons.Droid.Resource.Id.titleDividerNoCustom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.title_template = global::CUWFalcons.Droid.Resource.Id.title_template;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.top = global::CUWFalcons.Droid.Resource.Id.top;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.topPanel = global::CUWFalcons.Droid.Resource.Id.topPanel;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.touch_outside = global::CUWFalcons.Droid.Resource.Id.touch_outside;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.transition_current_scene = global::CUWFalcons.Droid.Resource.Id.transition_current_scene;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.transition_layout_save = global::CUWFalcons.Droid.Resource.Id.transition_layout_save;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.transition_position = global::CUWFalcons.Droid.Resource.Id.transition_position;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.transition_scene_layoutid_cache = global::CUWFalcons.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.transition_transform = global::CUWFalcons.Droid.Resource.Id.transition_transform;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.uniform = global::CUWFalcons.Droid.Resource.Id.uniform;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.unlabeled = global::CUWFalcons.Droid.Resource.Id.unlabeled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.up = global::CUWFalcons.Droid.Resource.Id.up;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.useLogo = global::CUWFalcons.Droid.Resource.Id.useLogo;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.view_offset_helper = global::CUWFalcons.Droid.Resource.Id.view_offset_helper;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.visible = global::CUWFalcons.Droid.Resource.Id.visible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.withText = global::CUWFalcons.Droid.Resource.Id.withText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Id.wrap_content = global::CUWFalcons.Droid.Resource.Id.wrap_content;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.abc_config_activityDefaultDur = global::CUWFalcons.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.abc_config_activityShortDur = global::CUWFalcons.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.app_bar_elevation_anim_duration = global::CUWFalcons.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.bottom_sheet_slide_duration = global::CUWFalcons.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.cancel_button_image_alpha = global::CUWFalcons.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.config_tooltipAnimTime = global::CUWFalcons.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.design_snackbar_text_max_lines = global::CUWFalcons.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.design_tab_indicator_anim_duration_ms = global::CUWFalcons.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.hide_password_duration = global::CUWFalcons.Droid.Resource.Integer.hide_password_duration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.mtrl_btn_anim_delay_ms = global::CUWFalcons.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.mtrl_btn_anim_duration_ms = global::CUWFalcons.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.mtrl_chip_anim_duration = global::CUWFalcons.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::CUWFalcons.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.show_password_duration = global::CUWFalcons.Droid.Resource.Integer.show_password_duration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Integer.status_bar_notification_info_maxnum = global::CUWFalcons.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Interpolator.mtrl_fast_out_linear_in = global::CUWFalcons.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Interpolator.mtrl_fast_out_slow_in = global::CUWFalcons.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Interpolator.mtrl_linear = global::CUWFalcons.Droid.Resource.Interpolator.mtrl_linear;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Interpolator.mtrl_linear_out_slow_in = global::CUWFalcons.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_action_bar_title_item = global::CUWFalcons.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_action_bar_up_container = global::CUWFalcons.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_action_menu_item_layout = global::CUWFalcons.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_action_menu_layout = global::CUWFalcons.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_action_mode_bar = global::CUWFalcons.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_action_mode_close_item_material = global::CUWFalcons.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_activity_chooser_view = global::CUWFalcons.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_activity_chooser_view_list_item = global::CUWFalcons.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_alert_dialog_button_bar_material = global::CUWFalcons.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_alert_dialog_material = global::CUWFalcons.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_alert_dialog_title_material = global::CUWFalcons.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_cascading_menu_item_layout = global::CUWFalcons.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_dialog_title_material = global::CUWFalcons.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_expanded_menu_layout = global::CUWFalcons.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_list_menu_item_checkbox = global::CUWFalcons.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_list_menu_item_icon = global::CUWFalcons.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_list_menu_item_layout = global::CUWFalcons.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_list_menu_item_radio = global::CUWFalcons.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_popup_menu_header_item_layout = global::CUWFalcons.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_popup_menu_item_layout = global::CUWFalcons.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_screen_content_include = global::CUWFalcons.Droid.Resource.Layout.abc_screen_content_include;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_screen_simple = global::CUWFalcons.Droid.Resource.Layout.abc_screen_simple;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_screen_simple_overlay_action_mode = global::CUWFalcons.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_screen_toolbar = global::CUWFalcons.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_search_dropdown_item_icons_2line = global::CUWFalcons.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_search_view = global::CUWFalcons.Droid.Resource.Layout.abc_search_view;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_select_dialog_material = global::CUWFalcons.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.abc_tooltip = global::CUWFalcons.Droid.Resource.Layout.abc_tooltip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.BottomTabLayout = global::CUWFalcons.Droid.Resource.Layout.BottomTabLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.browser_actions_context_menu_page = global::CUWFalcons.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.browser_actions_context_menu_row = global::CUWFalcons.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_bottom_navigation_item = global::CUWFalcons.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_bottom_sheet_dialog = global::CUWFalcons.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_layout_snackbar = global::CUWFalcons.Droid.Resource.Layout.design_layout_snackbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_layout_snackbar_include = global::CUWFalcons.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_layout_tab_icon = global::CUWFalcons.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_layout_tab_text = global::CUWFalcons.Droid.Resource.Layout.design_layout_tab_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_menu_item_action_area = global::CUWFalcons.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_navigation_item = global::CUWFalcons.Droid.Resource.Layout.design_navigation_item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_navigation_item_header = global::CUWFalcons.Droid.Resource.Layout.design_navigation_item_header;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_navigation_item_separator = global::CUWFalcons.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_navigation_item_subheader = global::CUWFalcons.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_navigation_menu = global::CUWFalcons.Droid.Resource.Layout.design_navigation_menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.design_navigation_menu_item = global::CUWFalcons.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.FlyoutContent = global::CUWFalcons.Droid.Resource.Layout.FlyoutContent;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.mtrl_layout_snackbar = global::CUWFalcons.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.mtrl_layout_snackbar_include = global::CUWFalcons.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_action = global::CUWFalcons.Droid.Resource.Layout.notification_action;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_action_tombstone = global::CUWFalcons.Droid.Resource.Layout.notification_action_tombstone;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_media_action = global::CUWFalcons.Droid.Resource.Layout.notification_media_action;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_media_cancel_action = global::CUWFalcons.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_big_media = global::CUWFalcons.Droid.Resource.Layout.notification_template_big_media;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_big_media_custom = global::CUWFalcons.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_big_media_narrow = global::CUWFalcons.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_big_media_narrow_custom = global::CUWFalcons.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_custom_big = global::CUWFalcons.Droid.Resource.Layout.notification_template_custom_big;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_icon_group = global::CUWFalcons.Droid.Resource.Layout.notification_template_icon_group;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_lines_media = global::CUWFalcons.Droid.Resource.Layout.notification_template_lines_media;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_media = global::CUWFalcons.Droid.Resource.Layout.notification_template_media;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_media_custom = global::CUWFalcons.Droid.Resource.Layout.notification_template_media_custom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_part_chronometer = global::CUWFalcons.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.notification_template_part_time = global::CUWFalcons.Droid.Resource.Layout.notification_template_part_time;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.RootLayout = global::CUWFalcons.Droid.Resource.Layout.RootLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.select_dialog_item_material = global::CUWFalcons.Droid.Resource.Layout.select_dialog_item_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.select_dialog_multichoice_material = global::CUWFalcons.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.select_dialog_singlechoice_material = global::CUWFalcons.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.ShellContent = global::CUWFalcons.Droid.Resource.Layout.ShellContent;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Layout.support_simple_spinner_dropdown_item = global::CUWFalcons.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_action_bar_home_description = global::CUWFalcons.Droid.Resource.String.abc_action_bar_home_description;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_action_bar_up_description = global::CUWFalcons.Droid.Resource.String.abc_action_bar_up_description;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_action_menu_overflow_description = global::CUWFalcons.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_action_mode_done = global::CUWFalcons.Droid.Resource.String.abc_action_mode_done;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_activitychooserview_choose_application = global::CUWFalcons.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_activity_chooser_view_see_all = global::CUWFalcons.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_capital_off = global::CUWFalcons.Droid.Resource.String.abc_capital_off;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_capital_on = global::CUWFalcons.Droid.Resource.String.abc_capital_on;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_alt_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_ctrl_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_delete_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_enter_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_function_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_meta_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_shift_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_space_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_menu_sym_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_prepend_shortcut_label = global::CUWFalcons.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_searchview_description_clear = global::CUWFalcons.Droid.Resource.String.abc_searchview_description_clear;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_searchview_description_query = global::CUWFalcons.Droid.Resource.String.abc_searchview_description_query;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_searchview_description_search = global::CUWFalcons.Droid.Resource.String.abc_searchview_description_search;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_searchview_description_submit = global::CUWFalcons.Droid.Resource.String.abc_searchview_description_submit;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_searchview_description_voice = global::CUWFalcons.Droid.Resource.String.abc_searchview_description_voice;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_search_hint = global::CUWFalcons.Droid.Resource.String.abc_search_hint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_shareactionprovider_share_with = global::CUWFalcons.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_shareactionprovider_share_with_application = global::CUWFalcons.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.abc_toolbar_collapse_description = global::CUWFalcons.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.appbar_scrolling_view_behavior = global::CUWFalcons.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.bottom_sheet_behavior = global::CUWFalcons.Droid.Resource.String.bottom_sheet_behavior;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.character_counter_content_description = global::CUWFalcons.Droid.Resource.String.character_counter_content_description;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.character_counter_pattern = global::CUWFalcons.Droid.Resource.String.character_counter_pattern;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.fab_transformation_scrim_behavior = global::CUWFalcons.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.fab_transformation_sheet_behavior = global::CUWFalcons.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.hide_bottom_view_on_scroll_behavior = global::CUWFalcons.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.mtrl_chip_close_icon_content_description = global::CUWFalcons.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.password_toggle_content_description = global::CUWFalcons.Droid.Resource.String.password_toggle_content_description;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.path_password_eye = global::CUWFalcons.Droid.Resource.String.path_password_eye;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.path_password_eye_mask_strike_through = global::CUWFalcons.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.path_password_eye_mask_visible = global::CUWFalcons.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.path_password_strike_through = global::CUWFalcons.Droid.Resource.String.path_password_strike_through;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.search_menu_title = global::CUWFalcons.Droid.Resource.String.search_menu_title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.String.status_bar_notification_info_overflow = global::CUWFalcons.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.AlertDialog_AppCompat = global::CUWFalcons.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.AlertDialog_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Animation_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Animation_AppCompat_DropDownUp = global::CUWFalcons.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Animation_AppCompat_Tooltip = global::CUWFalcons.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Animation_Design_BottomSheetDialog = global::CUWFalcons.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_AlertDialog_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_AlertDialog_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Animation_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::CUWFalcons.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Animation_AppCompat_Tooltip = global::CUWFalcons.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_CardView = global::CUWFalcons.Droid.Resource.Style.Base_CardView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_DialogWindowTitle_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Button = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Large = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Small = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Title = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::CUWFalcons.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_Theme_MaterialComponents = global::CUWFalcons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::CUWFalcons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::CUWFalcons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::CUWFalcons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CUWFalcons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V21_Theme_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V21_Theme_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V22_Theme_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V22_Theme_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V23_Theme_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V23_Theme_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V26_Theme_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V26_Theme_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::CUWFalcons.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V28_Theme_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V28_Theme_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V7_Theme_AppCompat = global::CUWFalcons.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V7_Theme_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::CUWFalcons.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::CUWFalcons.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::CUWFalcons.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::CUWFalcons.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionButton = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActionMode = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Button = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Button_Small = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_EditText = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ImageButton = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ListView = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_RatingBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_SearchView = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_SeekBar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Spinner = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Toolbar = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::CUWFalcons.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_Design_TabLayout = global::CUWFalcons.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_MaterialComponents_Chip = global::CUWFalcons.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::CUWFalcons.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::CUWFalcons.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.CardView = global::CUWFalcons.Droid.Resource.Style.CardView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.CardView_Dark = global::CUWFalcons.Droid.Resource.Style.CardView_Dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.CardView_Light = global::CUWFalcons.Droid.Resource.Style.CardView_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_AppCompat = global::CUWFalcons.Droid.Resource.Style.Platform_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_MaterialComponents = global::CUWFalcons.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_MaterialComponents_Dialog = global::CUWFalcons.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_MaterialComponents_Light = global::CUWFalcons.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::CUWFalcons.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_ThemeOverlay_AppCompat = global::CUWFalcons.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::CUWFalcons.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_V21_AppCompat = global::CUWFalcons.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_V21_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_V25_AppCompat = global::CUWFalcons.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_V25_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Platform_Widget_AppCompat_Spinner = global::CUWFalcons.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::CUWFalcons.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::CUWFalcons.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::CUWFalcons.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Body1 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Body2 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Button = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Caption = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Display1 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Display2 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Display3 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Display4 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Headline = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Large = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Medium = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Menu = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Small = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Subhead = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Title = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Tooltip = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::CUWFalcons.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Info = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Time = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Title = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Design_Counter = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Design_Counter_Overflow = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Design_Error = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Design_HelperText = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Design_Hint = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Design_Snackbar_Message = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Design_Tab = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Button = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Caption = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Chip = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Overline = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_AppCompat = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_AppCompat_Dark = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CUWFalcons.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_CompactMenu = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_DayNight = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Dialog = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Light = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Light_Dialog = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_AppCompat_NoActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_Design = global::CUWFalcons.Droid.Resource.Style.Theme_Design;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_Design_BottomSheetDialog = global::CUWFalcons.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_Design_Light = global::CUWFalcons.Droid.Resource.Style.Theme_Design_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::CUWFalcons.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_Design_Light_NoActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_Design_NoActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Bridge = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_CompactMenu = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Dialog = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_NoActionBar = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::CUWFalcons.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionButton = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActionMode = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ActivityChooserView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Button = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ButtonBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Button_Borderless = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Button_Colored = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Button_Small = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_EditText = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ImageButton = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionButton = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_SearchView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ListMenuView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ListPopupWindow = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ListView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ListView_DropDown = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ListView_Menu = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_PopupMenu = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_PopupWindow = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ProgressBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_RatingBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_RatingBar_Small = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_SearchView = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_SeekBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Spinner = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Toolbar = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::CUWFalcons.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Compat_NotificationActionContainer = global::CUWFalcons.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Compat_NotificationActionText = global::CUWFalcons.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_AppBarLayout = global::CUWFalcons.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_BottomNavigationView = global::CUWFalcons.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_BottomSheet_Modal = global::CUWFalcons.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_CollapsingToolbar = global::CUWFalcons.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_FloatingActionButton = global::CUWFalcons.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_NavigationView = global::CUWFalcons.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::CUWFalcons.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_Snackbar = global::CUWFalcons.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_TabLayout = global::CUWFalcons.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Design_TextInputLayout = global::CUWFalcons.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_Icon = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_CardView = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_ChipGroup = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Chip_Action = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_NavigationView = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Snackbar = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TabLayout = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_MaterialComponents_Toolbar = global::CUWFalcons.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Style.Widget_Support_CoordinatorLayout = global::CUWFalcons.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar = global::CUWFalcons.Droid.Resource.Styleable.ActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBarLayout = global::CUWFalcons.Droid.Resource.Styleable.ActionBarLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::CUWFalcons.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_background = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_backgroundSplit = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_backgroundStacked = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_contentInsetEnd = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_contentInsetLeft = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_contentInsetRight = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_contentInsetStart = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_customNavigationLayout = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_displayOptions = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_divider = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_divider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_elevation = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_height = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_hideOnContentScroll = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_homeAsUpIndicator = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_homeLayout = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_icon = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_itemPadding = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_logo = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_logo;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_navigationMode = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_popupTheme = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_progressBarPadding = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_progressBarStyle = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_subtitle = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_subtitleTextStyle = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_title = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionBar_titleTextStyle = global::CUWFalcons.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMenuItemView = global::CUWFalcons.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMenuItemView_android_minWidth = global::CUWFalcons.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMenuView = global::CUWFalcons.Droid.Resource.Styleable.ActionMenuView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMode = global::CUWFalcons.Droid.Resource.Styleable.ActionMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMode_background = global::CUWFalcons.Droid.Resource.Styleable.ActionMode_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMode_backgroundSplit = global::CUWFalcons.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMode_closeItemLayout = global::CUWFalcons.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMode_height = global::CUWFalcons.Droid.Resource.Styleable.ActionMode_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMode_subtitleTextStyle = global::CUWFalcons.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActionMode_titleTextStyle = global::CUWFalcons.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActivityChooserView = global::CUWFalcons.Droid.Resource.Styleable.ActivityChooserView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::CUWFalcons.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ActivityChooserView_initialActivityCount = global::CUWFalcons.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog_android_layout = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog_buttonIconDimen = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog_listItemLayout = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog_listLayout = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog_showTitle = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::CUWFalcons.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableCompat = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableItem = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableTransition = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::CUWFalcons.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayoutStates = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayoutStates_state_liftable = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayoutStates_state_lifted = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_android_background = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_elevation = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_expanded = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_Layout = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppBarLayout_liftOnScroll = global::CUWFalcons.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatImageView = global::CUWFalcons.Droid.Resource.Styleable.AppCompatImageView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatImageView_android_src = global::CUWFalcons.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatImageView_srcCompat = global::CUWFalcons.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatImageView_tint = global::CUWFalcons.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatImageView_tintMode = global::CUWFalcons.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatSeekBar = global::CUWFalcons.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatSeekBar_android_thumb = global::CUWFalcons.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatSeekBar_tickMark = global::CUWFalcons.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::CUWFalcons.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::CUWFalcons.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextHelper = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_android_textAppearance = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_fontFamily = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_lineHeight = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTextView_textAllCaps = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarDivider = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarSize = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarTheme = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeBackground = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_buttonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_checkboxStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorAccent = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorControlActivated = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorControlNormal = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorError = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorPrimary = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_controlBackground = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_dialogTheme = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_dividerVertical = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_editTextBackground = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_editTextColor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_editTextStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_panelBackground = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_searchViewStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_seekBarStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_spinnerStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_switchStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_toolbarStyle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowActionBar = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.AppCompatTheme_windowNoTitle = global::CUWFalcons.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomAppBar = global::CUWFalcons.Droid.Resource.Styleable.BottomAppBar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomAppBar_backgroundTint = global::CUWFalcons.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::CUWFalcons.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomAppBar_fabCradleMargin = global::CUWFalcons.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::CUWFalcons.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::CUWFalcons.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomAppBar_hideOnScroll = global::CUWFalcons.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomNavigationView = global::CUWFalcons.Droid.Resource.Styleable.BottomNavigationView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::CUWFalcons.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomSheetBehavior_Layout = global::CUWFalcons.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::CUWFalcons.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::CUWFalcons.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::CUWFalcons.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::CUWFalcons.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ButtonBarLayout = global::CUWFalcons.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ButtonBarLayout_allowStacking = global::CUWFalcons.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView = global::CUWFalcons.Droid.Resource.Styleable.CardView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_android_minHeight = global::CUWFalcons.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_android_minWidth = global::CUWFalcons.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_cardBackgroundColor = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_cardCornerRadius = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_cardElevation = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_cardMaxElevation = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_cardUseCompatPadding = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_contentPadding = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_contentPaddingBottom = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_contentPaddingLeft = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_contentPaddingRight = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CardView_contentPaddingTop = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip = global::CUWFalcons.Droid.Resource.Styleable.Chip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ChipGroup = global::CUWFalcons.Droid.Resource.Styleable.ChipGroup;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ChipGroup_checkedChip = global::CUWFalcons.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ChipGroup_chipSpacing = global::CUWFalcons.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::CUWFalcons.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ChipGroup_chipSpacingVertical = global::CUWFalcons.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ChipGroup_singleLine = global::CUWFalcons.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ChipGroup_singleSelection = global::CUWFalcons.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_android_checkable = global::CUWFalcons.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_android_ellipsize = global::CUWFalcons.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_android_maxWidth = global::CUWFalcons.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_android_text = global::CUWFalcons.Droid.Resource.Styleable.Chip_android_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_android_textAppearance = global::CUWFalcons.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_checkedIcon = global::CUWFalcons.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_checkedIconEnabled = global::CUWFalcons.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_checkedIconVisible = global::CUWFalcons.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipBackgroundColor = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipCornerRadius = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipEndPadding = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipIcon = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipIconEnabled = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipIconSize = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipIconTint = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipIconVisible = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipMinHeight = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipStartPadding = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipStrokeColor = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_chipStrokeWidth = global::CUWFalcons.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_closeIcon = global::CUWFalcons.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_closeIconEnabled = global::CUWFalcons.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_closeIconEndPadding = global::CUWFalcons.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_closeIconSize = global::CUWFalcons.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_closeIconStartPadding = global::CUWFalcons.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_closeIconTint = global::CUWFalcons.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_closeIconVisible = global::CUWFalcons.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_hideMotionSpec = global::CUWFalcons.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_iconEndPadding = global::CUWFalcons.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_iconStartPadding = global::CUWFalcons.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_rippleColor = global::CUWFalcons.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_showMotionSpec = global::CUWFalcons.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_textEndPadding = global::CUWFalcons.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Chip_textStartPadding = global::CUWFalcons.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_Layout = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_title = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::CUWFalcons.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ColorStateListItem = global::CUWFalcons.Droid.Resource.Styleable.ColorStateListItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ColorStateListItem_alpha = global::CUWFalcons.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ColorStateListItem_android_alpha = global::CUWFalcons.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ColorStateListItem_android_color = global::CUWFalcons.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CompoundButton = global::CUWFalcons.Droid.Resource.Styleable.CompoundButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CompoundButton_android_button = global::CUWFalcons.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CompoundButton_buttonTint = global::CUWFalcons.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CompoundButton_buttonTintMode = global::CUWFalcons.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_keylines = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_Layout = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle_barLength = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle_color = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle_drawableSize = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle_spinBars = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.DrawerArrowToggle_thickness = global::CUWFalcons.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_backgroundTint = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_borderWidth = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_elevation = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_fabCustomSize = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_fabSize = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_maxImageSize = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_rippleColor = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_showMotionSpec = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FloatingActionButton_useCompatPadding = global::CUWFalcons.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FlowLayout = global::CUWFalcons.Droid.Resource.Styleable.FlowLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FlowLayout_itemSpacing = global::CUWFalcons.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FlowLayout_lineSpacing = global::CUWFalcons.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamily = global::CUWFalcons.Droid.Resource.Styleable.FontFamily;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_android_font = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_font = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_fontStyle = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_fontWeight = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamilyFont_ttcIndex = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamily_fontProviderAuthority = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamily_fontProviderCerts = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamily_fontProviderPackage = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.FontFamily_fontProviderQuery = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ForegroundLinearLayout = global::CUWFalcons.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::CUWFalcons.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::CUWFalcons.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::CUWFalcons.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor = global::CUWFalcons.Droid.Resource.Styleable.GradientColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColorItem = global::CUWFalcons.Droid.Resource.Styleable.GradientColorItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColorItem_android_color = global::CUWFalcons.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColorItem_android_offset = global::CUWFalcons.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_centerColor = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_centerX = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_centerY = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_endColor = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_endX = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_endY = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_gradientRadius = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_startColor = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_startX = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_startY = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_tileMode = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.GradientColor_android_type = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_android_gravity = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_android_orientation = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_divider = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_Layout = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.LinearLayoutCompat_showDividers = global::CUWFalcons.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ListPopupWindow = global::CUWFalcons.Droid.Resource.Styleable.ListPopupWindow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::CUWFalcons.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::CUWFalcons.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_android_insetBottom = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_android_insetLeft = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_android_insetRight = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_android_insetTop = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_backgroundTint = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_backgroundTintMode = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_cornerRadius = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_icon = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_iconGravity = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_iconPadding = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_iconSize = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_iconTint = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_iconTintMode = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_rippleColor = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_strokeColor = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialButton_strokeWidth = global::CUWFalcons.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialCardView = global::CUWFalcons.Droid.Resource.Styleable.MaterialCardView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialCardView_strokeColor = global::CUWFalcons.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MaterialCardView_strokeWidth = global::CUWFalcons.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuGroup = global::CUWFalcons.Droid.Resource.Styleable.MenuGroup;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuGroup_android_checkableBehavior = global::CUWFalcons.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuGroup_android_enabled = global::CUWFalcons.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuGroup_android_id = global::CUWFalcons.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuGroup_android_menuCategory = global::CUWFalcons.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuGroup_android_orderInCategory = global::CUWFalcons.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuGroup_android_visible = global::CUWFalcons.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem = global::CUWFalcons.Droid.Resource.Styleable.MenuItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_actionLayout = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_actionProviderClass = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_actionViewClass = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_alphabeticModifiers = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_checkable = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_checked = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_enabled = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_icon = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_id = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_menuCategory = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_numericShortcut = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_onClick = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_orderInCategory = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_title = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_titleCondensed = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_android_visible = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_contentDescription = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_iconTint = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_iconTintMode = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_numericModifiers = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_showAsAction = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuItem_tooltipText = global::CUWFalcons.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView = global::CUWFalcons.Droid.Resource.Styleable.MenuView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_android_headerBackground = global::CUWFalcons.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_android_horizontalDivider = global::CUWFalcons.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_android_itemBackground = global::CUWFalcons.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::CUWFalcons.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_android_itemTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_android_verticalDivider = global::CUWFalcons.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_android_windowAnimationStyle = global::CUWFalcons.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_preserveIconSpacing = global::CUWFalcons.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.MenuView_subMenuArrow = global::CUWFalcons.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView = global::CUWFalcons.Droid.Resource.Styleable.NavigationView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_android_background = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_android_maxWidth = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_elevation = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_headerLayout = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_itemBackground = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_itemHorizontalPadding = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_itemIconPadding = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_itemIconTint = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_itemTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_itemTextColor = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.NavigationView_menu = global::CUWFalcons.Droid.Resource.Styleable.NavigationView_menu;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.PopupWindow = global::CUWFalcons.Droid.Resource.Styleable.PopupWindow;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.PopupWindowBackgroundState = global::CUWFalcons.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::CUWFalcons.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::CUWFalcons.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.PopupWindow_android_popupBackground = global::CUWFalcons.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.PopupWindow_overlapAnchor = global::CUWFalcons.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecycleListView = global::CUWFalcons.Droid.Resource.Styleable.RecycleListView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::CUWFalcons.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::CUWFalcons.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_android_descendantFocusability = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_android_orientation = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_fastScrollEnabled = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_layoutManager = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_reverseLayout = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_spanCount = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.RecyclerView_stackFromEnd = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ScrimInsetsFrameLayout = global::CUWFalcons.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::CUWFalcons.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ScrollingViewBehavior_Layout = global::CUWFalcons.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::CUWFalcons.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView = global::CUWFalcons.Droid.Resource.Styleable.SearchView;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_android_focusable = global::CUWFalcons.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_android_imeOptions = global::CUWFalcons.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_android_inputType = global::CUWFalcons.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_android_maxWidth = global::CUWFalcons.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_closeIcon = global::CUWFalcons.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_commitIcon = global::CUWFalcons.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_defaultQueryHint = global::CUWFalcons.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_goIcon = global::CUWFalcons.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_iconifiedByDefault = global::CUWFalcons.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_layout = global::CUWFalcons.Droid.Resource.Styleable.SearchView_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_queryBackground = global::CUWFalcons.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_queryHint = global::CUWFalcons.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_searchHintIcon = global::CUWFalcons.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_searchIcon = global::CUWFalcons.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_submitBackground = global::CUWFalcons.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_suggestionRowLayout = global::CUWFalcons.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SearchView_voiceIcon = global::CUWFalcons.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Snackbar = global::CUWFalcons.Droid.Resource.Styleable.Snackbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SnackbarLayout = global::CUWFalcons.Droid.Resource.Styleable.SnackbarLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SnackbarLayout_android_maxWidth = global::CUWFalcons.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SnackbarLayout_elevation = global::CUWFalcons.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::CUWFalcons.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Snackbar_snackbarButtonStyle = global::CUWFalcons.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Snackbar_snackbarStyle = global::CUWFalcons.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Spinner = global::CUWFalcons.Droid.Resource.Styleable.Spinner;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Spinner_android_dropDownWidth = global::CUWFalcons.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Spinner_android_entries = global::CUWFalcons.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Spinner_android_popupBackground = global::CUWFalcons.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Spinner_android_prompt = global::CUWFalcons.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Spinner_popupTheme = global::CUWFalcons.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawable = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawableItem = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawableItem_android_drawable = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawable_android_constantSize = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawable_android_dither = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawable_android_variablePadding = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.StateListDrawable_android_visible = global::CUWFalcons.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_android_textOff = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_android_textOn = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_android_thumb = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_showText = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_splitTrack = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_switchMinWidth = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_switchPadding = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_switchTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_thumbTextPadding = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_thumbTint = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_thumbTintMode = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_track = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_trackTint = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.SwitchCompat_trackTintMode = global::CUWFalcons.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabItem = global::CUWFalcons.Droid.Resource.Styleable.TabItem;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabItem_android_icon = global::CUWFalcons.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabItem_android_layout = global::CUWFalcons.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabItem_android_text = global::CUWFalcons.Droid.Resource.Styleable.TabItem_android_text;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout = global::CUWFalcons.Droid.Resource.Styleable.TabLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabBackground = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabContentStart = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabGravity = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabIconTint = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabIconTintMode = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabIndicator = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabIndicatorColor = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabIndicatorGravity = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabIndicatorHeight = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabInlineLabel = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabMaxWidth = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabMinWidth = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabMode = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabPadding = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabPaddingBottom = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabPaddingEnd = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabPaddingStart = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabPaddingTop = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabRippleColor = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabSelectedTextColor = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabTextColor = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TabLayout_tabUnboundedRipple = global::CUWFalcons.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_fontFamily = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_shadowColor = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_shadowDx = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_shadowDy = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_shadowRadius = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_textColor = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_textColorHint = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_textColorLink = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_textSize = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_textStyle = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_android_typeface = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_fontFamily = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextAppearance_textAllCaps = global::CUWFalcons.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_android_hint = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_android_textColorHint = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxStrokeColor = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_counterEnabled = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_counterMaxLength = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_counterTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_errorEnabled = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_errorTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_helperText = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_helperTextEnabled = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_hintEnabled = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_hintTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_passwordToggleTint = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::CUWFalcons.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ThemeEnforcement = global::CUWFalcons.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::CUWFalcons.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::CUWFalcons.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar = global::CUWFalcons.Droid.Resource.Styleable.Toolbar;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_android_gravity = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_android_minHeight = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_buttonGravity = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_collapseContentDescription = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_collapseIcon = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_contentInsetEnd = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_contentInsetLeft = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_contentInsetRight = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_contentInsetStart = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_logo = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_logo;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_logoDescription = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_maxButtonHeight = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_navigationContentDescription = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_navigationIcon = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_popupTheme = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_subtitle = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_subtitleTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_subtitleTextColor = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_title = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_title;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_titleMargin = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_titleMarginBottom = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_titleMarginEnd = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_titleMargins = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_titleMarginStart = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_titleMarginTop = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_titleTextAppearance = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.Toolbar_titleTextColor = global::CUWFalcons.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.View = global::CUWFalcons.Droid.Resource.Styleable.View;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ViewBackgroundHelper = global::CUWFalcons.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ViewBackgroundHelper_android_background = global::CUWFalcons.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::CUWFalcons.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::CUWFalcons.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ViewStubCompat = global::CUWFalcons.Droid.Resource.Styleable.ViewStubCompat;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ViewStubCompat_android_id = global::CUWFalcons.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ViewStubCompat_android_inflatedId = global::CUWFalcons.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.ViewStubCompat_android_layout = global::CUWFalcons.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.View_android_focusable = global::CUWFalcons.Droid.Resource.Styleable.View_android_focusable;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.View_android_theme = global::CUWFalcons.Droid.Resource.Styleable.View_android_theme;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.View_paddingEnd = global::CUWFalcons.Droid.Resource.Styleable.View_paddingEnd;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.View_paddingStart = global::CUWFalcons.Droid.Resource.Styleable.View_paddingStart;
+			global::Plugin.XamarinFormsSaveOpenPDFPackage.Resource.Styleable.View_theme = global::CUWFalcons.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::CUWFalcons.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::CUWFalcons.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::CUWFalcons.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::CUWFalcons.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::CUWFalcons.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::CUWFalcons.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::CUWFalcons.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::CUWFalcons.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::CUWFalcons.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::CUWFalcons.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::CUWFalcons.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::CUWFalcons.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::CUWFalcons.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::CUWFalcons.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::CUWFalcons.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::CUWFalcons.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::CUWFalcons.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::CUWFalcons.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::CUWFalcons.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::CUWFalcons.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::CUWFalcons.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::CUWFalcons.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::CUWFalcons.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::CUWFalcons.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::CUWFalcons.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::CUWFalcons.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::CUWFalcons.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::CUWFalcons.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::CUWFalcons.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::CUWFalcons.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::CUWFalcons.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::CUWFalcons.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::CUWFalcons.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::CUWFalcons.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.SfBarcode.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::CUWFalcons.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Syncfusion.SfBarcode.Android.Resource.Animator.fragment_close_enter = global::CUWFalcons.Droid.Resource.Animator.fragment_close_enter;
+			global::Syncfusion.SfBarcode.Android.Resource.Animator.fragment_close_exit = global::CUWFalcons.Droid.Resource.Animator.fragment_close_exit;
+			global::Syncfusion.SfBarcode.Android.Resource.Animator.fragment_fade_enter = global::CUWFalcons.Droid.Resource.Animator.fragment_fade_enter;
+			global::Syncfusion.SfBarcode.Android.Resource.Animator.fragment_fade_exit = global::CUWFalcons.Droid.Resource.Animator.fragment_fade_exit;
+			global::Syncfusion.SfBarcode.Android.Resource.Animator.fragment_open_enter = global::CUWFalcons.Droid.Resource.Animator.fragment_open_enter;
+			global::Syncfusion.SfBarcode.Android.Resource.Animator.fragment_open_exit = global::CUWFalcons.Droid.Resource.Animator.fragment_open_exit;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.alpha = global::CUWFalcons.Droid.Resource.Attribute.alpha;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.cardBackgroundColor = global::CUWFalcons.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.cardCornerRadius = global::CUWFalcons.Droid.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.cardElevation = global::CUWFalcons.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.cardMaxElevation = global::CUWFalcons.Droid.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.cardPreventCornerOverlap = global::CUWFalcons.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.cardUseCompatPadding = global::CUWFalcons.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.cardViewStyle = global::CUWFalcons.Droid.Resource.Attribute.cardViewStyle;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.contentPadding = global::CUWFalcons.Droid.Resource.Attribute.contentPadding;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.contentPaddingBottom = global::CUWFalcons.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.contentPaddingLeft = global::CUWFalcons.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.contentPaddingRight = global::CUWFalcons.Droid.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.contentPaddingTop = global::CUWFalcons.Droid.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.coordinatorLayoutStyle = global::CUWFalcons.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.drawerLayoutStyle = global::CUWFalcons.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.elevation = global::CUWFalcons.Droid.Resource.Attribute.elevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fastScrollEnabled = global::CUWFalcons.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::CUWFalcons.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::CUWFalcons.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fastScrollVerticalThumbDrawable = global::CUWFalcons.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fastScrollVerticalTrackDrawable = global::CUWFalcons.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.font = global::CUWFalcons.Droid.Resource.Attribute.font;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontProviderAuthority = global::CUWFalcons.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontProviderCerts = global::CUWFalcons.Droid.Resource.Attribute.fontProviderCerts;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontProviderFetchStrategy = global::CUWFalcons.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontProviderFetchTimeout = global::CUWFalcons.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontProviderPackage = global::CUWFalcons.Droid.Resource.Attribute.fontProviderPackage;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontProviderQuery = global::CUWFalcons.Droid.Resource.Attribute.fontProviderQuery;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontProviderSystemFontFamily = global::CUWFalcons.Droid.Resource.Attribute.fontProviderSystemFontFamily;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontStyle = global::CUWFalcons.Droid.Resource.Attribute.fontStyle;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontVariationSettings = global::CUWFalcons.Droid.Resource.Attribute.fontVariationSettings;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.fontWeight = global::CUWFalcons.Droid.Resource.Attribute.fontWeight;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.keylines = global::CUWFalcons.Droid.Resource.Attribute.keylines;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.layoutManager = global::CUWFalcons.Droid.Resource.Attribute.layoutManager;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.layout_anchor = global::CUWFalcons.Droid.Resource.Attribute.layout_anchor;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.layout_anchorGravity = global::CUWFalcons.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.layout_behavior = global::CUWFalcons.Droid.Resource.Attribute.layout_behavior;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.layout_dodgeInsetEdges = global::CUWFalcons.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.layout_insetEdge = global::CUWFalcons.Droid.Resource.Attribute.layout_insetEdge;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.layout_keyline = global::CUWFalcons.Droid.Resource.Attribute.layout_keyline;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.nestedScrollViewStyle = global::CUWFalcons.Droid.Resource.Attribute.nestedScrollViewStyle;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.queryPatterns = global::CUWFalcons.Droid.Resource.Attribute.queryPatterns;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.recyclerViewStyle = global::CUWFalcons.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.reverseLayout = global::CUWFalcons.Droid.Resource.Attribute.reverseLayout;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.shortcutMatchRequired = global::CUWFalcons.Droid.Resource.Attribute.shortcutMatchRequired;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.spanCount = global::CUWFalcons.Droid.Resource.Attribute.spanCount;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.stackFromEnd = global::CUWFalcons.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.statusBarBackground = global::CUWFalcons.Droid.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::CUWFalcons.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Syncfusion.SfBarcode.Android.Resource.Attribute.ttcIndex = global::CUWFalcons.Droid.Resource.Attribute.ttcIndex;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.androidx_core_ripple_material_light = global::CUWFalcons.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.androidx_core_secondary_text_default_material_light = global::CUWFalcons.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.cardview_dark_background = global::CUWFalcons.Droid.Resource.Color.cardview_dark_background;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.cardview_light_background = global::CUWFalcons.Droid.Resource.Color.cardview_light_background;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.cardview_shadow_end_color = global::CUWFalcons.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.cardview_shadow_start_color = global::CUWFalcons.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.notification_action_color_filter = global::CUWFalcons.Droid.Resource.Color.notification_action_color_filter;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.notification_icon_bg_color = global::CUWFalcons.Droid.Resource.Color.notification_icon_bg_color;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.notification_material_background_media_default_color = global::CUWFalcons.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.primary_text_default_material_dark = global::CUWFalcons.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Syncfusion.SfBarcode.Android.Resource.Color.secondary_text_default_material_dark = global::CUWFalcons.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.cardview_compat_inset_shadow = global::CUWFalcons.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.cardview_default_elevation = global::CUWFalcons.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.cardview_default_radius = global::CUWFalcons.Droid.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.compat_button_inset_horizontal_material = global::CUWFalcons.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.compat_button_inset_vertical_material = global::CUWFalcons.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.compat_button_padding_horizontal_material = global::CUWFalcons.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.compat_button_padding_vertical_material = global::CUWFalcons.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.compat_control_corner_material = global::CUWFalcons.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::CUWFalcons.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::CUWFalcons.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.def_drawer_elevation = global::CUWFalcons.Droid.Resource.Dimension.def_drawer_elevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.fastscroll_default_thickness = global::CUWFalcons.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.fastscroll_margin = global::CUWFalcons.Droid.Resource.Dimension.fastscroll_margin;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.fastscroll_minimum_range = global::CUWFalcons.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::CUWFalcons.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::CUWFalcons.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::CUWFalcons.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_action_icon_size = global::CUWFalcons.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_action_text_size = global::CUWFalcons.Droid.Resource.Dimension.notification_action_text_size;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_big_circle_margin = global::CUWFalcons.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_content_margin_start = global::CUWFalcons.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_large_icon_height = global::CUWFalcons.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_large_icon_width = global::CUWFalcons.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_main_column_padding_top = global::CUWFalcons.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_media_narrow_margin = global::CUWFalcons.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_right_icon_size = global::CUWFalcons.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_right_side_padding_top = global::CUWFalcons.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_small_icon_background_padding = global::CUWFalcons.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_small_icon_size_as_large = global::CUWFalcons.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_subtext_size = global::CUWFalcons.Droid.Resource.Dimension.notification_subtext_size;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_top_pad = global::CUWFalcons.Droid.Resource.Dimension.notification_top_pad;
+			global::Syncfusion.SfBarcode.Android.Resource.Dimension.notification_top_pad_large_text = global::CUWFalcons.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_action_background = global::CUWFalcons.Droid.Resource.Drawable.notification_action_background;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_bg = global::CUWFalcons.Droid.Resource.Drawable.notification_bg;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_bg_low = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_low;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_bg_low_normal = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_bg_low_pressed = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_bg_normal = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_normal;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_bg_normal_pressed = global::CUWFalcons.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_icon_background = global::CUWFalcons.Droid.Resource.Drawable.notification_icon_background;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_template_icon_bg = global::CUWFalcons.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_template_icon_low_bg = global::CUWFalcons.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notification_tile_bg = global::CUWFalcons.Droid.Resource.Drawable.notification_tile_bg;
+			global::Syncfusion.SfBarcode.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::CUWFalcons.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_action_clickable_span = global::CUWFalcons.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_0 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_1 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_10 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_11 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_12 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_13 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_14 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_15 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_16 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_17 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_18 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_19 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_2 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_20 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_21 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_22 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_23 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_24 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_25 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_26 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_27 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_28 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_29 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_3 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_30 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_31 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_4 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_5 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_6 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_7 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_8 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.accessibility_custom_action_9 = global::CUWFalcons.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.action0 = global::CUWFalcons.Droid.Resource.Id.action0;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.actions = global::CUWFalcons.Droid.Resource.Id.actions;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.action_container = global::CUWFalcons.Droid.Resource.Id.action_container;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.action_divider = global::CUWFalcons.Droid.Resource.Id.action_divider;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.action_image = global::CUWFalcons.Droid.Resource.Id.action_image;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.action_text = global::CUWFalcons.Droid.Resource.Id.action_text;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.all = global::CUWFalcons.Droid.Resource.Id.all;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.async = global::CUWFalcons.Droid.Resource.Id.async;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.blocking = global::CUWFalcons.Droid.Resource.Id.blocking;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.bottom = global::CUWFalcons.Droid.Resource.Id.bottom;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.cancel_action = global::CUWFalcons.Droid.Resource.Id.cancel_action;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.center = global::CUWFalcons.Droid.Resource.Id.center;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.center_horizontal = global::CUWFalcons.Droid.Resource.Id.center_horizontal;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.center_vertical = global::CUWFalcons.Droid.Resource.Id.center_vertical;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.chronometer = global::CUWFalcons.Droid.Resource.Id.chronometer;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.clip_horizontal = global::CUWFalcons.Droid.Resource.Id.clip_horizontal;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.clip_vertical = global::CUWFalcons.Droid.Resource.Id.clip_vertical;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.dialog_button = global::CUWFalcons.Droid.Resource.Id.dialog_button;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.end = global::CUWFalcons.Droid.Resource.Id.end;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.end_padder = global::CUWFalcons.Droid.Resource.Id.end_padder;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.fill = global::CUWFalcons.Droid.Resource.Id.fill;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.fill_horizontal = global::CUWFalcons.Droid.Resource.Id.fill_horizontal;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.fill_vertical = global::CUWFalcons.Droid.Resource.Id.fill_vertical;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.forever = global::CUWFalcons.Droid.Resource.Id.forever;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.fragment_container_view_tag = global::CUWFalcons.Droid.Resource.Id.fragment_container_view_tag;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.icon = global::CUWFalcons.Droid.Resource.Id.icon;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.icon_group = global::CUWFalcons.Droid.Resource.Id.icon_group;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.info = global::CUWFalcons.Droid.Resource.Id.info;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.italic = global::CUWFalcons.Droid.Resource.Id.italic;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.item_touch_helper_previous_elevation = global::CUWFalcons.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.left = global::CUWFalcons.Droid.Resource.Id.left;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.line1 = global::CUWFalcons.Droid.Resource.Id.line1;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.line3 = global::CUWFalcons.Droid.Resource.Id.line3;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.media_actions = global::CUWFalcons.Droid.Resource.Id.media_actions;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.media_controller_compat_view_tag = global::CUWFalcons.Droid.Resource.Id.media_controller_compat_view_tag;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.none = global::CUWFalcons.Droid.Resource.Id.none;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.normal = global::CUWFalcons.Droid.Resource.Id.normal;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.notification_background = global::CUWFalcons.Droid.Resource.Id.notification_background;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.notification_main_column = global::CUWFalcons.Droid.Resource.Id.notification_main_column;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.notification_main_column_container = global::CUWFalcons.Droid.Resource.Id.notification_main_column_container;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.right = global::CUWFalcons.Droid.Resource.Id.right;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.right_icon = global::CUWFalcons.Droid.Resource.Id.right_icon;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.right_side = global::CUWFalcons.Droid.Resource.Id.right_side;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.special_effects_controller_view_tag = global::CUWFalcons.Droid.Resource.Id.special_effects_controller_view_tag;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.start = global::CUWFalcons.Droid.Resource.Id.start;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.status_bar_latest_event_content = global::CUWFalcons.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_accessibility_actions = global::CUWFalcons.Droid.Resource.Id.tag_accessibility_actions;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_accessibility_clickable_spans = global::CUWFalcons.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_accessibility_heading = global::CUWFalcons.Droid.Resource.Id.tag_accessibility_heading;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_accessibility_pane_title = global::CUWFalcons.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_on_apply_window_listener = global::CUWFalcons.Droid.Resource.Id.tag_on_apply_window_listener;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_on_receive_content_listener = global::CUWFalcons.Droid.Resource.Id.tag_on_receive_content_listener;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_on_receive_content_mime_types = global::CUWFalcons.Droid.Resource.Id.tag_on_receive_content_mime_types;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_screen_reader_focusable = global::CUWFalcons.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_state_description = global::CUWFalcons.Droid.Resource.Id.tag_state_description;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_transition_group = global::CUWFalcons.Droid.Resource.Id.tag_transition_group;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_unhandled_key_event_manager = global::CUWFalcons.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_unhandled_key_listeners = global::CUWFalcons.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.tag_window_insets_animation_callback = global::CUWFalcons.Droid.Resource.Id.tag_window_insets_animation_callback;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.text = global::CUWFalcons.Droid.Resource.Id.text;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.text2 = global::CUWFalcons.Droid.Resource.Id.text2;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.time = global::CUWFalcons.Droid.Resource.Id.time;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.title = global::CUWFalcons.Droid.Resource.Id.title;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.top = global::CUWFalcons.Droid.Resource.Id.top;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.view_tree_lifecycle_owner = global::CUWFalcons.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.view_tree_saved_state_registry_owner = global::CUWFalcons.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.view_tree_view_model_store_owner = global::CUWFalcons.Droid.Resource.Id.view_tree_view_model_store_owner;
+			global::Syncfusion.SfBarcode.Android.Resource.Id.visible_removing_fragment_view_tag = global::CUWFalcons.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Syncfusion.SfBarcode.Android.Resource.Integer.cancel_button_image_alpha = global::CUWFalcons.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Syncfusion.SfBarcode.Android.Resource.Integer.status_bar_notification_info_maxnum = global::CUWFalcons.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.custom_dialog = global::CUWFalcons.Droid.Resource.Layout.custom_dialog;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_action = global::CUWFalcons.Droid.Resource.Layout.notification_action;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_action_tombstone = global::CUWFalcons.Droid.Resource.Layout.notification_action_tombstone;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_media_action = global::CUWFalcons.Droid.Resource.Layout.notification_media_action;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_media_cancel_action = global::CUWFalcons.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_big_media = global::CUWFalcons.Droid.Resource.Layout.notification_template_big_media;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_big_media_custom = global::CUWFalcons.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_big_media_narrow = global::CUWFalcons.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::CUWFalcons.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_custom_big = global::CUWFalcons.Droid.Resource.Layout.notification_template_custom_big;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_icon_group = global::CUWFalcons.Droid.Resource.Layout.notification_template_icon_group;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_lines_media = global::CUWFalcons.Droid.Resource.Layout.notification_template_lines_media;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_media = global::CUWFalcons.Droid.Resource.Layout.notification_template_media;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_media_custom = global::CUWFalcons.Droid.Resource.Layout.notification_template_media_custom;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_part_chronometer = global::CUWFalcons.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Syncfusion.SfBarcode.Android.Resource.Layout.notification_template_part_time = global::CUWFalcons.Droid.Resource.Layout.notification_template_part_time;
+			global::Syncfusion.SfBarcode.Android.Resource.String.status_bar_notification_info_overflow = global::CUWFalcons.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.Base_CardView = global::CUWFalcons.Droid.Resource.Style.Base_CardView;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.CardView = global::CUWFalcons.Droid.Resource.Style.CardView;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.CardView_Dark = global::CUWFalcons.Droid.Resource.Style.CardView_Dark;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.CardView_Light = global::CUWFalcons.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Info = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Time = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Title = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::CUWFalcons.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.Widget_Compat_NotificationActionContainer = global::CUWFalcons.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.Widget_Compat_NotificationActionText = global::CUWFalcons.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Syncfusion.SfBarcode.Android.Resource.Style.Widget_Support_CoordinatorLayout = global::CUWFalcons.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.Capability = global::CUWFalcons.Droid.Resource.Styleable.Capability;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.Capability_queryPatterns = global::CUWFalcons.Droid.Resource.Styleable.Capability_queryPatterns;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.Capability_shortcutMatchRequired = global::CUWFalcons.Droid.Resource.Styleable.Capability_shortcutMatchRequired;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView = global::CUWFalcons.Droid.Resource.Styleable.CardView;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_android_minHeight = global::CUWFalcons.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_android_minWidth = global::CUWFalcons.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_cardBackgroundColor = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_cardCornerRadius = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_cardElevation = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_cardMaxElevation = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::CUWFalcons.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_contentPadding = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_contentPaddingBottom = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_contentPaddingLeft = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_contentPaddingRight = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CardView_contentPaddingTop = global::CUWFalcons.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.ColorStateListItem = global::CUWFalcons.Droid.Resource.Styleable.ColorStateListItem;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.ColorStateListItem_alpha = global::CUWFalcons.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::CUWFalcons.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.ColorStateListItem_android_color = global::CUWFalcons.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_keylines = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_Layout = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::CUWFalcons.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.DrawerLayout = global::CUWFalcons.Droid.Resource.Styleable.DrawerLayout;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.DrawerLayout_elevation = global::CUWFalcons.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamily = global::CUWFalcons.Droid.Resource.Styleable.FontFamily;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_android_font = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_android_fontStyle = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_android_fontWeight = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_font = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_fontStyle = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_fontWeight = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamilyFont_ttcIndex = global::CUWFalcons.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamily_fontProviderAuthority = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamily_fontProviderCerts = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FontFamily_fontProviderSystemFontFamily = global::CUWFalcons.Droid.Resource.Styleable.FontFamily_fontProviderSystemFontFamily;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.Fragment = global::CUWFalcons.Droid.Resource.Styleable.Fragment;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FragmentContainerView = global::CUWFalcons.Droid.Resource.Styleable.FragmentContainerView;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FragmentContainerView_android_name = global::CUWFalcons.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.FragmentContainerView_android_tag = global::CUWFalcons.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.Fragment_android_id = global::CUWFalcons.Droid.Resource.Styleable.Fragment_android_id;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.Fragment_android_name = global::CUWFalcons.Droid.Resource.Styleable.Fragment_android_name;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.Fragment_android_tag = global::CUWFalcons.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor = global::CUWFalcons.Droid.Resource.Styleable.GradientColor;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColorItem = global::CUWFalcons.Droid.Resource.Styleable.GradientColorItem;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColorItem_android_color = global::CUWFalcons.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColorItem_android_offset = global::CUWFalcons.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_centerColor = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_centerX = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_centerY = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_endColor = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_endX = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_endY = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_gradientRadius = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_startColor = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_startX = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_startY = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_tileMode = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.GradientColor_android_type = global::CUWFalcons.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_android_clipToPadding = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_android_orientation = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_fastScrollEnabled = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_layoutManager = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_reverseLayout = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_spanCount = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::CUWFalcons.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.SwipeRefreshLayout = global::CUWFalcons.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Syncfusion.SfBarcode.Android.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::CUWFalcons.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Syncfusion.SfBarcode.XForms.Droid.Resource.Drawable.Icon = global::CUWFalcons.Droid.Resource.Drawable.Icon;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::CUWFalcons.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::CUWFalcons.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::CUWFalcons.Droid.Resource.Attribute.fontProviderAuthority;
@@ -10791,6 +13648,12 @@ namespace CUWFalcons.Droid
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::CUWFalcons.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::CUWFalcons.Droid.Resource.Xml.standalone_badge_gravity_top_start;
 			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::CUWFalcons.Droid.Resource.Xml.standalone_badge_offset;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::CUWFalcons.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::CUWFalcons.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.String.library_name = global::CUWFalcons.Droid.Resource.String.library_name;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::CUWFalcons.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::CUWFalcons.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::CUWFalcons.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -16488,199 +19351,310 @@ namespace CUWFalcons.Droid
 			public const int abc_vector_test = 2131165268;
 			
 			// aapt resource value: 0x7F070055
-			public const int avd_hide_password = 2131165269;
+			public const int Avatar1 = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int avd_show_password = 2131165270;
+			public const int Avatar10 = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int btn_checkbox_checked_mtrl = 2131165271;
+			public const int Avatar11 = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165272;
+			public const int Avatar12 = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int btn_checkbox_unchecked_mtrl = 2131165273;
+			public const int Avatar13 = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165274;
+			public const int Avatar14 = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int btn_radio_off_mtrl = 2131165275;
+			public const int Avatar15 = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165276;
+			public const int Avatar16 = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int btn_radio_on_mtrl = 2131165277;
+			public const int Avatar17 = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165278;
+			public const int Avatar18 = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int checkin_icon = 2131165279;
+			public const int Avatar19 = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int design_fab_background = 2131165280;
+			public const int Avatar2 = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int design_ic_visibility = 2131165281;
+			public const int Avatar20 = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_ic_visibility_off = 2131165282;
+			public const int Avatar21 = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_password_eye = 2131165283;
+			public const int Avatar22 = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int design_snackbar_background = 2131165284;
+			public const int Avatar23 = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int Falcon_Head = 2131165285;
-			
-			// aapt resource value: 0x7F07006D
-			public const int icon_about = 2131165293;
+			public const int Avatar24 = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int ic_arrow_down_24dp = 2131165286;
+			public const int Avatar25 = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int ic_clock_black_24dp = 2131165287;
+			public const int Avatar26 = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int ic_keyboard_black_24dp = 2131165288;
+			public const int Avatar27 = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int ic_mtrl_checked_circle = 2131165289;
+			public const int Avatar28 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_mtrl_chip_checked_black = 2131165290;
+			public const int Avatar29 = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_mtrl_chip_checked_circle = 2131165291;
+			public const int Avatar3 = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_mtrl_chip_close_circle = 2131165292;
+			public const int Avatar30 = 2131165292;
+			
+			// aapt resource value: 0x7F07006D
+			public const int Avatar4 = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int material_cursor_drawable = 2131165294;
+			public const int Avatar5 = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int material_ic_calendar_black_24dp = 2131165295;
+			public const int Avatar6 = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int material_ic_clear_black_24dp = 2131165296;
+			public const int Avatar7 = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_ic_edit_black_24dp = 2131165297;
+			public const int Avatar8 = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165298;
+			public const int Avatar9 = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165299;
+			public const int avd_hide_password = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165300;
+			public const int avd_show_password = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165301;
+			public const int btn_checkbox_checked_mtrl = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165302;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165303;
+			public const int btn_checkbox_unchecked_mtrl = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int mtrl_dialog_background = 2131165304;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int mtrl_dropdown_arrow = 2131165305;
+			public const int btn_radio_off_mtrl = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int mtrl_ic_arrow_drop_down = 2131165306;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int mtrl_ic_arrow_drop_up = 2131165307;
+			public const int btn_radio_on_mtrl = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_ic_cancel = 2131165308;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_ic_error = 2131165309;
+			public const int calendar_icon = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_navigation_bar_item_background = 2131165310;
+			public const int checkin_icon = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_popupmenu_background = 2131165311;
+			public const int clear_button_icon = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_popupmenu_background_dark = 2131165312;
+			public const int design_fab_background = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_tabs_default_indicator = 2131165313;
+			public const int design_ic_visibility = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int navigation_empty_icon = 2131165314;
+			public const int design_ic_visibility_off = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int notification_action_background = 2131165315;
+			public const int design_password_eye = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int notification_bg = 2131165316;
-			
-			// aapt resource value: 0x7F070085
-			public const int notification_bg_low = 2131165317;
+			public const int design_snackbar_background = 2131165316;
 			
 			// aapt resource value: 0x7F070086
-			public const int notification_bg_low_normal = 2131165318;
+			public const int FalconHead_NoText = 2131165318;
 			
-			// aapt resource value: 0x7F070087
-			public const int notification_bg_low_pressed = 2131165319;
-			
-			// aapt resource value: 0x7F070088
-			public const int notification_bg_normal = 2131165320;
-			
-			// aapt resource value: 0x7F070089
-			public const int notification_bg_normal_pressed = 2131165321;
-			
-			// aapt resource value: 0x7F07008A
-			public const int notification_icon_background = 2131165322;
-			
-			// aapt resource value: 0x7F07008B
-			public const int notification_template_icon_bg = 2131165323;
-			
-			// aapt resource value: 0x7F07008C
-			public const int notification_template_icon_low_bg = 2131165324;
-			
-			// aapt resource value: 0x7F07008D
-			public const int notification_tile_bg = 2131165325;
+			// aapt resource value: 0x7F070085
+			public const int Falcon_Head = 2131165317;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notify_panel_notification_icon_bg = 2131165326;
+			public const int Icon = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int preference_list_divider_material = 2131165327;
+			public const int icon_about = 2131165327;
 			
-			// aapt resource value: 0x7F070090
-			public const int roster_icon = 2131165328;
+			// aapt resource value: 0x7F070087
+			public const int ic_arrow_down_24dp = 2131165319;
+			
+			// aapt resource value: 0x7F070088
+			public const int ic_clock_black_24dp = 2131165320;
+			
+			// aapt resource value: 0x7F070089
+			public const int ic_keyboard_black_24dp = 2131165321;
+			
+			// aapt resource value: 0x7F07008A
+			public const int ic_mtrl_checked_circle = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int ic_mtrl_chip_checked_black = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int ic_mtrl_chip_checked_circle = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int ic_mtrl_chip_close_circle = 2131165325;
 			
 			// aapt resource value: 0x7F070091
-			public const int settings_icon = 2131165329;
+			public const int inputlayout_togglecollapseicon = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int test_custom_background = 2131165330;
+			public const int inputlayout_togglevisibleicon = 2131165330;
+			
+			// aapt resource value: 0x7F070090
+			public const int input_layout_drop_down_icon = 2131165328;
 			
 			// aapt resource value: 0x7F070093
-			public const int tooltip_frame_dark = 2131165331;
+			public const int material_cursor_drawable = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int tooltip_frame_light = 2131165332;
+			public const int material_ic_calendar_black_24dp = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int xamarin_logo = 2131165333;
+			public const int material_ic_clear_black_24dp = 2131165333;
+			
+			// aapt resource value: 0x7F070096
+			public const int material_ic_edit_black_24dp = 2131165334;
+			
+			// aapt resource value: 0x7F070097
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165335;
+			
+			// aapt resource value: 0x7F070098
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165336;
+			
+			// aapt resource value: 0x7F070099
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int mtrl_dialog_background = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int mtrl_dropdown_arrow = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int mtrl_ic_arrow_drop_down = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int mtrl_ic_arrow_drop_up = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int mtrl_ic_cancel = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int mtrl_ic_error = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int mtrl_navigation_bar_item_background = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int mtrl_popupmenu_background = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int mtrl_popupmenu_background_dark = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int mtrl_tabs_default_indicator = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int navigation_empty_icon = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int notification_action_background = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int notification_bg = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int notification_bg_low = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int notification_bg_low_normal = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int notification_bg_low_pressed = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int notification_bg_normal = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int notification_bg_normal_pressed = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int notification_icon_background = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int notification_template_icon_bg = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int notification_template_icon_low_bg = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int notification_tile_bg = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int notify_panel_notification_icon_bg = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int preference_list_divider_material = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int roster_icon = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int settings_icon = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int test_custom_background = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int tooltip_frame_dark = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int tooltip_frame_light = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int xamarin_logo = 2131165370;
 			
 			static Drawable()
 			{
@@ -17068,772 +20042,775 @@ namespace CUWFalcons.Droid
 			public const int content = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int contentPanel = 2131230855;
+			public const int contentFrame = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int contiguous = 2131230856;
+			public const int contentPanel = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int continuousVelocity = 2131230857;
+			public const int contiguous = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int coordinator = 2131230858;
+			public const int continuousVelocity = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int cos = 2131230859;
+			public const int coordinator = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int counterclockwise = 2131230860;
+			public const int cos = 2131230860;
+			
+			// aapt resource value: 0x7F08008D
+			public const int counterclockwise = 2131230861;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F08008D
-			public const int currentState = 2131230861;
-			
 			// aapt resource value: 0x7F08008E
-			public const int custom = 2131230862;
+			public const int currentState = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int customPanel = 2131230863;
+			public const int custom = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int cut = 2131230864;
+			public const int customPanel = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int date_picker_actions = 2131230865;
+			public const int cut = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int decelerate = 2131230866;
+			public const int date_picker_actions = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int decelerateAndComplete = 2131230867;
+			public const int decelerate = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int decor_content_parent = 2131230868;
+			public const int decelerateAndComplete = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int default_activity_button = 2131230869;
+			public const int decor_content_parent = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int deltaRelative = 2131230870;
+			public const int default_activity_button = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int dependency_ordering = 2131230871;
+			public const int deltaRelative = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int design_bottom_sheet = 2131230872;
+			public const int dependency_ordering = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int design_menu_item_action_area = 2131230873;
+			public const int design_bottom_sheet = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int design_menu_item_action_area_stub = 2131230874;
+			public const int design_menu_item_action_area = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int design_menu_item_text = 2131230875;
+			public const int design_menu_item_action_area_stub = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int design_navigation_view = 2131230876;
+			public const int design_menu_item_text = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int dialog_button = 2131230877;
+			public const int design_navigation_view = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int dimensions = 2131230878;
+			public const int dialog_button = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int direct = 2131230879;
+			public const int dimensions = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int disableHome = 2131230880;
+			public const int direct = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int disableIntraAutoTransition = 2131230881;
+			public const int disableHome = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int disablePostScroll = 2131230882;
+			public const int disableIntraAutoTransition = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int disableScroll = 2131230883;
+			public const int disablePostScroll = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int disjoint = 2131230884;
+			public const int disableScroll = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int dragAnticlockwise = 2131230885;
+			public const int disjoint = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int dragClockwise = 2131230886;
+			public const int dragAnticlockwise = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int dragDown = 2131230887;
+			public const int dragClockwise = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int dragEnd = 2131230888;
+			public const int dragDown = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int dragLeft = 2131230889;
+			public const int dragEnd = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int dragRight = 2131230890;
+			public const int dragLeft = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int dragStart = 2131230891;
+			public const int dragRight = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int dragUp = 2131230892;
+			public const int dragStart = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int dropdown_menu = 2131230893;
+			public const int dragUp = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int easeIn = 2131230894;
+			public const int dropdown_menu = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int easeInOut = 2131230895;
+			public const int easeIn = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int easeOut = 2131230896;
+			public const int easeInOut = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int east = 2131230897;
+			public const int easeOut = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int edit_query = 2131230898;
+			public const int east = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int elastic = 2131230899;
+			public const int edit_query = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int end = 2131230900;
+			public const int elastic = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int endToStart = 2131230901;
+			public const int end = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int end_padder = 2131230902;
+			public const int endToStart = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int enterAlways = 2131230903;
+			public const int end_padder = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int enterAlwaysCollapsed = 2131230904;
+			public const int enterAlways = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int exitUntilCollapsed = 2131230905;
-			
-			// aapt resource value: 0x7F0800BB
-			public const int expanded_menu = 2131230907;
+			public const int enterAlwaysCollapsed = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int expand_activities_button = 2131230906;
+			public const int exitUntilCollapsed = 2131230906;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int fade = 2131230908;
+			public const int expanded_menu = 2131230908;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int expand_activities_button = 2131230907;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int fill = 2131230909;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int filled = 2131230912;
+			public const int fade = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int fill_horizontal = 2131230910;
-			
-			// aapt resource value: 0x7F0800BF
-			public const int fill_vertical = 2131230911;
+			public const int fill = 2131230910;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int fitToContents = 2131230913;
+			public const int filled = 2131230913;
+			
+			// aapt resource value: 0x7F0800BF
+			public const int fill_horizontal = 2131230911;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int fill_vertical = 2131230912;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int @fixed = 2131230914;
+			public const int fitToContents = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int flip = 2131230915;
+			public const int @fixed = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int floating = 2131230916;
+			public const int flip = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int flyoutcontent_appbar = 2131230917;
+			public const int floating = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int forever = 2131230918;
+			public const int flyoutcontent_appbar = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int fragment_container_view_tag = 2131230919;
+			public const int forever = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int frost = 2131230920;
+			public const int fragment_container_view_tag = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int frost = 2131230921;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F0800C9
-			public const int ghost_view = 2131230921;
-			
 			// aapt resource value: 0x7F0800CA
-			public const int ghost_view_holder = 2131230922;
+			public const int ghost_view = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int gone = 2131230923;
+			public const int ghost_view_holder = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int graph = 2131230924;
+			public const int gone = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int graph_wrap = 2131230925;
-			
-			// aapt resource value: 0x7F0800CF
-			public const int grouping = 2131230927;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int groups = 2131230928;
+			public const int graph = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int group_divider = 2131230926;
+			public const int graph_wrap = 2131230926;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int grouping = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int guideline = 2131230929;
+			public const int groups = 2131230929;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int group_divider = 2131230927;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int header_title = 2131230930;
+			public const int guideline = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int hideable = 2131230931;
+			public const int header_title = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int home = 2131230932;
+			public const int hideable = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int homeAsUp = 2131230933;
+			public const int home = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int honorRequest = 2131230934;
+			public const int homeAsUp = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int horizontal_only = 2131230935;
+			public const int honorRequest = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int icon = 2131230936;
+			public const int horizontal_only = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int icon_frame = 2131230937;
+			public const int icon = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int icon_group = 2131230938;
+			public const int icon_frame = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int ifRoom = 2131230939;
+			public const int icon_group = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int ignore = 2131230940;
+			public const int ifRoom = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int ignoreRequest = 2131230941;
+			public const int ignore = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int image = 2131230942;
+			public const int ignoreRequest = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int immediateStop = 2131230943;
+			public const int image = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int included = 2131230944;
+			public const int immediateStop = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int info = 2131230945;
+			public const int included = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int invisible = 2131230946;
+			public const int info = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int inward = 2131230947;
+			public const int invisible = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int italic = 2131230948;
+			public const int inward = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int item_touch_helper_previous_elevation = 2131230949;
+			public const int italic = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int jumpToEnd = 2131230950;
+			public const int item_touch_helper_previous_elevation = 2131230950;
 			
 			// aapt resource value: 0x7F0800E7
-			public const int jumpToStart = 2131230951;
+			public const int jumpToEnd = 2131230951;
 			
 			// aapt resource value: 0x7F0800E8
-			public const int labeled = 2131230952;
+			public const int jumpToStart = 2131230952;
 			
 			// aapt resource value: 0x7F0800E9
-			public const int layout = 2131230953;
+			public const int labeled = 2131230953;
 			
 			// aapt resource value: 0x7F0800EA
-			public const int left = 2131230954;
+			public const int layout = 2131230954;
 			
 			// aapt resource value: 0x7F0800EB
-			public const int leftToRight = 2131230955;
+			public const int left = 2131230955;
 			
 			// aapt resource value: 0x7F0800EC
-			public const int legacy = 2131230956;
+			public const int leftToRight = 2131230956;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int line1 = 2131230957;
+			public const int legacy = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int line3 = 2131230958;
+			public const int line1 = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int linear = 2131230959;
+			public const int line3 = 2131230959;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int listMode = 2131230960;
+			public const int linear = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int list_item = 2131230961;
+			public const int listMode = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int main_appbar = 2131230962;
+			public const int list_item = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int main_tablayout = 2131230963;
+			public const int main_appbar = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int main_toolbar = 2131230964;
+			public const int main_tablayout = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int main_viewpager = 2131230965;
+			public const int main_toolbar = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int masked = 2131230966;
+			public const int main_viewpager = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int match_constraint = 2131230967;
+			public const int masked = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int match_parent = 2131230968;
+			public const int match_constraint = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int material_clock_display = 2131230969;
+			public const int match_parent = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int material_clock_face = 2131230970;
+			public const int material_clock_display = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int material_clock_hand = 2131230971;
+			public const int material_clock_face = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int material_clock_period_am_button = 2131230972;
+			public const int material_clock_hand = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int material_clock_period_pm_button = 2131230973;
+			public const int material_clock_period_am_button = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int material_clock_period_toggle = 2131230974;
+			public const int material_clock_period_pm_button = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int material_hour_text_input = 2131230975;
+			public const int material_clock_period_toggle = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int material_hour_tv = 2131230976;
+			public const int material_hour_text_input = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int material_label = 2131230977;
+			public const int material_hour_tv = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int material_minute_text_input = 2131230978;
+			public const int material_label = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int material_minute_tv = 2131230979;
+			public const int material_minute_text_input = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int material_textinput_timepicker = 2131230980;
+			public const int material_minute_tv = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int material_timepicker_cancel_button = 2131230981;
+			public const int material_textinput_timepicker = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int material_timepicker_container = 2131230982;
+			public const int material_timepicker_cancel_button = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int material_timepicker_edit_text = 2131230983;
+			public const int material_timepicker_container = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int material_timepicker_mode_button = 2131230984;
+			public const int material_timepicker_edit_text = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int material_timepicker_ok_button = 2131230985;
+			public const int material_timepicker_mode_button = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_view = 2131230986;
+			public const int material_timepicker_ok_button = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int material_value_index = 2131230987;
+			public const int material_timepicker_view = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int media_actions = 2131230988;
+			public const int material_value_index = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int media_controller_compat_view_tag = 2131230989;
+			public const int media_actions = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int message = 2131230990;
+			public const int media_controller_compat_view_tag = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int message = 2131230991;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F08010F
-			public const int middle = 2131230991;
-			
 			// aapt resource value: 0x7F080110
-			public const int mini = 2131230992;
+			public const int middle = 2131230992;
 			
 			// aapt resource value: 0x7F080111
-			public const int month_grid = 2131230993;
+			public const int mini = 2131230993;
 			
 			// aapt resource value: 0x7F080112
-			public const int month_navigation_bar = 2131230994;
+			public const int month_grid = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int month_navigation_fragment_toggle = 2131230995;
+			public const int month_navigation_bar = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int month_navigation_next = 2131230996;
+			public const int month_navigation_fragment_toggle = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int month_navigation_previous = 2131230997;
+			public const int month_navigation_next = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int month_title = 2131230998;
+			public const int month_navigation_previous = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int motion_base = 2131230999;
+			public const int month_title = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int mtrl_anchor_parent = 2131231000;
-			
-			// aapt resource value: 0x7F08011A
-			public const int mtrl_calendar_days_of_week = 2131231002;
+			public const int motion_base = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int mtrl_calendar_day_selector_frame = 2131231001;
+			public const int mtrl_anchor_parent = 2131231001;
 			
 			// aapt resource value: 0x7F08011B
-			public const int mtrl_calendar_frame = 2131231003;
+			public const int mtrl_calendar_days_of_week = 2131231003;
+			
+			// aapt resource value: 0x7F08011A
+			public const int mtrl_calendar_day_selector_frame = 2131231002;
 			
 			// aapt resource value: 0x7F08011C
-			public const int mtrl_calendar_main_pane = 2131231004;
+			public const int mtrl_calendar_frame = 2131231004;
 			
 			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_months = 2131231005;
+			public const int mtrl_calendar_main_pane = 2131231005;
 			
 			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_selection_frame = 2131231006;
+			public const int mtrl_calendar_months = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_text_input_frame = 2131231007;
+			public const int mtrl_calendar_selection_frame = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_year_selector_frame = 2131231008;
+			public const int mtrl_calendar_text_input_frame = 2131231008;
 			
 			// aapt resource value: 0x7F080121
-			public const int mtrl_card_checked_layer_id = 2131231009;
+			public const int mtrl_calendar_year_selector_frame = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int mtrl_child_content_container = 2131231010;
+			public const int mtrl_card_checked_layer_id = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int mtrl_internal_children_alpha_tag = 2131231011;
+			public const int mtrl_child_content_container = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int mtrl_motion_snapshot_view = 2131231012;
+			public const int mtrl_internal_children_alpha_tag = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int mtrl_picker_fullscreen = 2131231013;
+			public const int mtrl_motion_snapshot_view = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int mtrl_picker_header = 2131231014;
+			public const int mtrl_picker_fullscreen = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int mtrl_picker_header_selection_text = 2131231015;
+			public const int mtrl_picker_header = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int mtrl_picker_header_title_and_selection = 2131231016;
+			public const int mtrl_picker_header_selection_text = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_header_toggle = 2131231017;
+			public const int mtrl_picker_header_title_and_selection = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_text_input_date = 2131231018;
+			public const int mtrl_picker_header_toggle = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_text_input_range_end = 2131231019;
+			public const int mtrl_picker_text_input_date = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_text_input_range_start = 2131231020;
+			public const int mtrl_picker_text_input_range_end = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_title_text = 2131231021;
+			public const int mtrl_picker_text_input_range_start = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int mtrl_view_tag_bottom_padding = 2131231022;
+			public const int mtrl_picker_title_text = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int multiply = 2131231023;
-			
-			// aapt resource value: 0x7F080131
-			public const int navigation_bar_item_icon_view = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int navigation_bar_item_labels_group = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int navigation_bar_item_large_label_view = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int navigation_bar_item_small_label_view = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int navigation_header_container = 2131231029;
+			public const int mtrl_view_tag_bottom_padding = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int nav_controller_view_tag = 2131231024;
+			public const int multiply = 2131231024;
+			
+			// aapt resource value: 0x7F080132
+			public const int navigation_bar_item_icon_view = 2131231026;
+			
+			// aapt resource value: 0x7F080133
+			public const int navigation_bar_item_labels_group = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int navigation_bar_item_large_label_view = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_bar_item_small_label_view = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int never = 2131231030;
+			public const int navigation_header_container = 2131231030;
+			
+			// aapt resource value: 0x7F080131
+			public const int nav_controller_view_tag = 2131231025;
 			
 			// aapt resource value: 0x7F080137
-			public const int neverCompleteToEnd = 2131231031;
+			public const int never = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int neverCompleteToStart = 2131231032;
-			
-			// aapt resource value: 0x7F08013B
-			public const int none = 2131231035;
-			
-			// aapt resource value: 0x7F08013C
-			public const int normal = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int north = 2131231037;
+			public const int neverCompleteToEnd = 2131231032;
 			
 			// aapt resource value: 0x7F080139
-			public const int noScroll = 2131231033;
+			public const int neverCompleteToStart = 2131231033;
 			
-			// aapt resource value: 0x7F08013A
-			public const int noState = 2131231034;
+			// aapt resource value: 0x7F08013C
+			public const int none = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int normal = 2131231037;
 			
 			// aapt resource value: 0x7F08013E
-			public const int notification_background = 2131231038;
+			public const int north = 2131231038;
+			
+			// aapt resource value: 0x7F08013A
+			public const int noScroll = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int noState = 2131231035;
 			
 			// aapt resource value: 0x7F08013F
-			public const int notification_main_column = 2131231039;
+			public const int notification_background = 2131231039;
 			
 			// aapt resource value: 0x7F080140
-			public const int notification_main_column_container = 2131231040;
+			public const int notification_main_column = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int notification_main_column_container = 2131231041;
 			
 			// aapt resource value: 0x7F080006
 			public const int NO_DEBUG = 2131230726;
 			
-			// aapt resource value: 0x7F080141
-			public const int off = 2131231041;
-			
 			// aapt resource value: 0x7F080142
-			public const int on = 2131231042;
+			public const int off = 2131231042;
 			
 			// aapt resource value: 0x7F080143
-			public const int outline = 2131231043;
+			public const int on = 2131231043;
 			
 			// aapt resource value: 0x7F080144
-			public const int outward = 2131231044;
+			public const int outline = 2131231044;
 			
 			// aapt resource value: 0x7F080145
-			public const int overshoot = 2131231045;
+			public const int outward = 2131231045;
 			
 			// aapt resource value: 0x7F080146
-			public const int packed = 2131231046;
+			public const int overshoot = 2131231046;
 			
 			// aapt resource value: 0x7F080147
-			public const int parallax = 2131231047;
+			public const int packed = 2131231047;
 			
 			// aapt resource value: 0x7F080148
-			public const int parent = 2131231048;
+			public const int parallax = 2131231048;
 			
 			// aapt resource value: 0x7F080149
-			public const int parentPanel = 2131231049;
+			public const int parent = 2131231049;
 			
 			// aapt resource value: 0x7F08014A
-			public const int parentRelative = 2131231050;
+			public const int parentPanel = 2131231050;
 			
 			// aapt resource value: 0x7F08014B
-			public const int parent_matrix = 2131231051;
+			public const int parentRelative = 2131231051;
 			
 			// aapt resource value: 0x7F08014C
-			public const int password_toggle = 2131231052;
+			public const int parent_matrix = 2131231052;
 			
 			// aapt resource value: 0x7F08014D
-			public const int path = 2131231053;
+			public const int password_toggle = 2131231053;
 			
 			// aapt resource value: 0x7F08014E
-			public const int pathRelative = 2131231054;
+			public const int path = 2131231054;
 			
 			// aapt resource value: 0x7F08014F
-			public const int peekHeight = 2131231055;
+			public const int pathRelative = 2131231055;
 			
 			// aapt resource value: 0x7F080150
-			public const int percent = 2131231056;
+			public const int peekHeight = 2131231056;
 			
 			// aapt resource value: 0x7F080151
-			public const int pin = 2131231057;
+			public const int percent = 2131231057;
 			
 			// aapt resource value: 0x7F080152
-			public const int position = 2131231058;
+			public const int pin = 2131231058;
 			
 			// aapt resource value: 0x7F080153
-			public const int postLayout = 2131231059;
+			public const int position = 2131231059;
 			
 			// aapt resource value: 0x7F080154
-			public const int progress_circular = 2131231060;
+			public const int postLayout = 2131231060;
 			
 			// aapt resource value: 0x7F080155
-			public const int progress_horizontal = 2131231061;
+			public const int progress_circular = 2131231061;
 			
 			// aapt resource value: 0x7F080156
-			public const int radio = 2131231062;
+			public const int progress_horizontal = 2131231062;
 			
 			// aapt resource value: 0x7F080157
-			public const int ratio = 2131231063;
+			public const int radio = 2131231063;
 			
 			// aapt resource value: 0x7F080158
-			public const int rectangles = 2131231064;
+			public const int ratio = 2131231064;
 			
 			// aapt resource value: 0x7F080159
-			public const int recycler_view = 2131231065;
+			public const int rectangles = 2131231065;
 			
 			// aapt resource value: 0x7F08015A
-			public const int reverseSawtooth = 2131231066;
+			public const int recycler_view = 2131231066;
 			
 			// aapt resource value: 0x7F08015B
-			public const int right = 2131231067;
+			public const int reverseSawtooth = 2131231067;
 			
 			// aapt resource value: 0x7F08015C
-			public const int rightToLeft = 2131231068;
+			public const int right = 2131231068;
 			
 			// aapt resource value: 0x7F08015D
-			public const int right_icon = 2131231069;
+			public const int rightToLeft = 2131231069;
 			
 			// aapt resource value: 0x7F08015E
-			public const int right_side = 2131231070;
+			public const int right_icon = 2131231070;
 			
 			// aapt resource value: 0x7F08015F
-			public const int rounded = 2131231071;
+			public const int right_side = 2131231071;
 			
 			// aapt resource value: 0x7F080160
-			public const int row_index_key = 2131231072;
+			public const int rounded = 2131231072;
 			
 			// aapt resource value: 0x7F080161
-			public const int save_non_transition_alpha = 2131231073;
+			public const int row_index_key = 2131231073;
 			
 			// aapt resource value: 0x7F080162
-			public const int save_overlay_view = 2131231074;
+			public const int save_non_transition_alpha = 2131231074;
 			
 			// aapt resource value: 0x7F080163
-			public const int sawtooth = 2131231075;
+			public const int save_overlay_view = 2131231075;
 			
 			// aapt resource value: 0x7F080164
-			public const int scale = 2131231076;
+			public const int sawtooth = 2131231076;
 			
 			// aapt resource value: 0x7F080165
-			public const int screen = 2131231077;
+			public const int scale = 2131231077;
 			
 			// aapt resource value: 0x7F080166
-			public const int scroll = 2131231078;
-			
-			// aapt resource value: 0x7F08016A
-			public const int scrollable = 2131231082;
+			public const int screen = 2131231078;
 			
 			// aapt resource value: 0x7F080167
-			public const int scrollIndicatorDown = 2131231079;
-			
-			// aapt resource value: 0x7F080168
-			public const int scrollIndicatorUp = 2131231080;
-			
-			// aapt resource value: 0x7F080169
-			public const int scrollView = 2131231081;
+			public const int scroll = 2131231079;
 			
 			// aapt resource value: 0x7F08016B
-			public const int search_badge = 2131231083;
+			public const int scrollable = 2131231083;
+			
+			// aapt resource value: 0x7F080168
+			public const int scrollIndicatorDown = 2131231080;
+			
+			// aapt resource value: 0x7F080169
+			public const int scrollIndicatorUp = 2131231081;
+			
+			// aapt resource value: 0x7F08016A
+			public const int scrollView = 2131231082;
 			
 			// aapt resource value: 0x7F08016C
-			public const int search_bar = 2131231084;
+			public const int search_badge = 2131231084;
 			
 			// aapt resource value: 0x7F08016D
-			public const int search_button = 2131231085;
+			public const int search_bar = 2131231085;
 			
 			// aapt resource value: 0x7F08016E
-			public const int search_close_btn = 2131231086;
+			public const int search_button = 2131231086;
 			
 			// aapt resource value: 0x7F08016F
-			public const int search_edit_frame = 2131231087;
+			public const int search_close_btn = 2131231087;
 			
 			// aapt resource value: 0x7F080170
-			public const int search_go_btn = 2131231088;
+			public const int search_edit_frame = 2131231088;
 			
 			// aapt resource value: 0x7F080171
-			public const int search_mag_icon = 2131231089;
+			public const int search_go_btn = 2131231089;
 			
 			// aapt resource value: 0x7F080172
-			public const int search_plate = 2131231090;
+			public const int search_mag_icon = 2131231090;
 			
 			// aapt resource value: 0x7F080173
-			public const int search_src_text = 2131231091;
+			public const int search_plate = 2131231091;
 			
 			// aapt resource value: 0x7F080174
-			public const int search_voice_btn = 2131231092;
+			public const int search_src_text = 2131231092;
 			
 			// aapt resource value: 0x7F080175
-			public const int seekbar = 2131231093;
+			public const int search_voice_btn = 2131231093;
 			
 			// aapt resource value: 0x7F080176
-			public const int seekbar_value = 2131231094;
-			
-			// aapt resource value: 0x7F080178
-			public const int selected = 2131231096;
-			
-			// aapt resource value: 0x7F080179
-			public const int selection_type = 2131231097;
+			public const int seekbar = 2131231094;
 			
 			// aapt resource value: 0x7F080177
-			public const int select_dialog_listview = 2131231095;
+			public const int seekbar_value = 2131231095;
+			
+			// aapt resource value: 0x7F080179
+			public const int selected = 2131231097;
 			
 			// aapt resource value: 0x7F08017A
-			public const int sharedValueSet = 2131231098;
+			public const int selection_type = 2131231098;
+			
+			// aapt resource value: 0x7F080178
+			public const int select_dialog_listview = 2131231096;
 			
 			// aapt resource value: 0x7F08017B
-			public const int sharedValueUnset = 2131231099;
+			public const int sharedValueSet = 2131231099;
 			
 			// aapt resource value: 0x7F08017C
-			public const int shellcontent_appbar = 2131231100;
+			public const int sharedValueUnset = 2131231100;
 			
 			// aapt resource value: 0x7F08017D
-			public const int shellcontent_toolbar = 2131231101;
+			public const int shellcontent_appbar = 2131231101;
+			
+			// aapt resource value: 0x7F08017E
+			public const int shellcontent_toolbar = 2131231102;
 			
 			// aapt resource value: 0x7F080007
 			public const int SHIFT = 2131230727;
 			
-			// aapt resource value: 0x7F08017E
-			public const int shortcut = 2131231102;
-			
 			// aapt resource value: 0x7F08017F
-			public const int showCustom = 2131231103;
+			public const int shortcut = 2131231103;
 			
 			// aapt resource value: 0x7F080180
-			public const int showHome = 2131231104;
+			public const int showCustom = 2131231104;
 			
 			// aapt resource value: 0x7F080181
-			public const int showTitle = 2131231105;
+			public const int showHome = 2131231105;
+			
+			// aapt resource value: 0x7F080182
+			public const int showTitle = 2131231106;
 			
 			// aapt resource value: 0x7F080008
 			public const int SHOW_ALL = 2131230728;
@@ -17844,242 +20821,242 @@ namespace CUWFalcons.Droid
 			// aapt resource value: 0x7F08000A
 			public const int SHOW_PROGRESS = 2131230730;
 			
-			// aapt resource value: 0x7F080182
-			public const int sin = 2131231106;
-			
 			// aapt resource value: 0x7F080183
-			public const int skipCollapsed = 2131231107;
+			public const int sin = 2131231107;
 			
 			// aapt resource value: 0x7F080184
-			public const int skipped = 2131231108;
+			public const int skipCollapsed = 2131231108;
 			
 			// aapt resource value: 0x7F080185
-			public const int slide = 2131231109;
+			public const int skipped = 2131231109;
 			
 			// aapt resource value: 0x7F080186
-			public const int sliding_tabs = 2131231110;
+			public const int slide = 2131231110;
 			
 			// aapt resource value: 0x7F080187
-			public const int snackbar_action = 2131231111;
+			public const int sliding_tabs = 2131231111;
 			
 			// aapt resource value: 0x7F080188
-			public const int snackbar_text = 2131231112;
+			public const int snackbar_action = 2131231112;
 			
 			// aapt resource value: 0x7F080189
-			public const int snap = 2131231113;
+			public const int snackbar_text = 2131231113;
 			
 			// aapt resource value: 0x7F08018A
-			public const int snapMargins = 2131231114;
+			public const int snap = 2131231114;
 			
 			// aapt resource value: 0x7F08018B
-			public const int south = 2131231115;
+			public const int snapMargins = 2131231115;
 			
 			// aapt resource value: 0x7F08018C
-			public const int spacer = 2131231116;
+			public const int south = 2131231116;
 			
 			// aapt resource value: 0x7F08018D
-			public const int special_effects_controller_view_tag = 2131231117;
+			public const int spacer = 2131231117;
 			
 			// aapt resource value: 0x7F08018E
-			public const int spinner = 2131231118;
+			public const int special_effects_controller_view_tag = 2131231118;
 			
 			// aapt resource value: 0x7F08018F
-			public const int spline = 2131231119;
+			public const int spinner = 2131231119;
 			
 			// aapt resource value: 0x7F080190
-			public const int split_action_bar = 2131231120;
+			public const int spline = 2131231120;
 			
 			// aapt resource value: 0x7F080191
-			public const int spread = 2131231121;
+			public const int split_action_bar = 2131231121;
 			
 			// aapt resource value: 0x7F080192
-			public const int spread_inside = 2131231122;
+			public const int spread = 2131231122;
 			
 			// aapt resource value: 0x7F080193
-			public const int spring = 2131231123;
+			public const int spread_inside = 2131231123;
 			
 			// aapt resource value: 0x7F080194
-			public const int square = 2131231124;
+			public const int spring = 2131231124;
 			
 			// aapt resource value: 0x7F080195
-			public const int src_atop = 2131231125;
+			public const int square = 2131231125;
 			
 			// aapt resource value: 0x7F080196
-			public const int src_in = 2131231126;
+			public const int src_atop = 2131231126;
 			
 			// aapt resource value: 0x7F080197
-			public const int src_over = 2131231127;
+			public const int src_in = 2131231127;
 			
 			// aapt resource value: 0x7F080198
-			public const int standard = 2131231128;
+			public const int src_over = 2131231128;
 			
 			// aapt resource value: 0x7F080199
-			public const int start = 2131231129;
+			public const int standard = 2131231129;
 			
 			// aapt resource value: 0x7F08019A
-			public const int startHorizontal = 2131231130;
+			public const int start = 2131231130;
 			
 			// aapt resource value: 0x7F08019B
-			public const int startToEnd = 2131231131;
+			public const int startHorizontal = 2131231131;
 			
 			// aapt resource value: 0x7F08019C
-			public const int startVertical = 2131231132;
+			public const int startToEnd = 2131231132;
 			
 			// aapt resource value: 0x7F08019D
-			public const int staticLayout = 2131231133;
+			public const int startVertical = 2131231133;
 			
 			// aapt resource value: 0x7F08019E
-			public const int staticPostLayout = 2131231134;
+			public const int staticLayout = 2131231134;
 			
 			// aapt resource value: 0x7F08019F
-			public const int status_bar_latest_event_content = 2131231135;
+			public const int staticPostLayout = 2131231135;
 			
 			// aapt resource value: 0x7F0801A0
-			public const int stop = 2131231136;
+			public const int status_bar_latest_event_content = 2131231136;
 			
 			// aapt resource value: 0x7F0801A1
-			public const int stretch = 2131231137;
+			public const int stop = 2131231137;
 			
 			// aapt resource value: 0x7F0801A2
-			public const int submenuarrow = 2131231138;
+			public const int stretch = 2131231138;
 			
 			// aapt resource value: 0x7F0801A3
-			public const int submit_area = 2131231139;
+			public const int submenuarrow = 2131231139;
 			
 			// aapt resource value: 0x7F0801A4
-			public const int supportScrollUp = 2131231140;
+			public const int submit_area = 2131231140;
 			
 			// aapt resource value: 0x7F0801A5
-			public const int switchWidget = 2131231141;
+			public const int supportScrollUp = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int switchWidget = 2131231142;
 			
 			// aapt resource value: 0x7F08000B
 			public const int SYM = 2131230731;
 			
-			// aapt resource value: 0x7F0801A6
-			public const int tabMode = 2131231142;
-			
 			// aapt resource value: 0x7F0801A7
-			public const int tag_accessibility_actions = 2131231143;
+			public const int tabMode = 2131231143;
 			
 			// aapt resource value: 0x7F0801A8
-			public const int tag_accessibility_clickable_spans = 2131231144;
+			public const int tag_accessibility_actions = 2131231144;
 			
 			// aapt resource value: 0x7F0801A9
-			public const int tag_accessibility_heading = 2131231145;
+			public const int tag_accessibility_clickable_spans = 2131231145;
 			
 			// aapt resource value: 0x7F0801AA
-			public const int tag_accessibility_pane_title = 2131231146;
+			public const int tag_accessibility_heading = 2131231146;
 			
 			// aapt resource value: 0x7F0801AB
-			public const int tag_on_apply_window_listener = 2131231147;
+			public const int tag_accessibility_pane_title = 2131231147;
 			
 			// aapt resource value: 0x7F0801AC
-			public const int tag_on_receive_content_listener = 2131231148;
+			public const int tag_on_apply_window_listener = 2131231148;
 			
 			// aapt resource value: 0x7F0801AD
-			public const int tag_on_receive_content_mime_types = 2131231149;
+			public const int tag_on_receive_content_listener = 2131231149;
 			
 			// aapt resource value: 0x7F0801AE
-			public const int tag_screen_reader_focusable = 2131231150;
+			public const int tag_on_receive_content_mime_types = 2131231150;
 			
 			// aapt resource value: 0x7F0801AF
-			public const int tag_state_description = 2131231151;
+			public const int tag_screen_reader_focusable = 2131231151;
 			
 			// aapt resource value: 0x7F0801B0
-			public const int tag_transition_group = 2131231152;
+			public const int tag_state_description = 2131231152;
 			
 			// aapt resource value: 0x7F0801B1
-			public const int tag_unhandled_key_event_manager = 2131231153;
+			public const int tag_transition_group = 2131231153;
 			
 			// aapt resource value: 0x7F0801B2
-			public const int tag_unhandled_key_listeners = 2131231154;
+			public const int tag_unhandled_key_event_manager = 2131231154;
 			
 			// aapt resource value: 0x7F0801B3
-			public const int tag_window_insets_animation_callback = 2131231155;
+			public const int tag_unhandled_key_listeners = 2131231155;
 			
 			// aapt resource value: 0x7F0801B4
-			public const int test_checkbox_android_button_tint = 2131231156;
+			public const int tag_window_insets_animation_callback = 2131231156;
 			
 			// aapt resource value: 0x7F0801B5
-			public const int test_checkbox_app_button_tint = 2131231157;
+			public const int test_checkbox_android_button_tint = 2131231157;
 			
 			// aapt resource value: 0x7F0801B6
-			public const int test_radiobutton_android_button_tint = 2131231158;
+			public const int test_checkbox_app_button_tint = 2131231158;
 			
 			// aapt resource value: 0x7F0801B7
-			public const int test_radiobutton_app_button_tint = 2131231159;
+			public const int test_radiobutton_android_button_tint = 2131231159;
 			
 			// aapt resource value: 0x7F0801B8
-			public const int text = 2131231160;
+			public const int test_radiobutton_app_button_tint = 2131231160;
 			
 			// aapt resource value: 0x7F0801B9
-			public const int text2 = 2131231161;
+			public const int text = 2131231161;
 			
 			// aapt resource value: 0x7F0801BA
-			public const int textEnd = 2131231162;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int textinput_counter = 2131231170;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int textinput_error = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int textinput_helper_text = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int textinput_placeholder = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int textinput_prefix_text = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_suffix_text = 2131231175;
+			public const int text2 = 2131231162;
 			
 			// aapt resource value: 0x7F0801BB
-			public const int textSpacerNoButtons = 2131231163;
+			public const int textEnd = 2131231163;
 			
-			// aapt resource value: 0x7F0801BC
-			public const int textSpacerNoTitle = 2131231164;
+			// aapt resource value: 0x7F0801C3
+			public const int textinput_counter = 2131231171;
 			
-			// aapt resource value: 0x7F0801BD
-			public const int textStart = 2131231165;
+			// aapt resource value: 0x7F0801C4
+			public const int textinput_error = 2131231172;
 			
-			// aapt resource value: 0x7F0801BE
-			public const int textTop = 2131231166;
+			// aapt resource value: 0x7F0801C5
+			public const int textinput_helper_text = 2131231173;
 			
-			// aapt resource value: 0x7F0801BF
-			public const int text_input_end_icon = 2131231167;
+			// aapt resource value: 0x7F0801C6
+			public const int textinput_placeholder = 2131231174;
 			
-			// aapt resource value: 0x7F0801C0
-			public const int text_input_error_icon = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int text_input_start_icon = 2131231169;
+			// aapt resource value: 0x7F0801C7
+			public const int textinput_prefix_text = 2131231175;
 			
 			// aapt resource value: 0x7F0801C8
-			public const int time = 2131231176;
+			public const int textinput_suffix_text = 2131231176;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int textSpacerNoButtons = 2131231164;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int textSpacerNoTitle = 2131231165;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int textStart = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int textTop = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int text_input_end_icon = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int text_input_error_icon = 2131231169;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int text_input_start_icon = 2131231170;
 			
 			// aapt resource value: 0x7F0801C9
-			public const int title = 2131231177;
+			public const int time = 2131231177;
 			
 			// aapt resource value: 0x7F0801CA
-			public const int titleDividerNoCustom = 2131231178;
+			public const int title = 2131231178;
 			
 			// aapt resource value: 0x7F0801CB
-			public const int title_template = 2131231179;
+			public const int titleDividerNoCustom = 2131231179;
 			
 			// aapt resource value: 0x7F0801CC
-			public const int toggle = 2131231180;
+			public const int title_template = 2131231180;
 			
 			// aapt resource value: 0x7F0801CD
-			public const int toolbar = 2131231181;
+			public const int toggle = 2131231181;
 			
 			// aapt resource value: 0x7F0801CE
-			public const int top = 2131231182;
+			public const int toolbar = 2131231182;
 			
 			// aapt resource value: 0x7F0801CF
-			public const int topPanel = 2131231183;
+			public const int top = 2131231183;
+			
+			// aapt resource value: 0x7F0801D0
+			public const int topPanel = 2131231184;
 			
 			// aapt resource value: 0x7F08000C
 			public const int TOP_END = 2131230732;
@@ -18087,98 +21064,98 @@ namespace CUWFalcons.Droid
 			// aapt resource value: 0x7F08000D
 			public const int TOP_START = 2131230733;
 			
-			// aapt resource value: 0x7F0801D0
-			public const int touch_outside = 2131231184;
-			
 			// aapt resource value: 0x7F0801D1
-			public const int transitionToEnd = 2131231185;
+			public const int touch_outside = 2131231185;
 			
 			// aapt resource value: 0x7F0801D2
-			public const int transitionToStart = 2131231186;
+			public const int transitionToEnd = 2131231186;
 			
 			// aapt resource value: 0x7F0801D3
-			public const int transition_current_scene = 2131231187;
+			public const int transitionToStart = 2131231187;
 			
 			// aapt resource value: 0x7F0801D4
-			public const int transition_layout_save = 2131231188;
+			public const int transition_current_scene = 2131231188;
 			
 			// aapt resource value: 0x7F0801D5
-			public const int transition_position = 2131231189;
+			public const int transition_layout_save = 2131231189;
 			
 			// aapt resource value: 0x7F0801D6
-			public const int transition_scene_layoutid_cache = 2131231190;
+			public const int transition_position = 2131231190;
 			
 			// aapt resource value: 0x7F0801D7
-			public const int transition_transform = 2131231191;
+			public const int transition_scene_layoutid_cache = 2131231191;
 			
 			// aapt resource value: 0x7F0801D8
-			public const int triangle = 2131231192;
+			public const int transition_transform = 2131231192;
 			
 			// aapt resource value: 0x7F0801D9
-			public const int @unchecked = 2131231193;
+			public const int triangle = 2131231193;
 			
 			// aapt resource value: 0x7F0801DA
-			public const int uniform = 2131231194;
+			public const int @unchecked = 2131231194;
 			
 			// aapt resource value: 0x7F0801DB
-			public const int unlabeled = 2131231195;
+			public const int uniform = 2131231195;
 			
 			// aapt resource value: 0x7F0801DC
-			public const int up = 2131231196;
+			public const int unlabeled = 2131231196;
 			
 			// aapt resource value: 0x7F0801DD
-			public const int useLogo = 2131231197;
+			public const int up = 2131231197;
 			
 			// aapt resource value: 0x7F0801DE
-			public const int vertical_only = 2131231198;
+			public const int useLogo = 2131231198;
 			
 			// aapt resource value: 0x7F0801DF
-			public const int view_offset_helper = 2131231199;
+			public const int vertical_only = 2131231199;
 			
 			// aapt resource value: 0x7F0801E0
-			public const int view_transition = 2131231200;
+			public const int view_offset_helper = 2131231200;
 			
 			// aapt resource value: 0x7F0801E1
-			public const int view_tree_lifecycle_owner = 2131231201;
+			public const int view_transition = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_saved_state_registry_owner = 2131231202;
+			public const int view_tree_lifecycle_owner = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_view_model_store_owner = 2131231203;
+			public const int view_tree_saved_state_registry_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int visible = 2131231204;
+			public const int view_tree_view_model_store_owner = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible_removing_fragment_view_tag = 2131231205;
+			public const int visible = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int west = 2131231206;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int withinBounds = 2131231208;
+			public const int visible_removing_fragment_view_tag = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int withText = 2131231207;
+			public const int west = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int wrap = 2131231209;
+			public const int withinBounds = 2131231209;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withText = 2131231208;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap_content = 2131231210;
+			public const int wrap = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content_constrained = 2131231211;
+			public const int wrap_content = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int x_left = 2131231212;
+			public const int wrap_content_constrained = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_right = 2131231213;
+			public const int x_left = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int x_right = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int zero_corner_chip = 2131231215;
 			
 			static Id()
 			{
@@ -18786,6 +21763,12 @@ namespace CUWFalcons.Droid
 			// aapt resource value: 0x7F0B0094
 			public const int Toolbar = 2131427476;
 			
+			// aapt resource value: 0x7F0B0095
+			public const int zxingscanneractivitylayout = 2131427477;
+			
+			// aapt resource value: 0x7F0B0096
+			public const int zxingscannerfragmentlayout = 2131427478;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -18803,10 +21786,7 @@ namespace CUWFalcons.Droid
 			public const int icon = 2131492864;
 			
 			// aapt resource value: 0x7F0C0001
-			public const int icon_round = 2131492865;
-			
-			// aapt resource value: 0x7F0C0002
-			public const int launcher_foreground = 2131492866;
+			public const int launcher_foreground = 2131492865;
 			
 			static Mipmap()
 			{
@@ -18982,214 +21962,217 @@ namespace CUWFalcons.Droid
 			public const int item_view_role_description = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int material_clock_display_divider = 2131623984;
+			public const int library_name = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_toggle_content_description = 2131623985;
+			public const int material_clock_display_divider = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_hour_selection = 2131623986;
+			public const int material_clock_toggle_content_description = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_suffix = 2131623987;
+			public const int material_hour_selection = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_minute_selection = 2131623988;
+			public const int material_hour_suffix = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_suffix = 2131623989;
+			public const int material_minute_selection = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_motion_easing_accelerated = 2131623990;
+			public const int material_minute_suffix = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_decelerated = 2131623991;
+			public const int material_motion_easing_accelerated = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_emphasized = 2131623992;
+			public const int material_motion_easing_decelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_linear = 2131623993;
+			public const int material_motion_easing_emphasized = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_standard = 2131623994;
+			public const int material_motion_easing_linear = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_slider_range_end = 2131623995;
+			public const int material_motion_easing_standard = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_start = 2131623996;
+			public const int material_slider_range_end = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_timepicker_am = 2131623997;
+			public const int material_slider_range_start = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_clock_mode_description = 2131623998;
+			public const int material_timepicker_am = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_hour = 2131623999;
+			public const int material_timepicker_clock_mode_description = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_minute = 2131624000;
+			public const int material_timepicker_hour = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_pm = 2131624001;
+			public const int material_timepicker_minute = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_select_time = 2131624002;
+			public const int material_timepicker_pm = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_text_input_mode_description = 2131624003;
+			public const int material_timepicker_select_time = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_badge_numberless_content_description = 2131624004;
+			public const int material_timepicker_text_input_mode_description = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_chip_close_icon_content_description = 2131624005;
+			public const int mtrl_badge_numberless_content_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624006;
+			public const int mtrl_chip_close_icon_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624007;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_a11y_next_month = 2131624008;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_prev_month = 2131624009;
+			public const int mtrl_picker_a11y_next_month = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_announce_current_selection = 2131624010;
+			public const int mtrl_picker_a11y_prev_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_cancel = 2131624011;
+			public const int mtrl_picker_announce_current_selection = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_confirm = 2131624012;
+			public const int mtrl_picker_cancel = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_date_header_selected = 2131624013;
+			public const int mtrl_picker_confirm = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_title = 2131624014;
+			public const int mtrl_picker_date_header_selected = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_unselected = 2131624015;
+			public const int mtrl_picker_date_header_title = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_day_of_week_column_header = 2131624016;
+			public const int mtrl_picker_date_header_unselected = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_invalid_format = 2131624017;
+			public const int mtrl_picker_day_of_week_column_header = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format_example = 2131624018;
+			public const int mtrl_picker_invalid_format = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_use = 2131624019;
+			public const int mtrl_picker_invalid_format_example = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_range = 2131624020;
+			public const int mtrl_picker_invalid_format_use = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_navigate_to_year_description = 2131624021;
+			public const int mtrl_picker_invalid_range = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_out_of_range = 2131624022;
+			public const int mtrl_picker_navigate_to_year_description = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_range_header_only_end_selected = 2131624023;
+			public const int mtrl_picker_out_of_range = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_start_selected = 2131624024;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_title = 2131624026;
+			public const int mtrl_picker_range_header_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_unselected = 2131624027;
+			public const int mtrl_picker_range_header_title = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_save = 2131624028;
+			public const int mtrl_picker_range_header_unselected = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_text_input_date_hint = 2131624029;
+			public const int mtrl_picker_save = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624030;
+			public const int mtrl_picker_text_input_date_hint = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_day_abbr = 2131624032;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_month_abbr = 2131624033;
+			public const int mtrl_picker_text_input_day_abbr = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_year_abbr = 2131624034;
+			public const int mtrl_picker_text_input_month_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624035;
+			public const int mtrl_picker_text_input_year_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_day_selection = 2131624036;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624037;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_year_selection = 2131624038;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int nav_app_bar_navigate_up_description = 2131624039;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_open_drawer_description = 2131624040;
+			public const int nav_app_bar_navigate_up_description = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int not_set = 2131624041;
+			public const int nav_app_bar_open_drawer_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int overflow_tab_title = 2131624042;
+			public const int not_set = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int password_toggle_content_description = 2131624043;
+			public const int overflow_tab_title = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int path_password_eye = 2131624044;
+			public const int password_toggle_content_description = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye_mask_strike_through = 2131624045;
+			public const int path_password_eye = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_visible = 2131624046;
+			public const int path_password_eye_mask_strike_through = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_strike_through = 2131624047;
+			public const int path_password_eye_mask_visible = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int preference_copied = 2131624048;
+			public const int path_password_strike_through = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int search_menu_title = 2131624049;
+			public const int preference_copied = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int status_bar_notification_info_overflow = 2131624050;
+			public const int search_menu_title = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int summary_collapsed_preference_list = 2131624051;
+			public const int status_bar_notification_info_overflow = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int v7_preference_off = 2131624052;
+			public const int summary_collapsed_preference_list = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_on = 2131624053;
+			public const int v7_preference_off = 2131624053;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int v7_preference_on = 2131624054;
 			
 			static String()
 			{

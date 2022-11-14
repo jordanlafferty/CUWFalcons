@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CUWFalcons.Views.SportCodePage"
+    BackgroundColor="White"
+    Title="Sport Code">
+    <ContentPage.Content>
+        <StackLayout>
+             <Label Text=" Sport Codes" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="DarkBlue" />
+            
+            <Label Text="Swipe to edit or delete a sport." FontSize="Subtitle"  HorizontalTextAlignment="Center" TextColor="DarkSlateGray"/>
+             <CollectionView x:Name="sportCodesView">
+                
+                <CollectionView.ItemTemplate>
+                    
+                    <DataTemplate>
+                    <SwipeView>
+                       <SwipeView.RightItems>
+                           <SwipeItems>
+                               <SwipeItem Text="Edit"
+                                          x:Name="edit_Athlete"
+                                          BackgroundColor="LightBlue"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="editSwipe_Invoked"/>
+                               <SwipeItem Text="Delete"
+                                          BackgroundColor="Red"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="deleteSwipe_Invoked"/>
+                           </SwipeItems>
+                       </SwipeView.RightItems>
+
+                        <Grid>
+                            <Grid.Resources>
+                                <SolidColorBrush x:Key="brush" Color="Silver"/>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions><ColumnDefinition Width="auto" /></Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
+                  
+                            <Label Grid.Column="1"
+                                     Grid.Row="2"
+                                     VerticalOptions="Center"
+                                     HorizontalOptions="Center"   
+                                     Text="{Binding sportCode}"
+                                     FontSize="Large"
+                                     TextColor="Black"
+                                           
+                                               />
+                            <Label Grid.Column="2"
+                                    Grid.ColumnSpan="2"
+                                    Grid.Row="2"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center"
+                                    Text="{Binding displayName}"
+                                    FontSize="Subtitle"
+                                    TextColor="Black"/>
+                            
+                            <Label Grid.Column="1"
+                                    Grid.Row="3"
+                                    Grid.ColumnSpan="3"
+                                    HorizontalOptions="Center"
+                                    Text="_____________________________________"
+                                    FontSize="Medium"
+                                    TextColor="Black"/>
+                            </Grid>
+                       </SwipeView>
+                    </DataTemplate>
+               </CollectionView.ItemTemplate>
+        </CollectionView>
+            <StackLayout>
+                   <Button Text="Close" Clicked="closeClicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -6,11 +6,12 @@
     BackgroundColor="White"
     Title="Settings">
     <ContentPage.Content>
-        <StackLayout>
-             <Button VerticalOptions="Center" Text="Logout" BackgroundColor="#245699" Command="{Binding LogoutCommand}"/>
-             <Button Text="Go to CUWFalcons.com" x:Name="websiteBtn" Clicked="websiteBtn_Clicked"></Button>
+        <StackLayout Padding="10,10,10,10" VerticalOptions="Center">
+             <Button VerticalOptions="Center" Text="Logout" BackgroundColor="#245699" x:Name="logoutBtn" Clicked="logoutBtn_Clicked" Command="{Binding LogoutCommand}"/>
+             <Button Text="Go to CUWFalcons.com" x:Name="websiteBtn" BackgroundColor="#245699" Clicked="websiteBtn_Clicked"></Button>
             <StackLayout>
-                 <Button Text="Admin Settings" x:Name="adminBtn"></Button>
+                 <Button Text="Add a New Sport" x:Name="newSportBtn" BackgroundColor="#245699" Clicked="newSportBtn_Clicked" ></Button>
+                 <Button Text="View/Edit Sports" x:Name="viewSportBtn" BackgroundColor="#245699" Clicked="viewSportBtn_Clicked" ></Button>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

@@ -10,54 +10,41 @@ using System.Diagnostics;
 using System.Data.SqlClient;
 using Microsoft.AspNet.Identity;
 using static System.Net.WebRequestMethods;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using CUWFalcons.Models;
 
 namespace CUWFalcons
 {
     public partial class App : Application
     {
 
-
-        public static RosterDatabase db;
-
-        public static RosterDatabase rosterDB
+        public static string currAccount; // current account type
+        public static string currUser; // current username
+        
+      
+        // sets the user and what type of account they have
+        public static void setUser(string account, string username)
         {
-
-            get
-            {
-                if (db == null)
-                {
-                    db = new RosterDatabase("Server=tcp:cuwfalcons.database.windows.net,1433;Initial Catalog=cuwfalcons;Persist Security Info=False;User ID=cuwfalcons;Password=Falcons9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-                }
-                return db;
-            }
+            currAccount = account;
+            currUser = username;
 
         }
 
-        private static void TestConnection()
+        // returns the current username
+        public static string getUser()
         {
-            try
-            {
-                var connectionstring = "Server=tcp:cuwfalcons.database.windows.net,1433;Initial Catalog=cuwfalcons;Persist Security Info=False;User ID=cuwfalcons;Password=Falcons9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-                using (SqlConnection connection = new SqlConnection(connectionstring))
-                {
-                    try
-                    {
-                        connection.Open();
-                        Debug.WriteLine("no error");
-                    }
-                    catch(Exception ex)
-                    {
-                        Debug.WriteLine(ex);
-                    }
-                }
-            }
-            catch
-            {
-                Debug.WriteLine("error");
-            }
+            return currUser;
         }
+
+        // returns the current account type
+        public static string getAccount()
+        {
+            return currAccount;
+        }
+
         public App ()
         {
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NzczMzI0QDMyMzAyZTMzMmUzMG54TEFwUzNQN2RYVXNsVUtyQk9Xb2FabjJHSGNwTlpjelBQNk1TNDRMOUk9");
             InitializeComponent();
             DependencyService.Register<MockDataStore>();
             MainPage = new AppShell();
@@ -75,6 +62,7 @@ namespace CUWFalcons
 
             
         }
+
 
         protected override void OnSleep ()
         {

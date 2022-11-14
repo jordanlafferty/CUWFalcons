@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CUWFalcons.Views.TeamCalendarPage"
+             Title="Team Schedules"
+             BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add an Event"
+                     x:Name="addEvent_Btn"
+                     Clicked="addEventToolbar_Clicked">
+        </ToolbarItem>
+        <ToolbarItem Text="Refresh"
+                     x:Name="refresh_Btn"
+                     Clicked="refreshToolbar_Clicked">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <StackLayout Spacing="20" Padding="15">
+         <Label Text="Swipe to edit or delete an event" FontSize="Subtitle"  HorizontalTextAlignment="Center" TextColor="DarkSlateGray" x:Name="adminLabel"/>
+           
+        <Label Text="Select A Sport to View a Schedule" FontSize="Large" TextColor="Black"/>
+        <Picker Title="Select A Sport"
+                TitleColor="#B1B3B3"
+                x:Name="sportSelection"
+                SelectedIndexChanged="SportChanged"
+                BackgroundColor="GhostWhite"
+                TextColor="#B1B3B3"
+                FontSize="20">
+        </Picker>
+        <CollectionView x:Name="eventView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                     <Grid Padding="10" BackgroundColor="White" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height= "auto"/>
+                                <RowDefinition Height= "auto"/>
+                                <RowDefinition Height= "auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="auto"/>
+                                 <ColumnDefinition Width="auto"/>
+                                 <ColumnDefinition Width="auto" />
+                                 <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                             <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   Text="{Binding gametype}"
+                                   FontAttributes="Bold"
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                             <Label Grid.Column="2"
+                                   Grid.Row="1"
+                                   Text="{Binding displayDate}"
+                                   FontAttributes="Bold"
+                                   FontSize="Subtitle"
+                                   TextColor="Black"/>
+                            <Label Grid.ColumnSpan="5"
+                                   Grid.Column="3"
+                                   Grid.Row="1"
+                                   Text="{Binding displayTime}"
+                                   TextColor="DarkGray"
+                                   FontSize="Subtitle"
+                                   FontAttributes="Bold"/>
+                            <Label Grid.Row="2"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="7"
+                                   Text="{Binding displayTeams}"
+                                   TextColor="#245699"
+                                   FontAttributes="Bold"
+                                   FontSize="Subtitle"
+                                   />
+                            <Label Grid.Row="3"
+                                   Grid.Column="2"
+                                   Grid.ColumnSpan="5"
+                                   Text="{Binding location}"
+                                   TextColor="Gray"
+                                   FontSize="Medium"
+                                   />
+                        <Label Grid.Row="4"
+                                   Grid.Column="3"
+                                   Grid.ColumnSpan="4"
+                                   Text="{Binding notes}"
+                                   TextColor="#245699"
+                                   FontSize="Medium"
+                                   />
+                        <Label Grid.Row="5"
+                                   Grid.Column="2"
+                                   Grid.ColumnSpan="6"
+                                   Text="________________________________"
+                                   TextColor="#245699"
+                                   FontSize="Medium"
+                                   />
+                        </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <CollectionView x:Name="adminEventView">
+           <CollectionView.ItemTemplate>
+                <DataTemplate>
+                   <SwipeView>
+                       <SwipeView.RightItems>
+                           <SwipeItems>
+                               <SwipeItem Text="Edit"
+                                          x:Name="edit_Athlete"
+                                          BackgroundColor="LightBlue"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="editSwipe_Invoked"/>
+                               <SwipeItem Text="Delete"
+                                          BackgroundColor="Red"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="deleteSwipe_Invoked"/>
+                           </SwipeItems>
+                       </SwipeView.RightItems>
+                        <Grid Padding="5" BackgroundColor="White">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height= "auto"/>
+                                <RowDefinition Height= "auto"/>
+                                <RowDefinition Height= "auto"/>
+                                <RowDefinition Height= "auto"/>
+                                <RowDefinition Height= "auto"/>
+                                  <RowDefinition Height= "auto"/>
+
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="auto"/>
+                                 <ColumnDefinition Width="auto"/>
+                                 <ColumnDefinition Width="auto" />
+                                 <ColumnDefinition Width="auto" />
+                                 <ColumnDefinition Width="auto" />
+                                 <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                                <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   Text="{Binding gametype}"
+                                   FontAttributes="Bold"
+                                   FontSize="Small"
+                                   TextColor="Black"/>
+                             <Label Grid.Column="2"
+                                   Grid.Row="1"
+                                   Text="{Binding displayDate}"
+                                   FontAttributes="Bold"
+                                   FontSize="Subtitle"
+                                   TextColor="Black"/>
+                            <Label Grid.ColumnSpan="5"
+                                   Grid.Column="3"
+                                   Grid.Row="1"
+                                   Text="{Binding displayTime}"
+                                   TextColor="DarkGray"
+                                   FontSize="Subtitle"
+                                   FontAttributes="Bold"/>
+                            <Label Grid.Row="2"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan="7"
+                                   Text="{Binding displayTeams}"
+                                   TextColor="#245699"
+                                   FontAttributes="Bold"
+                                   FontSize="Subtitle"
+                                   />
+                            <Label Grid.Row="3"
+                                   Grid.Column="2"
+                                   Grid.ColumnSpan="5"
+                                   Text="{Binding location}"
+                                   TextColor="Gray"
+                                   FontSize="Medium"
+                                   />
+                        <Label Grid.Row="4"
+                                   Grid.Column="3"
+                                   Grid.ColumnSpan="4"
+                                   Text="{Binding notes}"
+                                   TextColor="#245699"
+                                   FontSize="Medium"
+                                   />
+                        <Label Grid.Row="5"
+                                   Grid.Column="2"
+                                   Grid.ColumnSpan="6"
+                                   Text="________________________________"
+                                   TextColor="#245699"
+                                   FontSize="Medium"
+                                   />
+                        
+                        </Grid>
+                    </SwipeView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate> 
+        </CollectionView>
+    </StackLayout>   
+</ContentPage>

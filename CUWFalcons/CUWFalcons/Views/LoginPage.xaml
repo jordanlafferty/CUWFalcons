@@ -8,13 +8,14 @@
              BackgroundColor="White"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout Padding="10,0,0,0" VerticalOptions="Center">
-            <Image Source="falcon_head.png" HeightRequest="120"></Image>
+        <StackLayout Padding="10,10,10,10" VerticalOptions="Center">
+            <Image Source="Falcon_Head.png" x:Name="theImage" HeightRequest="120" WidthRequest="120"></Image>
             <Label Text="Username" FontSize="20" TextColor="#245699"/>
-            <Entry x:Name="username" BackgroundColor="#B1B3B3"/>
+            <Entry x:Name="usernameEntry" BackgroundColor="#B1B3B3"/>
             <Label Text="Password" FontSize="20" TextColor="#245699"/>
-            <Entry x:Name="password" BackgroundColor="#B1B3B3"/>
-            <Button VerticalOptions="Center" Text="Login" BackgroundColor="#245699" Command="{Binding LoginCommand}"/>
+            <Entry x:Name="passwordEntry" BackgroundColor="#B1B3B3" IsPassword="True"/>
+            <Button VerticalOptions="Center" Text="Login" FontAttributes="Bold" BackgroundColor="#245699"  Clicked="login_Clicked"/>
+            <Button VerticalOptions="Center" Text="Guest User" FontAttributes="Bold" BackgroundColor="#245699" Clicked="guest_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

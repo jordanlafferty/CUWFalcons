@@ -6,48 +6,104 @@
              BackgroundColor="White">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Add an Athlete"
+                     x:Name="addAthlete_Btn"
                      Clicked="addAthleteToolbar_Clicked">
         </ToolbarItem>
-
+        <ToolbarItem Text="Refresh"
+                     x:Name="refresh_Btn"
+                     Clicked="refreshToolbar_Clicked">
+        </ToolbarItem>
     </ContentPage.ToolbarItems>
     <StackLayout Spacing="20" Padding="15">
         <Label Text="Select A Sport to View a Roster" FontSize="Large" TextColor="Black"/>
         <Picker Title="Select A Sport"
                 TitleColor="#B1B3B3"
                 x:Name="sportSelection"
+                SelectedIndexChanged="SportChanged"
                 BackgroundColor="GhostWhite"
                 TextColor="#B1B3B3"
                 FontSize="20">
         </Picker>
         <CollectionView x:Name="rosterView">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                     <Grid Padding="10" BackgroundColor="White">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height= "auto"/>
+                                <RowDefinition Height= "auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="auto"/>
+                                 <ColumnDefinition Width="auto"/>
+                                 <ColumnDefinition Width="auto" />
+                                 <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                             <Label Grid.ColumnSpan="4"
+                                    Grid.Column="1"
+                                   Grid.Row="1"
+                                   Text="{Binding fullNameDisplay}"
+                                   FontAttributes="Bold"
+                                   FontSize="Large"
+                                   TextColor="#245699"/>
+                            <Label 
+                                   Grid.ColumnSpan="4"
+                                   Grid.Column="1"
+                                   Grid.Row="2"
+                                   Text="{Binding yearHometownMajorDisplay}"
+                                   FontSize="Large"
+                                   FontAttributes="Bold"
+                                   TextColor="#B1B3B3"/>             
+                        </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <CollectionView x:Name="adminRosterView">
            <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Grid Padding="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height= "auto"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                             <ColumnDefinition Width="auto"/>
-                             <ColumnDefinition Width="40" />
-                             <ColumnDefinition Width="auto" />
-                        </Grid.ColumnDefinitions>
-                        <Label Grid.Column="1"
-                               Text="{Binding number}"
-                               FontAttributes="Bold"
-                               FontSize="Large"
-                               TextColor="Black"/>
-                        <Label Grid.Column="2"
-                               Text="{Binding fName}"
-                               FontSize="Large"
-                               FontAttributes="Bold"
-                               TextColor="#B1B3B3"/>
-                        <Label Grid.Column="3"
-                               Text="{Binding lName}"
-                               TextColor="#B1B3B3"
-                               FontSize="Large"
-                               FontAttributes="Bold"/>
-                    </Grid>
+                   <SwipeView>
+                       <SwipeView.RightItems>
+                           <SwipeItems>
+                               <SwipeItem Text="Edit"
+                                          x:Name="edit_Athlete"
+                                          BackgroundColor="LightBlue"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="editSwipe_Invoked"/>
+                               <SwipeItem Text="Delete"
+                                          BackgroundColor="Red"
+                                          CommandParameter= "{Binding .}"
+                                          Invoked="deleteSwipe_Invoked"/>
+                           </SwipeItems>
+                       </SwipeView.RightItems>
 
+                        <Grid Padding="10" BackgroundColor="White">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height= "auto"/>
+                                <RowDefinition Height= "auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="auto"/>
+                                 <ColumnDefinition Width="auto"/>
+                                 <ColumnDefinition Width="auto" />
+                                 <ColumnDefinition Width="auto" />
+                            </Grid.ColumnDefinitions>
+                             <Label Grid.ColumnSpan="4"
+                                    Grid.Column="1"
+                                   Grid.Row="1"
+                                   Text="{Binding fullNameDisplay}"
+                                   FontAttributes="Bold"
+                                   FontSize="Large"
+                                   TextColor="#245699"/>
+                            <Label 
+                                   Grid.ColumnSpan="4"
+                                   Grid.Column="1"
+                                   Grid.Row="2"
+                                   Text="{Binding yearHometownMajorDisplay}"
+                                   FontSize="Large"
+                                   FontAttributes="Bold"
+                                   TextColor="#B1B3B3"/>
+                        
+                        </Grid>
+                    </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate> 
         </CollectionView>

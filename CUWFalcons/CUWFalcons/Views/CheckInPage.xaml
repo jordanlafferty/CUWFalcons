@@ -2,44 +2,94 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CUWFalcons.Views.CheckInPage"
-             xmlns:vm="clr-namespace:CUWFalcons.ViewModels"
+             xmlns:vm="clr-namespace:CUWFalcons.ViewModels" xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
              Title="Check-In"
              BackgroundColor="White">
-    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Manage QR Codes" x:Name="qrManager_Btn"
+                     Clicked="qrManagerToolbar_Clicked">
+        </ToolbarItem>
 
-    
-    <ContentPage.Resources>
-        <ResourceDictionary>
-            <Color x:Key="Accent">#245699</Color>
-        </ResourceDictionary>
-    </ContentPage.Resources>
+    </ContentPage.ToolbarItems>
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="white" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,10,0,40" VerticalOptions="FillAndExpand">
-                    <Image Source="falcon_head.png" VerticalOptions="Center" HeightRequest="120" />
-                </ContentView>
-            </StackLayout>
-        </StackLayout>
-        <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
-                <Label Text="Today's Events" FontSize="Title"/>
-                <Label Text="Men's Soccer vs Rockford 1:00pm" TextDecorations="Underline" FontSize="20" Padding="0,0,0,0"  FontAttributes="Bold" TextColor="#B1B3B3"/>
-                <Button Margin="0,5,0,0" Text="Check-In"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
-                        TextColor="White" />
-                <Label Text="Women's Soccer vs Rockford 3:30pm" TextColor="#B1B3B3" TextDecorations="Underline" FontSize="20" Padding="0,20,0,0"  FontAttributes="Bold"/>
-                <Button Margin="0,5,0,0" Text="Check-In"
-                        Command="{Binding OpenWebCommand}"
-                        BackgroundColor="{StaticResource Primary}"
+        <ScrollView x:Name="guestScreen">
+            <StackLayout>
+            <Label Text="  "/>
+            <Label Text="You must be logged in to check into games" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center"/>
+            <Button Margin="10,5,10,10" Text="Go to Login"
+                        Command="{Binding LogoutCommand}"
+                        Clicked="loginBtn_Clicked"
+                        BackgroundColor="#245699"
                         TextColor="White" />
             </StackLayout>
+        </ScrollView>
+        <ScrollView x:Name="nonGuestScreen">
+             <StackLayout Padding="10,10,10,10">
+                <Label Text="Today's Events" FontSize="Large" TextColor="Blue" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                <Label Text="  "/>
+                <Label Text="  "/>
+                <CollectionView x:Name="todayGameView" VerticalScrollBarVisibility="Always">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+
+                            <Grid Padding="0" BackgroundColor="White">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height= "auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                     <ColumnDefinition Width="auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.ColumnSpan="3"
+                                       Grid.Column="1"
+                                       Grid.Row="1"
+                                       Text="{Binding displaySport}"
+                                       HorizontalTextAlignment="End"
+                                       FontAttributes="Bold"
+                                       FontSize="Subtitle"
+                                       TextColor="#245699"/>
+                                <Label Grid.Column="4"
+                                       Grid.Row="1"
+                                       Grid.ColumnSpan="2"
+                                       Text="{Binding displayTime}"
+                                       TextColor="#B1B3B3"
+                                       HorizontalTextAlignment="Start"
+                                       FontSize="Subtitle"
+                                       FontAttributes="Bold"/>
+                                <Label Grid.Row="2"
+                                       Grid.ColumnSpan="6"
+                                       HorizontalTextAlignment="Center"
+                                       FontAttributes="Bold"
+                                       Text="{Binding displayTeams}"
+                                       TextColor="Black"
+                                       FontSize="Body"
+                                       />
+                                <Button Grid.ColumnSpan="5"
+                                        Grid.Column="1"
+                                        Grid.Row="3"
+                                        Text="Check-In"
+                                        BackgroundColor="#245699"
+                                        CommandParameter="{Binding .}"
+                                        Clicked="checkInBtn_Clicked"/>
+                                <Label Grid.ColumnSpan="6"
+                                        Grid.Row="4"
+                                  
+                                        TextColor="DarkGray"
+                                        HorizontalTextAlignment="Center"
+                                        Text="________________________________________"
+                                        />
+                            
+                            </Grid>
+
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+                <Label Text="  "/>
+            </StackLayout>   
         </ScrollView>
     </Grid>
 

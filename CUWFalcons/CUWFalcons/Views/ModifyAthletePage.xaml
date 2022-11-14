@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CUWFalcons.Views.ModifyAthletePage"
+    BackgroundColor="White"
+    Title="Edit/New Athlete">
+    <ContentPage.Content>
+        <StackLayout Padding="0,10,0,20" >
+            <Label Text="Enter Athlete Info (Scroll for All Fields)" TextColor="DarkBlue" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+            <ScrollView HeightRequest="530">
+                <StackLayout Padding="10,10,10,10">
+                    
+                    <Label Text="Sport Code *"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Picker Title=""
+                            TitleColor="#B1B3B3"
+                            x:Name="sportCodeSelection"
+                            BackgroundColor="LightGray"
+                            TextColor="DarkBlue"
+                            FontSize="20">
+                    </Picker>
+                   
+                    
+
+                    <Label Text="First Name *"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Entry Placeholder=""
+                           BackgroundColor="LightGray"
+                           TextColor="DarkBlue"
+                           x:Name="fNameEntry"/>
+
+                    <Label Text="Last Name"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Entry Placeholder=""
+                           BackgroundColor="LightGray"
+                           TextColor="DarkBlue"
+                           x:Name="lNameEntry"/>
+
+                    <Label Text="Jersey Number"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Entry Placeholder=""
+                           BackgroundColor="LightGray"
+                           TextColor="DarkBlue"
+                           x:Name="numberEntry"/>
+
+                    <Label Text="Position Abbreviation"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+
+                    <Entry Placeholder=""
+                           BackgroundColor="LightGray"
+                           TextColor="DarkBlue"
+                           x:Name="positionEntry"/>
+
+                    <Label Text="Class Abbreviation *"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Picker Title="Year"
+                            TitleColor="#B1B3B3"
+                            x:Name="yearSelection"
+                            BackgroundColor="LightGray"
+                           TextColor="DarkBlue"
+                            FontSize="20">
+                    </Picker>
+
+                    <Label Text="Hometown - City"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Entry Placeholder=""
+                           BackgroundColor="LightGray"
+                           TextColor="DarkBlue"
+                           x:Name="cityEntry"/>
+        
+                    <Label Text="Hometown - State (Country/Province if outside US)"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Entry Placeholder=""
+                           BackgroundColor="LightGray"
+                           TextColor="DarkBlue"
+                           x:Name="stateEntry"/>
+
+                     <Label Text="Major"
+                           TextColor="Black"
+                           FontSize="Medium"/>
+                    <Entry Placeholder=""
+                           BackgroundColor="LightGray"
+                           TextColor="DarkBlue"
+                           x:Name="majorEntry"/>
+
+                   
+                </StackLayout>
+            </ScrollView>
+            <Button Text="Save Athlete"
+                            Clicked="saveAthlete_Clicked" BackgroundColor="#245699"/>
+            <Label Text="   "/>
+        
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
