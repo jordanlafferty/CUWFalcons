@@ -2,6 +2,9 @@
 Senior Project
 This project's database is now closed, therefore app can only be accessed through guest mode and none of the data will appear. You can view the functionality and UI of this app through the photos and videos in the project.
 
+Example of the App:
+https://user-images.githubusercontent.com/78756047/211653059-8d5f892e-cc27-40bf-a1eb-18b35faf6f96.MP4
+
 Log-In Screen:
 ![IMG_2555](https://user-images.githubusercontent.com/78756047/211652764-6046c57b-be6f-4f70-a120-8232528548fa.PNG)
 
@@ -29,6 +32,5 @@ Game Manager Page (Admin View):
 Settings Page (Admin View):
 ![IMG_2564](https://user-images.githubusercontent.com/78756047/211653035-261fa69e-cd81-4a91-93a4-af37c0673cfb.PNG)
 
-Example of the App:
-https://user-images.githubusercontent.com/78756047/211653059-8d5f892e-cc27-40bf-a1eb-18b35faf6f96.MP4
+
 
